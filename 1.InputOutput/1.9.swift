@@ -4,10 +4,17 @@
 print("please enter a lowercase character: ")
 
 if let input = readLine(), let character = input.first {
-        let upercaseChar = character.toUpper
+        // Get the Unicode scalar value of the character
+        // optional value
+        let unicodeScalarValue = character.unicodeScalars.first?.value
 
-        print("uppercase of input character is: \(upercaseChar)" )
-        
+        if var asciiValue = unicodeScalarValue {
+                asciiValue = asciiValue - 32
+
+                if let uppercaseChar = UnicodeScalar(asciiValue) {
+                        print("uppercase of input character is: \(uppercaseChar)" )
+                }
+        }
 } else {
         print("Error!!!, please enter lower case character")
 }
