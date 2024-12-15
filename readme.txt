@@ -357,42 +357,6 @@ Mini Section - Traversing loop in reverse order
 		1 0 1 0 1
 
 7.25.
-			1
-		       2 2
-		      3 3 3
-		     4 4 4 4
-		    5 5 5 5 5
-
-1 space between digits
-
-7.25.2.
-			1
-		      2   2
-		    3   3   3
-		  4   4   4   4
-		5   5   5   5   5
-
-3 space between digits
-
-7.26.
-			    A
-			   B B
-			  C C C
-			 D D D D
-			E E E E E
-
-1 space between digits
-
-7.26.2.
-			A
-		      B   B
-		    C   C   C
-		  D   D   D   D
-		E   E   E   E   E
-
-3 space between digits
-
-7.27.
 				A
 				B B
 				C C C 
@@ -403,90 +367,39 @@ Mini Section - Traversing loop in reverse order
 				B B
 				A
 
+
+
+
+7.26.
+		1
+		2 2
+		3 3 3
+		4 4 4 4
+		5 5 5 5 5
+		4 4 4 4
+		3 3 3
+		2 2
+		1
+
+7.27.
+			1
+		      2 2
+		    3 3 3
+		  4 4 4 4
+		5 5 5 5 5
+		  4 4 4 4
+		    3 3 3
+		      2 2
+			1
+
 7.28.
-			    A
-			   B B
-			  C C C 
-			 D D D D
-			E E E E E
-			 D D D D
-			  C C C
-			   B B
-			    A
-
-1 space between digits
-
-7.28.2.
-			A
-		      B   B
-		    C   C   C
-		  D   D   D   D
-		E   E   E   E   E
-		  D   D   D   D
-		    C   C   C
-		      B   B
-			A
-
-3 space between digits
+			1
+		      1 2 1
+		    1 2 3 2 1
+		  1 2 3 4 3 2 1
+		1 2 3 4 5 4 3 2 1
 
 7.29.
-			    1
-			   2 2
-			  3 3 3
-			 4 4 4 4
-			5 5 5 5 5
-			 4 4 4 4
-			  3 3 3
-			   2 2
-			    1
-
-1 space between digits
-
-
-
-7.29.2.
-				1
-			    2   2
-			3   3   3
-		    4   4   4   4
-		5   5   5   5   5
-		    4   4   4   4
-			3   3   3
-			    2   2
-				1
-
-3 space between digits
-
-7.30.
-		1
-		2 2
-		3 3 3
-		4 4 4 4
-		5 5 5 5 5
-		4 4 4 4
-		3 3 3
-		2 2
-		1
-
-7.31.
-			1
-		      2 2
-		    3 3 3
-		  4 4 4 4
-		5 5 5 5 5
-		  4 4 4 4
-		    3 3 3
-		      2 2
-			1
-
-7.32.
-			1
-		      1 2 1
-		    1 2 3 2 1
-		  1 2 3 4 3 2 1
-		1 2 3 4 5 4 3 2 1
-
-7.33.
 			1
 		      1 2 1
 		    1 2 3 2 1
@@ -496,209 +409,6 @@ Mini Section - Traversing loop in reverse order
 		    1 2 3 2 1
 		      1 2 1
 			1
-
-7.34.
-						1
-						2   3   2
-						3   4   5   4   3
-						4   5   6   7   6   5   4
-						5   6   7   8   9   8   7   6   5
-						6   7   8   9  10  11  10   9   8   7   6
-						7   8   9  10  11  12  13  12  11  10   9   8   7
-						6   7   8   9  10  11  10   9   8   7   6
-						5   6   7   8   9   8   7   6   5
-						4   5   6   7   6   5   4
-						3   4   5   4   3
-						2   3   2
-						1
-
-3 space between digits
-
-7.35.
-						    1
-						2   3   2
-					    3   4   5   4   3
-					4   5   6   7   6   5   4
-				    5   6   7   8   9   8   7   6   5
-				6   7   8   9  10  11  10   9   8   7   6
-	                    7   8   9  10  11  12  13  12  11  10   9   8   7
-				6   7   8   9  10  11  10   9   8   7   6
-			            5   6   7   8   9   8   7   6   5
-				        4   5   6   7   6   5   4
-					    3   4   5   4   3
-						2   3   2
-						    1
-
-3 space between digits
-
-7.36.
-					        1
-					      2 3 2
-					    3 4 5 4 3
-					  4 5 6 7 6 5 4
-				        5 6 7 8 9 8 7 6 5
-				      6 7 8 9 0 1 0 9 8 7 6
-				    7 8 9 0 1 2 3 2 1 0 9 8 7
-			              6 7 8 9 0 1 0 9 8 7 6
-					5 6 7 8 9 8 7 6 5
-					  4 5 6 7 6 5 4
-				            3 4 5 4 3
-					      2 3 2
-				                1
-
-1 space between digits
-
-7.36.2
-							1
-						    2   3   2
-						3   4   5   4   3
-					    4   5   6   7   6   5   4
-					5   6   7   8   9   8   7   6   5
-				    6   7   8   9   0   1   0   9   8   7   6
-				7   8   9   0   1   2   3   2   1   0   9   8   7
-				    6   7   8   9   0   1   0   9   8   7   6
-					5   6   7   8   9   8   7   6   5
-					    4   5   6   7   6   5   4
-						3   4   5   4   3
-						    2   3   2
-							1
-
-3 space between digits
-
-7.37.
-		 1
-		 2   3
-		 4   5   6
-		 7   8   9   10
-		11  12  13   14   15
-
-3 space between digits
-
-7.38.
-			1
-			2   1
-			3   3   1
-			4   6   4   1
-			5  10  10   5   1
-			6  15  20  15   6   1
-
-3 space between digits
-
-7.39.
-			1
-			1   1
-			1   2   1
-			1   3   3   1
-			1   4   6   4   1
-			1   5  10  10   5   1
-			1   6  15  20  15   6   1
-
-3 space between digits
-
-7.40. The following program asks the user to enter a number n. It then prints a picture showing a triangle
-that points to the right that has 2n - 1 rows and n columns. For example, if n = 4 the program would print
-	
-		*
-		**
-		***
-		****
-		***
-		**
-		*
-
-7.41. The following program asks the user to enter a number n. It then prints a picture showing a
-downward pointing triangle with n rows and 2n - 1 columns. For example, if n = 4 it would print
-
-		*******
-		 *****
-		  ***
-		   *
-
-
-7.42. Write a complete C program that asks the user for a number n of triangles to print. It then
-prints n triangles made of X symbols, one above another. Each triangle has n rows and every second 
-triangle is upside down. The triangles should be separated by lines of - symbols.
-
-For example, here is the output from the program where the user specifies 4 for n.
-
-		X
-		XX
-		XXX
-		XXXX
-		----
-		XXXX
-		 XXX
-		  XX
-		   X
-		----
-		X
-		XX
-		XXX
-		XXXX
-		----
-		XXXX
-		 XXX
-		  XX
-		   X
-		----
-
-7.43. Write a complete C program that asks the user for a number n and then prints a large grid
-of small squares. Each small square has size (n − 1) × (n − 1) and contains ∗ symbols. The large grid should have n rows each of which contains n small squares, with a blank column separating these squares. The rows of small squares in the large grid should be separated by blank rows.
-For example, if the user specified 3 for n, the program would print as follows:
-
-		** ** **
-		** ** **
-
-		** ** **
-		** ** **
-
-		** ** **
-		** ** **
-
-7.44. Write a complete C++ program that asks the user for a number n and prints n squares made of
-∗ symbols each with an upward diagonal stripe made of O symbols. Each square has height n and width n and the
-squares form a horizontal sequence.
-For example, if the user specified 4 for n, the program would print as follows:
-
-***O ***O ***O ***O
-**O* **O* **O* **O*
-*O** *O** *O** *O**
-O*** O*** O*** O***
-
-7.45. Write a complete C program that asks the user to enter a positive integer n. If n is not positive
-the program should print a message Not positive. Enter another: and continue to do this until the user 
-enters a positive integer. Then the program should print n squares of *s with decreasing size that begin 
-with an n × n square and end with a 1 × 1 square. The right hand edges of the squares should line up.
-
-Enter a positive integer n: -3
-Not positive. Enter another: 4
-
-		****
-		****
-		****
-		****
-		 ***
-		 ***
-		 ***
-		  **
-		  **
-		   *
-
-7.46. Write a complete C program that asks the user to enter an odd positive integer n. If n is illegal
-the program must terminate at once. Otherwise the program should print squares of *s. that begin with an n × n
-square and end with a 1 × 1 square and such that the sizes of squares decrease by 2 as they go down the page. The right hand edges of the squares should line up.
-
-Enter an odd positive integer n: 5
-
-		*****
-		*****
-		*****
-		*****
-		*****
-		  ***
-		  ***
-		  ***
-		    *
 
 
 8.  Loop
@@ -786,8 +496,22 @@ Enter an odd positive integer n: 5
 8.35. Write a program to print Pascal triangle upto n rows
 
 
-9. goto, break, continue
+9. break, continue
 
+9.1. Write a program that finds the first multiple of 7 between 50 and 100.
+9.2. Write a program that prints all odd numbers between 1 and 20.
+9.3. Write a program that sums integers entered by the user until the user enters a negative number.
+
+9.4. Write a program that uses nested loops to find a pair of numbers (i, j) such that i ranges from 1 to 5 and j ranges from 1 to 5, and their product is 12.
+
+9.5. Write a program that prints a multiplication table from 1 to 5, but skips the multiples of 3.
+9.6. Write a program that finds the first prime number greater than 50.
+
+9.7. Write a program that calculates the sum of all numbers between 1 and 100 that are not multiples of 5
+
+9.8. Write a program that repeatedly asks the user to enter a positive integer. If the user enters a non-positive integer, prompt them again. The program should stop asking for input when the user has entered 5 positive integers and then print the sum of these integers.
+
+9.9. Write a program that reads numbers from the user until the user enters a zero. The program should print the sum of all positive numbers entered and the count of negative numbers entered.
 
 10. One Dimensional Array
 
@@ -878,150 +602,134 @@ Enter an odd positive integer n: 5
 12.20. Write a program that read and display an array of strings with alphabetic order (with case sensitive)
 
 
-13. String.h
+13. Function
 
-13.1. Write a program that read a line of text and display it's length
+13.1.1. Write a function that reads two integers and display Addition
+13.1.2. Write a function that reads two integers and returns Addition
+13.1.3. Write a function that gets two integers and display Addition
+13.1.4. Write a function that gets two integers and returns Addition
 
-13.2. Write a program that read a line of text and display it in reverse order
+13.2.1. Write a function that reads two integers and display Substraction
+13.2.2. Write a function that reads two integers and returns Substraction
+13.2.3. Write a function that gets two integers and display Substraction
+13.2.4. Write a function that gets two integers and returns Substraction
 
-13.3. Write a program that read two lines of text and copy second line into first line
-13.4. Write a program that read two lines of text and add second line with first line
+13.3.1. Write a function that reads two integers and display Multiplication
+13.3.2. Write a function that reads two integers and returns Multiplication
+13.3.3. Write a function that gets two integers and display Multiplication
+13.3.4. Write a function that gets two integers and returns Multiplication
 
-13.5. Write a program that read a line of text and display in lowercase 
-13.6. Write a program that read a line of text and display in uppercase 
+13.4.1. Write a function that reads two integers and display Division
+13.4.2. Write a function that reads two integers and returns Division
+13.4.3. Write a function that gets two integers and display Division
+13.4.4. Write a function that gets two integers and returns Division
 
-13.7. Write a program that compares two strings
-13.8. Write a program that compares two strings without case sensitivity
+13.5.1. Write a function that reads two integers and display maximum
+13.5.2. Write a function that reads two integers and returns maximum
+13.5.3. Write a function that gets two integers and display maximum
+13.5.4. Write a function that gets two integers and returns maximum
 
-
-14. Function
-
-14.1.1. Write a function that reads two integers and display Addition
-14.1.2. Write a function that reads two integers and returns Addition
-14.1.3. Write a function that gets two integers and display Addition
-14.1.4. Write a function that gets two integers and returns Addition
-
-14.2.1. Write a function that reads two integers and display Substraction
-14.2.2. Write a function that reads two integers and returns Substraction
-14.2.3. Write a function that gets two integers and display Substraction
-14.2.4. Write a function that gets two integers and returns Substraction
-
-14.3.1. Write a function that reads two integers and display Multiplication
-14.3.2. Write a function that reads two integers and returns Multiplication
-14.3.3. Write a function that gets two integers and display Multiplication
-14.3.4. Write a function that gets two integers and returns Multiplication
-
-14.4.1. Write a function that reads two integers and display Division
-14.4.2. Write a function that reads two integers and returns Division
-14.4.3. Write a function that gets two integers and display Division
-14.4.4. Write a function that gets two integers and returns Division
-
-14.5.1. Write a function that reads two integers and display maximum
-14.5.2. Write a function that reads two integers and returns maximum
-14.5.3. Write a function that gets two integers and display maximum
-14.5.4. Write a function that gets two integers and returns maximum
-
-14.6.1. Write a function that reads two integers and display minimum
-14.6.2. Write a function that reads two integers and returns minimum
-14.6.3. Write a function that gets two integers and display minimum
-14.6.4. Write a function that gets two integers and returns minimum
+13.6.1. Write a function that reads two integers and display minimum
+13.6.2. Write a function that reads two integers and returns minimum
+13.6.3. Write a function that gets two integers and display minimum
+13.6.4. Write a function that gets two integers and returns minimum
 
 14.7.1. Write a function that reads three integers and display maximum
 14.7.2. Write a function that reads three integers and returns maximum
 14.7.3. Write a function that gets three integers and display maximum
 14.7.4. Write a function that gets three integers and returns maximum
 
-14.8.1. Write a function that reads three integers and display minimum
-14.8.2. Write a function that reads three integers and returns minimum
-14.8.3. Write a function that gets three integers and display minimum
-14.8.4. Write a function that gets three integers and returns minimum
+13.8.1. Write a function that reads three integers and display minimum
+13.8.2. Write a function that reads three integers and returns minimum
+13.8.3. Write a function that gets three integers and display minimum
+13.8.4. Write a function that gets three integers and returns minimum
 
-14.9.1. Write a function that reads three integers and display median
-14.9.2. Write a function that reads three integers and returns median
-14.9.3. Write a function that gets three integers and display median
-14.9.4. Write a function that gets three integers and returns median
+13.9.1. Write a function that reads three integers and display median
+13.9.2. Write a function that reads three integers and returns median
+13.9.3. Write a function that gets three integers and display median
+13.9.4. Write a function that gets three integers and returns median
 
 
-14.10. Write a function that gets length and width of a rectangle and returns area
-14.11. Write a function that gets radius of a circle and returns area
+13.10. Write a function that gets length and width of a rectangle and returns area
+13.11. Write a function that gets radius of a circle and returns area
 
-14.12. Write a function that gets any positive integer and returns it's factorial
-14.13. Write a function that gets any positive integer and returns it's digital sum
-14.14. Write a function that gets any positive integer and returns it's digital root
-14.15. Write a function that gets any positive integer and returns it's reverse
+13.12. Write a function that gets any positive integer and returns it's factorial
+13.13. Write a function that gets any positive integer and returns it's digital sum
+13.14. Write a function that gets any positive integer and returns it's digital root
+13.15. Write a function that gets any positive integer and returns it's reverse
 
-14.16. Write a function that gets any positive integer and determine it's prime or not
+13.16. Write a function that gets any positive integer and determine it's prime or not
 
-14.17. Write a function that gets two positive integer(a,b) and returns a to the power b
+13.17. Write a function that gets two positive integer(a,b) and returns a to the power b
 
-14.18. Write a function that gets two positive integer and returns nPr (Permutation)
-14.19. Write a function that gets two positive integer and returns nCr (Combination)
+13.18. Write a function that gets two positive integer and returns nPr (Permutation)
+13.19. Write a function that gets two positive integer and returns nCr (Combination)
 
-14.20. Write a function that gets two positive integer and returns GCD (greatest common divisor)
-14.21. Write a function that gets two positive integer and returns LCM (least common multiple)
+13.20. Write a function that gets two positive integer and returns GCD (greatest common divisor)
+13.21. Write a function that gets two positive integer and returns LCM (least common multiple)
 
-14.22. Write a function that gets an array and returns sum
-14.23. Write a function that gets an array and returns average
-14.24. Write a function that gets an array and returns maximum
-14.25. Write a function that gets an array and returns minimum
+13.22. Write a function that gets an array and returns sum
+13.23. Write a function that gets an array and returns average
+13.24. Write a function that gets an array and returns maximum
+13.25. Write a function that gets an array and returns minimum
 
-14.26. Write a function that gets an array and adds 10 to each element
-14.27. Write a function that gets an array and subtract 15 from each element
-14.28. Write a function that gets an array and product each element by 5
+13.26. Write a function that gets an array and adds 10 to each element
+13.27. Write a function that gets an array and subtract 15 from each element
+13.28. Write a function that gets an array and product each element by 5
 
-14.29. Write a function that searches any number in an array
-14.30. Write a function that sorts an array Ascending
-14.31. Write a function that sorts an array Decending
+13.29. Write a function that searches any number in an array
+13.30. Write a function that sorts an array Ascending
+13.31. Write a function that sorts an array Decending
 
-14.32. Write a program to check whether a number is even or odd using functions
-14.33. Write a program to check whether a number is prime or not using functions
-14.34. Write a program to check whether a number is palindrome or not using functions
-14.35. Write a program to check whether a number is perfect or not using functions
-14.36. Write a program to check whether a number is strong or not using functions
+13.32. Write a program to check whether a number is even or odd using functions
+13.33. Write a program to check whether a number is prime or not using functions
+13.34. Write a program to check whether a number is palindrome or not using functions
+13.35. Write a program to check whether a number is perfect or not using functions
+13.36. Write a program to check whether a number is strong or not using functions
 
-14.37. Write a program to find all prime numbers between a given interval using functions.
-14.38. Write a program to find all palindrome numbers between a given interval using functions.
-14.39. Write a program to find all perfect numbers between given a interval using functions.
-14.40. Write a program to find all strong numbers between given a interval using functions.
+13.37. Write a program to find all prime numbers between a given interval using functions.
+13.38. Write a program to find all palindrome numbers between a given interval using functions.
+13.39. Write a program to find all perfect numbers between given a interval using functions.
+13.40. Write a program to find all strong numbers between given a interval using functions.
 
-14.41. Write a function that gets a string and returns it's length
-14.42. Write a function that gets a string and reverse all characters
+13.41. Write a function that gets a string and returns it's length
+13.42. Write a function that gets a string and reverse all characters
 
-14.43. Write a function that gets a string and convert it to uppercase
-14.44. Write a function that gets a string and convert it to lowercase
-14.45. Write a function that gets a string and copy to another string
+13.43. Write a function that gets a string and convert it to uppercase
+13.44. Write a function that gets a string and convert it to lowercase
+13.45. Write a function that gets a string and copy to another string
 
-14.46. Write a function that gets two string and compares them
-14.47. Write a function that gets two string and concatenates (adds) them
+13.46. Write a function that gets two string and compares them
+13.47. Write a function that gets two string and concatenates (adds) them
  
 
-15. Recursion
+14. Recursion
 
-15.1. Write a recursive function that gets any positive integer and returns it's factorial
-15.2. Write a recursive function that returns nth Fibonacci number.
+14.1. Write a recursive function that gets any positive integer and returns it's factorial
+14.2. Write a recursive function that returns nth Fibonacci number.
 
-15.3. Write a recursive function that prints 50 to 100.
-15.4. Write a recursive function that prints the Fibonacci series.
-15.5. Write a recursive function that prints 4 12 20 28 series up to 10.
+14.3. Write a recursive function that prints 50 to 100.
+14.4. Write a recursive function that prints the Fibonacci series.
+14.5. Write a recursive function that prints 4 12 20 28 series up to 10.
 
-15.6. Write a recursive function to calculate the series: 1 + 3 + 5 + 7 + ... + n
-15.7. Write a recursive function to calculate the series: 1^2 + 2^2 + 3^2 + 4^2 + ... + n^2
-15.8. Write a recursive function to calculate the series: 1^1 + 2^2 + 3^3 + 4^4 + ... + n^n
+14.6. Write a recursive function to calculate the series: 1 + 3 + 5 + 7 + ... + n
+14.7. Write a recursive function to calculate the series: 1^2 + 2^2 + 3^2 + 4^2 + ... + n^2
+14.8. Write a recursive function to calculate the series: 1^1 + 2^2 + 3^3 + 4^4 + ... + n^n
 
 
-15.9. Write recursive functions to build the following pyramid
+14.9. Write recursive functions to build the following pyramid
 
 		1
 		1 2
 		1 2 3
 
-15.10. Write recursive functions to build the following pyramid
+14.10. Write recursive functions to build the following pyramid
 
 		1
 		2 2
 		3 3 3
 
-15.11. Write recursive functions to build the following pyramid
+14.11. Write recursive functions to build the following pyramid
 
 		1
 		0 0
@@ -1029,7 +737,7 @@ Enter an odd positive integer n: 5
 		0 0 0 0
 		1 1 1 1 1
 
-15.12. Write recursive functions to build the following pyramid
+14.12. Write recursive functions to build the following pyramid
 
 		1
 		1 0
@@ -1037,7 +745,7 @@ Enter an odd positive integer n: 5
 		1 0 1 0
 		1 0 1 0 1
 
-15.13. Write recursive functions to build the following pyramid
+14.13. Write recursive functions to build the following pyramid
 
 		1
 		2 3
@@ -1047,53 +755,7 @@ Enter an odd positive integer n: 5
 
 
 
-16. Pointer
-
-16.1. Write a program that read any number and display it with pointer variables.
-16.2. Write a program that read any number and change it with a pointer variable then display it.
-
-16.3. Write a void function that gets two numbers and adds them, then display the result within main
-      function. (x + y)
-
-16.4. Write a void function that gets two numbers and substract them, then display the result within main
-      function. (x - y)
-
-16.5. Write a void function that gets two numbers and multiply them, then display the result within main
-      function. (x * y)
-
-16.6. Write a void function that gets two numbers and divide them, then display the result within main
-      function. (x / y)
-
-16.7. Write a void function that gets two numbers and determine maximum, then display the result within main
-      function.
-
-16.8. Write a void function that gets two numbers and determine minimum, then display the result within main
-      function.
-
-16.9. Write a void function that gets three numbers and determine maximum, then display the result within main
-      function.
-
-16.10. Write a void function that gets three numbers and determine minimum, then display the result within main
-      function.
-
-16.11. Write a void function that gets three numbers and determine median, then display the result within main
-      function.
-
-16.12. Write a void function that gets a number and calculate factorial, then display the result within main
-      function.
-
-16.13. Write a void function that gets a number and calculate sum of the digit, then display the result 
-       within main function.
-
-16.14. Write a void function that gets a number and reverse it, then display the result 
-       within main function.
-
-16.15. Write a void function that gets an array and find average, then display the result 
-       within main function.
-
-16.16. Write a program that read an array and display it. access the array with pointers not with indexing
-       operators[].
-
+15. Higher Order function
 
 
 
