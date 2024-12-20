@@ -7,18 +7,18 @@ print("Please enter a floating-point number:")
 // Read the input from the user
 // optional chaining - we will talk about this later
 if let input = readLine(), let number = Double(input) {
-    // Display the entered number
-    print("You entered: \(number)")
+	// Display the entered number
+	print("You entered: \(number)")
 } else {
-    // If the input cannot be converted to a floating-point number, display an error message
-    print("Invalid input. Please enter a valid floating-point number.")
+	// If the input cannot be converted to a floating-point number, display an error message
+	print("Invalid input. Please enter a valid floating-point number.")
 }
 
 /* 
-    Here, we are using
+	Here, we are using
 
-    Optionals
-    Optionals chaining
+	Optionals
+	Optionals chaining
 
-    We are gonna cover these topics later in details
+	We are gonna cover these topics later in details
 */

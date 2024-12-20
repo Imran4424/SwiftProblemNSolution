@@ -1,33 +1,23 @@
-// 1.5. Write a program that read and display a complex number
+// 1.5. Write a program that read and display double number
 
 
-// Define a struct for representing complex numbers
-struct ComplexNumber {
-    var real: Double
-    var imaginary: Double
-    
-    // Function to create a string representation of the complex number
-    func description() -> String {
-        if imaginary >= 0 {
-            return "\(real) + \(imaginary)i"
-        } else {
-            return "\(real) - \(-imaginary)i"
-        }
-    }
-}
+// Prompt the user enter a double number
+print("Please enter a double number:")
 
-// Prompt the user to enter the real and imaginary parts of the complex number
-print("Please enter the real part of the complex number:")
-if let realInput = readLine(), let realPart = Double(realInput) {
-    print("Please enter the imaginary part of the complex number:")
-    if let imagInput = readLine(), let imagPart = Double(imagInput) {
-        // Create a ComplexNumber instance
-        let complexNum = ComplexNumber(real: realPart, imaginary: imagPart)
-        // Display the entered complex number
-        print("You entered: \(complexNum.description())")
-    } else {
-        print("Invalid input for the imaginary part. Please enter a valid number.")
-    }
+// Read the input from the user
+// optional chaining - we will talk about this later
+if let input = Double(readLine()) {
+	// Display the entered number
+	print("You entered: \(number)")
 } else {
-    print("Invalid input for the real part. Please enter a valid number.")
+	print("Invalid input. Please enter a valid double number.")
 }
+
+/* 
+	Here, we are using
+
+	Optionals
+	Optionals chaining
+
+	We are gonna cover these topics later in details
+*/
