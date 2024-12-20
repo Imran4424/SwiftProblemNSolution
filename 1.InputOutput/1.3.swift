@@ -4,6 +4,7 @@
 print("Please enter an integer number:")
 
 // Read the input from the user
+// optional chaining - we will talk about this later
 if let number = Int(readLine()!) {
     // Display the entered number
     print("You entered: \(number)")
@@ -11,3 +12,12 @@ if let number = Int(readLine()!) {
     // If the input cannot be converted to an integer, display an error message
     print("Invalid input. Please enter a valid integer number.")
 }
+
+/* 
+    Here, we are using
+
+    Optionals
+    Optionals chaining
+
+    We are gonna cover these topics later in details
+*/
