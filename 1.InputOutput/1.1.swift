@@ -13,7 +13,6 @@ print("SHAH MD IMRAN HOSSAIN")
         3. terminator: what string should be appended after the given items, efault parameter value of this parameter is single line break(\n)
 */
 
-
 // single line comment
 
 /* 
