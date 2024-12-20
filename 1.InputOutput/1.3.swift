@@ -5,7 +5,7 @@ print("Please enter an integer number:")
 
 // Read the input from the user
 // optional chaining - we will talk about this later
-if let number = Int(readLine()!) {
+if let number: Int = Int(readLine()!) {
         // Display the entered number
         print("You entered: \(number)")
 } else {

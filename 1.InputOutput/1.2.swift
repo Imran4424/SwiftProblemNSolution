@@ -1,6 +1,7 @@
 // 1.2. An integer variable n contains 5. Write a program that prints value of n.
 
-var n = 5
+// initializing an integer variable
+var n: Int = 5
 
 // string interpolation
 // mostly used string interpolation in swift

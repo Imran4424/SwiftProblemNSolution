@@ -4,10 +4,19 @@
 print("Please enter a character:")
 
 // Read the input from the user
-if let input = readLine(), let character = input.first {
-    // Display the entered character
-    print("You entered: \(character)")
+// optional chaining - we will talk about this later
+if let input = readLine(), let character: Character = input.first {
+	// Display the entered number
+	print("You entered: \(character)")
 } else {
-    // If the input is empty or contains more than one character, display an error message
-    print("Invalid input. Please enter a single character.")
+	print("Invalid input. Please enter a valid character.")
 }
+
+/* 
+	Here, we are using
+
+	Optionals
+	Optionals chaining
+
+	We are gonna cover these topics later in details
+*/
