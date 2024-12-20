@@ -3,6 +3,7 @@
 var n = 5
 
 // string interpolation
+// mostly used string interpolation in swift
 print("N contains \(n)")
 
 // string interpolation can also be done like this
