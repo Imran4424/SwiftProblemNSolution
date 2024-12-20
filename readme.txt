@@ -12,13 +12,13 @@
 1.9. Write a program that read any lower case character and display in upper case
 1.10. Write a program that read any upper case character and display in lower case
 
-1.11. Write a program that read any decimal number and display equivalent octal number
+1.11. Write a program that declares and uses any Bool character
 
-1.12. Write a program that read any decimal number and display equivalent hexadecimal number
+1.12. 
 
-1.13. Write a program that read any decimal number and display equivalent binary number
+1.13. 
 
-1.14. Write a program that read any octal number and display equivalent decimal number
+1.14. 
 
 1.15. Write a program that read any hexadecimal number and display equivalent decimal number
 

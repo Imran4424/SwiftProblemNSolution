@@ -4,7 +4,7 @@
 print("Please enter an ASCII value:")
 
 // Read the input from the user
-if let input = readLine(), let asciiValue = Int(input) {
+if let asciiValue: Int = Int(readLine()!) {
     // Convert the ASCII value to a character
     if let character = UnicodeScalar(asciiValue) {
         // Display the equivalent character
@@ -17,3 +17,12 @@ if let input = readLine(), let asciiValue = Int(input) {
     // If the input cannot be converted to an integer, or is empty, display an error message
     print("Invalid input. Please enter a valid ASCII value.")
 }
+
+/* 
+	Here, we are using
+
+	Optionals
+	Optionals chaining
+
+	We are gonna cover these topics later in details
+*/
