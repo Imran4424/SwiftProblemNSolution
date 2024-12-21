@@ -18,3 +18,12 @@ if let input = readLine(), let character = input.first {
 } else {
         print("Error!!!, please enter lower case character")
 }
+
+/* 
+	Here, we are using
+
+	Optionals
+	Optionals chaining
+
+	We are gonna cover these topics later in details
+*/
