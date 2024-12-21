@@ -15,15 +15,15 @@
 
 1.11. Write a program that declares and uses any Bool literals
 
-1.12. 
+1.12. Define a variable that can hold either a value or nil. Print the value of the variable
 
 1.13. 
 
 1.14. 
 
-1.15. Write a program that read any hexadecimal number and display equivalent decimal number
+1.15. 
 
-1.16. Write a program that read any binary number and display equivalent decimal number
+1.16. 
 
 1.17. Write a program that read as many characters as need to read your name and display the characters sequencially with spaces
 
