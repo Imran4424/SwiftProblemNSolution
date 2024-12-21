@@ -2,6 +2,7 @@
 
 1.1. Write a program that prints your name
 1.2. An integer variable n contains 5. Write a program that prints value of n.
+1.2.1. Variable declaration in Swift (Both constant and non constant)
 1.3. Write a program that read and display an integer number
 1.4. Write a program that read and display floating point number
 1.5. Write a program that read and display double number
