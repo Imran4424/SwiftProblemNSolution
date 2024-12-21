@@ -23,5 +23,3 @@ mark = 33
 examResult = mark >= 40
 
 print(examResult)
-
-

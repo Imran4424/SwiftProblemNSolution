@@ -23,6 +23,7 @@ if let input = readLine(), let character = input.first {
 	Here, we are using
 
 	Optionals
+        Optional Bindings
 	Optionals chaining
 
 	We are gonna cover these topics later in details
