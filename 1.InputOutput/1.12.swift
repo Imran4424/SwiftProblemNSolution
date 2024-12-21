@@ -26,3 +26,13 @@
             but it is guaranteed that in future it will have a value
 */
 
+// declaring int optional with ?
+var intOptional: Int?
+
+// declare int optional with !
+var intAnotherOptional: Int!
+
+// right now none of them will have any value
+// both of them have nil
+print(intOptional)
+print(intAnotherOptional)
