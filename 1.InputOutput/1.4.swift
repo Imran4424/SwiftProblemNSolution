@@ -7,7 +7,7 @@ print("Please enter a floating-point number:")
 
 // Read the input from the user
 // optional chaining - we will talk about this later
-if let input: Float = Double(readLine()!) {
+if let input: Float = Float(readLine()!) {
 	// Display the entered number
 	print("You entered: \(input)")
 } else {

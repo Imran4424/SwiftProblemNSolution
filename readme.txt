@@ -13,7 +13,7 @@
 1.9. Write a program that read any lower case character and display in upper case
 1.10. Write a program that read any upper case character and display in lower case
 
-1.11. Write a program that declares and uses any Bool character
+1.11. Write a program that declares and uses any Bool literals
 
 1.12. 
 
