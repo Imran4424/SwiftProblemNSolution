@@ -1,5 +1,6 @@
 // 1.4. Write a program that read and display floating point number
 
+// Float represents a 32-bit floating-point number.
 
 // Prompt the user to enter a floating-point number
 print("Please enter a floating-point number:")

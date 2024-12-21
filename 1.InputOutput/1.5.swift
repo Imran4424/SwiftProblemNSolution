@@ -1,5 +1,6 @@
 // 1.5. Write a program that read and display double number
 
+// Double represents a 64-bit floating-point number.
 
 // Prompt the user enter a double number
 print("Please enter a double number:")
