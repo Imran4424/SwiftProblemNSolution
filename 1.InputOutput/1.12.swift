@@ -61,5 +61,34 @@ print(intAnotherOptional)
         we can forefully unwrap a optional variable using ! symbol
 */
 
-// we are unwrapping 
+// we are unwrapping
+// now this will provide output - 5
 print(intOptional!)
+
+
+// intAnotherOptional will show now - 5
+// now the question is 
+// why the following optional variable show actual value without unwrapping
+// Answer is
+// When we declared intAnotherOptional optional variable, we used ! symbol
+// Which creates an unwrap optional during the declaration
+// That why it perfroms implicit unwrapping while we are using the value
+// So, in this case, we don't need to unwrap it explicitly
+print(intAnotherOptional)
+// NB: Output can be different based on the compiler
+
+
+/* 
+        Now, the question is why we don't use ! always intead of ?
+
+        Because, when we use ! for declaring optional variable
+                 it is expected to have some value at certain point (It some cases which can be risky)
+        
+        But in case of optionals declared with ! symbol
+                value can be present or absent in the variable at any moment (there is no expectation)
+
+        So, it always safe to use ? for optional declaration
+
+        But if we are sure declared optional will have value at some point before using it in program 
+        then we can use ! for optional declaration
+*/
