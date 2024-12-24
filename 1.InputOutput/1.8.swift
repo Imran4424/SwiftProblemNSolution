@@ -5,26 +5,27 @@ print("Please enter a character:")
 
 // Read the input from the user
 if let input = readLine(), let character = input.first {
-    // Get the Unicode scalar value of the character
-    let unicodeScalarValue = character.unicodeScalars.first?.value
-    
-    if let asciiValue = unicodeScalarValue {
-        // Display the equivalent ASCII value
-        print("Equivalent ASCII value: \(asciiValue)")
-    } else {
-        // If unable to get Unicode scalar value, display an error message
-        print("Error: Unable to determine the ASCII value.")
-    }
+	// Get the Unicode scalar value of the character
+	// here, we are using optional chaining
+	let unicodeScalarValue = character.unicodeScalars.first?.value
+
+	if let asciiValue = unicodeScalarValue {
+		// Display the equivalent ASCII value
+		print("Equivalent ASCII value: \(asciiValue)")
+	} else {
+		// If unable to get Unicode scalar value, display an error message
+		print("Error: Unable to determine the ASCII value.")
+	}
 } else {
-    // If the input is empty or contains more than one character, display an error message
-    print("Invalid input. Please enter a single character.")
+	// If the input is empty or contains more than one character, display an error message
+	print("Invalid input. Please enter a single character.")
 }
 
 /* 
 	Here, we are using
 
 	Optionals
-    Optional Bindings
+	Optional Bindings
 	Optionals chaining
 
 	We are gonna cover these topics later in details

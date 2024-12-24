@@ -2,10 +2,13 @@
 
 // Prompt the user to enter an integer number
 print("Please enter an integer number:")
+// reading the input from console
+// readline is a function which reaturn optional string
+let input: String? = readLine()
 
 // Read the input from the user
 // optional chaining - we will talk about this later
-if let number: Int = Int(readLine()!) {
+if let number: Int = Int(input!) {
         // Display the entered number
         print("You entered: \(number)")
 } else {

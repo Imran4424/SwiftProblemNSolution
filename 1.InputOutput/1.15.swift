@@ -32,9 +32,36 @@
         Optional chaining in Swift is a concise way to work with optionals by performing a series of calls, property accesses,
         or subscripting attempts without having to unwrap each optional manually. If any link in the chain is nil, the entire
         chain returns nil, and subsequent calls or accesses are safely skipped
+
+        optional chaining examples:
+        
+                optionalValue?.property
+                optionalValue?.method()
+                optionalValue?[index]
 */
 
 // let's see some example of optional chaining
 
-// show the examples from previous code
-// optional binding and optional chaining can be deffered from therez
+// the following code is from 1.8
+// which use the optional chaining for the first time
+
+// Prompt the user to enter a character
+print("Please enter a character:")
+
+// Read the input from the user
+if let input = readLine(), let character = input.first {
+	// Get the Unicode scalar value of the character
+	// here, we are using optional chaining
+	let unicodeScalarValue = character.unicodeScalars.first?.value
+
+	if let asciiValue = unicodeScalarValue {
+		// Display the equivalent ASCII value
+		print("Equivalent ASCII value: \(asciiValue)")
+	} else {
+		// If unable to get Unicode scalar value, display an error message
+		print("Error: Unable to determine the ASCII value.")
+	}
+} else {
+	// If the input is empty or contains more than one character, display an error message
+	print("Invalid input. Please enter a single character.")
+}
