@@ -21,6 +21,13 @@ print("Int32 max value", int32MaxValue)
 print("Int32 min value", int32MinValue)
 print("")
 
+let int64MaxValue = Int64.max
+let int64MinValue = Int64.min
+
+print("Int64 max value", int64MaxValue)
+print("Int64 min value", int64MinValue)
+print("")
+
 let intMaxValue = Int.max
 let intMinValue = Int.min
 
