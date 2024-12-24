@@ -23,9 +23,9 @@
 
 1.15. Demonstrate optional chaining in Swift
 
-1.16. 
+1.16. Demonstrate all numeric literals (decimal, binary, octal, hexadecimal)
 
-1.17. 
+1.17. Write a program to access the max in min value of literals
 
 1.18. Write a program that read and display your name
 1.19. Write a program that read and display your full name
