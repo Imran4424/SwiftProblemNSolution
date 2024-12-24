@@ -17,15 +17,15 @@
 
 1.12. Define a variable that can hold either a value or nil. Print the value of the variable
 
-1.13. 
+1.13. Demonstrate optional binding in Swift
 
-1.14. 
+1.14. Demonstrate optional binding in Swift using guard let
 
-1.15. 
+1.15. Demonstrate optional chaining in Swift
 
 1.16. 
 
-1.17. Write a program that read as many characters as need to read your name and display the characters sequencially with spaces
+1.17. 
 
 1.18. Write a program that read and display your name
 1.19. Write a program that read and display your full name
