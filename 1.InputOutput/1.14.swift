@@ -77,10 +77,10 @@ print(intAnotherOptional)
         Also learn the differences between if let and guard let
 */
 
-// In if let situation
+// In if let/var situation
 // we can not use the unwrapped optional values outside if block
 // but there can be need to use the unwrapped optional values ouside the if block
-//  if that case guard let comes to rescue
+// if that case guard let/var comes to rescue
 
 
 // only issue is guard let mostly used inside function with breaking condition return
