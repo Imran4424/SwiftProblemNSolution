@@ -4,7 +4,7 @@
 print("Please enter a character:")
 
 // Read the input from the user
-// optional chaining - we will talk about this later
+// optional binding - we will talk about this later
 if let input = readLine(), let character: Character = input.first {
 	// Display the entered number
 	print("You entered: \(character)")
