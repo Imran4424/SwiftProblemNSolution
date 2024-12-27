@@ -47,3 +47,12 @@
 
         optional-variable ?? default-value
 */
+
+// declaring int optional with ?
+var intOptional: Int?
+
+// accessing a optional variable with Nil-Coalescing Operator
+// Nil-Coalescing Operator checks whether an optional contains a value or not
+// if value present then it returns the actual value from optional variable
+// But if the value is not present then it returns the default value
+print("Accessing optional using Nil-Coalescing Operator", intOptional ?? 0)
