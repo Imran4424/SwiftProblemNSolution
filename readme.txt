@@ -30,15 +30,17 @@
 1.18. Write a program that read and display your name
 1.19. Write a program that read and display your full name
 
-1.20. Write a program that read any date and displays in the format DD/MM/YYYY
-1.21. Write a program that read any date and displays in the format DD-MM-YYYY
-1.22. Write a program that read any date and displays in the format DD MM YYYY
-1.23. Write a program that read any date and displays in the format DD,MM,YYYY
+1.20. Demonstrate how to access optional variable using Nil-Coalescing Operator
 
-1.24. Write a program that read any date in the format DD/MM/YYYY and displays day, month and year separately
-1.25. Write a program that read any date in the format DD-MM-YYYY and displays day, month and year separately
-1.26. Write a program that read any date in the format DD MM YYYY and displays day, month and year separately
-1.27. Write a program that read any date in the format DD,MM,YYYY and displays day, month and year separately
+1.21. Write a program that read any date and displays in the format DD/MM/YYYY
+1.22. Write a program that read any date and displays in the format DD-MM-YYYY
+1.23. Write a program that read any date and displays in the format DD MM YYYY
+1.24. Write a program that read any date and displays in the format DD,MM,YYYY
+
+1.25. Write a program that read any date in the format DD/MM/YYYY and displays day, month and year separately
+1.26. Write a program that read any date in the format DD-MM-YYYY and displays day, month and year separately
+1.27. Write a program that read any date in the format DD MM YYYY and displays day, month and year separately
+1.28. Write a program that read any date in the format DD,MM,YYYY and displays day, month and year separately
 
 
 
