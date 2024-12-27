@@ -55,4 +55,29 @@ var intOptional: Int?
 // Nil-Coalescing Operator checks whether an optional contains a value or not
 // if value present then it returns the actual value from optional variable
 // But if the value is not present then it returns the default value
-print("Accessing optional using Nil-Coalescing Operator", intOptional ?? 0)
+print("Accessing optional using Nil-Coalescing Operator:", intOptional ?? 0)
+// this statement will produce 0 since intOptional is nil
+
+// now there is some criteria about providing the default value
+// like for integer based on the post requirement we can provide 0 (for most case) or 1 (for multipication case) as default value
+// same goes for float and Double
+// like for string we can provide empty string ""
+// for boolean it will depend upon the program condition (What are the requirements)
+
+// For user defined types programmer will decide the default value for the Nil-Coalescing Operator
+
+
+intOptional = 5
+
+// accessing a optional variable with Nil-Coalescing Operator
+// Nil-Coalescing Operator checks whether an optional contains a value or not
+// if value present then it returns the actual value from optional variable
+// But if the value is not present then it returns the default value
+print("Accessing optional using Nil-Coalescing Operator:", intOptional ?? 0)
+// this statement will produce 5 since intOptional is not nil
+
+
+// Among all of techniques we learn for accessing value of optional variable
+// Nil-Coalescing Operator is both safe and shorter one (except for force unwrapping which is shortest but not safe)
+// But main challenge is 
+// providing appropriate default value for the optional (which can be a tricky one)
