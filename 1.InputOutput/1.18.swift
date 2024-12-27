@@ -1,7 +1,8 @@
 // 1.18. Write a program that read and display your name
 
-// Prompt the user to enter a character
-print("Please enter your name:")
+// Prompt the user to enter a string
+// giving input for the end string
+print("Please enter your name:", terminator: " ")
 
 // Read the input from the user
 // optional binding - we will talk about this later
