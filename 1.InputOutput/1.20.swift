@@ -35,11 +35,11 @@
         4. Multiple Optional Binding
         5. Optional Chaining
 
-        But there's another way we can access optional values, using an operator
+        But there's another way we can access optional variable's values, using an operator
 */
 
 /*
-        Yes, we can access optional values using an operator called Nil-Coalescing Operator
+        Yes, we can access optional variable's values using an operator called Nil-Coalescing Operator
 
         ?? - Nil-Coalescing Operator
 
