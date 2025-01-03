@@ -1,4 +1,4 @@
-// 2.1. Write a program that read two integer and display sum
+// 2.10. Write a program that read two numbers and display bitwise AND
 
 // promt for entering first Interger
 print("Please enter the first integer:", terminator: " ")
@@ -12,6 +12,7 @@ print("Please enter the second integer:", terminator: " ")
 // using Nil-Coalescing Operator for both optionals
 let y = Int(readLine() ?? "0") ?? 0
 
-let sum = x + y
+// this is bitwise AND operator of swift
+let bitwiseAND = x & y
 
-print("Sum of the entered numbers is", sum)
+print("Bitwise AND of the entered numbers is", bitwiseAND)

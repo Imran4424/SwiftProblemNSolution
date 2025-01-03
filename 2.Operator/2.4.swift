@@ -1,4 +1,4 @@
-// 2.1. Write a program that read two integer and display sum
+// 2.4. Write a program that read two integers and divide them
 
 // promt for entering first Interger
 print("Please enter the first integer:", terminator: " ")
@@ -10,8 +10,13 @@ let x = Int(readLine() ?? "0") ?? 0
 print("Please enter the second integer:", terminator: " ")
 
 // using Nil-Coalescing Operator for both optionals
-let y = Int(readLine() ?? "0") ?? 0
+// changing default value to 1 because we can't divide something by zero
+let y = Int(readLine() ?? "1") ?? 1
 
-let sum = x + y
+if y == 0 {
+        print("Error!!! Can't divide by zero")
+} else {
+        let quotient = x / y
 
-print("Sum of the entered numbers is", sum)
+        print("Quotient of the entered numbers is", quotient)
+}
