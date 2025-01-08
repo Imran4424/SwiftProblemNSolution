@@ -78,7 +78,7 @@
 
 3. Math
 
-3.1. Write a program that read any integer number and display absolute value
+3.1. Write a program that read any number and display absolute value
 
 3.2. Write a program that read any angle t and display sin(t)
 3.3. Write a program that read any angle t and display cos(t)
