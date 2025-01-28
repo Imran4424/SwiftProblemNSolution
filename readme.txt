@@ -780,6 +780,7 @@ Mini Section - Traversing loop in reverse order
 
 17.7. Write a program that read some students name, id, department and display them according to department.
 
+18. Enum
 
 18. File
 
