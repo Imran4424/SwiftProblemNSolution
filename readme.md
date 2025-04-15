@@ -1,4 +1,4 @@
-1. Input Output
+# 1. Input Output
 
 1.1. Write a program that prints your name
 1.2. An integer variable n contains 5. Write a program that prints value of n.
@@ -41,8 +41,6 @@
 1.26. Write a program that read any date in the format DD-MM-YYYY and displays day, month and year separately
 1.27. Write a program that read any date in the format DD MM YYYY and displays day, month and year separately
 1.28. Write a program that read any date in the format DD,MM,YYYY and displays day, month and year separately
-
-
 
 2. Operator
 
@@ -100,8 +98,6 @@
 3.17. Write a program that read any number x and display log(x)
 3.18. Write a program that read any number x and display log10(x)
 
-
-
 4. Conditional Logic
 
 4.1. Write a program that read an integer and prints odd or even
@@ -119,24 +115,19 @@
 4.10. Write a program that read any year and display its leap year or not
 
 4.11. Write the code to check whether an input alphabet is a vowel or not. Both lower-case and upper-case should
-      be checked
+be checked
 
 4.12. Write a program to input any character and check whether it is alphabet, digit or special character
 
 4.13. Write a program to check whether a character is uppercase or lowercase alphabet
 
 4.14. Write a program to generate a simple arithmetic calculator
-	
-	hints: 
-	enter two numbers: 6 5
-	select the menu:
-	1. Add
-	2. Subtract
-	3. Multiply
-	4. Divide
+hints:
+enter two numbers: 6 5
+select the menu: 1. Add 2. Subtract 3. Multiply 4. Divide
 
 4.15. Write a program that read three numbers a,b,c and determine the roots of the quadratic equation:
-			ax^2 + bx + c = 0
+ax^2 + bx + c = 0
 
 4.16. Write a program to input angles of a triangle and check whether triangle is valid or not
 4.17. Write a program to input all sides of a triangle and check whether triangle is valid or not
@@ -151,8 +142,6 @@
 5.4. Write a program print total number of days in a month using switch case
 
 5.5. Write a program to create Simple Calculator using switch case
-
-
 
 6. Series
 
@@ -180,7 +169,6 @@
 
 6.18. Write a program to calculate the series: 1.3.5.7 + 3.5.7.9 + 5.7.9.11 + ... + n(n+2)(n+4)(n+6)
 
-
 Mini Section - Traversing loop in reverse order
 
 6.51. Write a program to print all numbers from 100 to 1.
@@ -191,239 +179,233 @@ Mini Section - Traversing loop in reverse order
 6.56. Write a program to print all number who is divible by 5 from n to 1.
 6.57. Write a program to print all number who is divible by y from n to 1 (y < n).
 
-
 7. Pyramid
 
-7.1.    
-		1
-		1 2
-		1 2 3
+7.1.  
+ 1
+1 2
+1 2 3
 
-7.2.	
-		1
-		2 2
-		3 3 3
+7.2.
+1
+2 2
+3 3 3
 
 7.3.
-		1
-		0 0
-		1 1 1
-		0 0 0 0
-		1 1 1 1 1
+1
+0 0
+1 1 1
+0 0 0 0
+1 1 1 1 1
 
 7.4.
-		1
-		1 0
-		1 0 1
-		1 0 1 0
-		1 0 1 0 1
+1
+1 0
+1 0 1
+1 0 1 0
+1 0 1 0 1
 
 7.5.
-		2
-		3 4
-		4 5 6
-		5 6 7 8
-		6 7 8 9 10
+2
+3 4
+4 5 6
+5 6 7 8
+6 7 8 9 10
 
 7.6.
-		1
-		2 3
-		3 4 5
-		4 5 6 7
-		5 6 7 8 9
+1
+2 3
+3 4 5
+4 5 6 7
+5 6 7 8 9
 
 7.7.
-		0
-		1 0
-		0 1 0
-		1 0 1 0
-		0 1 0 1 0
+0
+1 0
+0 1 0
+1 0 1 0
+0 1 0 1 0
 
 7.8.
-		1
-		0 1
-		1 0 1
-		0 1 0 1
-		1 0 1 0 1
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
 
 7.9.
-		A
-		B B
-		C C C
-		D D D D 
-		E E E E E
+A
+B B
+C C C
+D D D D
+E E E E E
 
 7.10.
-		A
-		A B
-		A B C
-		A B C D
-		A B C D E
+A
+A B
+A B C
+A B C D
+A B C D E
 
 7.11.
-		1 2 3 4 5
-		1 2 3 4
-		1 2 3
-		1 2
-		1
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
 
 7.12.
-		5 5 5 5 5
-		4 4 4 4
-		3 3 3
-		2 2
-		1
+5 5 5 5 5
+4 4 4 4
+3 3 3
+2 2
+1
 
 7.13.
-		1 1 1 1 1
-		0 0 0 0
-		1 1 1
-		0 0
-		1
+1 1 1 1 1
+0 0 0 0
+1 1 1
+0 0
+1
 
 7.14.
-		1 0 1 0 1
-		1 0 1 0
-		1 0 1
-		1 0
-		1
+1 0 1 0 1
+1 0 1 0
+1 0 1
+1 0
+1
 
 7.15.
-		6 7 8 9 10
-		5 6 7 8
-		4 5 6
-		3 4
-		2
+6 7 8 9 10
+5 6 7 8
+4 5 6
+3 4
+2
 
 7.16.
-		5 6 7 8 9
-		4 5 6 7
-		3 4 5
-		2 3
-		1
+5 6 7 8 9
+4 5 6 7
+3 4 5
+2 3
+1
 
 7.17.
-		0 1 0 1 0
-		1 0 1 0
-		0 1 0
-		1 0
-		0
+0 1 0 1 0
+1 0 1 0
+0 1 0
+1 0
+0
 
 7.18.
-		1 0 1 0 1
-		0 1 0 1
-		1 0 1
-		0 1
-		1
+1 0 1 0 1
+0 1 0 1
+1 0 1
+0 1
+1
 
 7.19.
-		E E E E E
-		D D D D
-		C C C
-		B B
-		A
+E E E E E
+D D D D
+C C C
+B B
+A
 
 7.20.
-		A B C D E
-		A B C D
-		A B C
-		A B
-		A
+A B C D E
+A B C D
+A B C
+A B
+A
 
 7.21.
 
-			1
-		      1 2
-		    1 2 3
-		  1 2 3 4
-		1 2 3 4 5
+    		1
+    	      1 2
+    	    1 2 3
+    	  1 2 3 4
+    	1 2 3 4 5
 
 7.22.
-		        1
-		      2 2
-		    3 3 3 
-		  4 4 4 4 
-		5 5 5 5 5
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
 
 7.23.
-			1
-		      0 0 
-		    1 1 1
-		  0 0 0 0
-		1 1 1 1 1
+1
+0 0
+1 1 1
+0 0 0 0
+1 1 1 1 1
 
 7.24.
-			1
-		      1 0
-		    1 0 1
-		  1 0 1 0
-		1 0 1 0 1
+1
+1 0
+1 0 1
+1 0 1 0
+1 0 1 0 1
 
 7.25.
-				A
-				B B
-				C C C 
-				D D D D
-				E E E E E
-				D D D D
-				C C C
-				B B
-				A
-
-
-
+A
+B B
+C C C
+D D D D
+E E E E E
+D D D D
+C C C
+B B
+A
 
 7.26.
-		1
-		2 2
-		3 3 3
-		4 4 4 4
-		5 5 5 5 5
-		4 4 4 4
-		3 3 3
-		2 2
-		1
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+4 4 4 4
+3 3 3
+2 2
+1
 
 7.27.
-			1
-		      2 2
-		    3 3 3
-		  4 4 4 4
-		5 5 5 5 5
-		  4 4 4 4
-		    3 3 3
-		      2 2
-			1
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+4 4 4 4
+3 3 3
+2 2
+1
 
 7.28.
-			1
-		      1 2 1
-		    1 2 3 2 1
-		  1 2 3 4 3 2 1
-		1 2 3 4 5 4 3 2 1
+1
+1 2 1
+1 2 3 2 1
+1 2 3 4 3 2 1
+1 2 3 4 5 4 3 2 1
 
 7.29.
-			1
-		      1 2 1
-		    1 2 3 2 1
-		  1 2 3 4 3 2 1
-		1 2 3 4 5 4 3 2 1
-		  1 2 3 4 3 2 1
-		    1 2 3 2 1
-		      1 2 1
-			1
-
+1
+1 2 1
+1 2 3 2 1
+1 2 3 4 3 2 1
+1 2 3 4 5 4 3 2 1
+1 2 3 4 3 2 1
+1 2 3 2 1
+1 2 1
+1
 
 8.  Loop
 
 8.1. Write down a program that can take a lower bound i and an upper bound n and then find out the summation of
-     those numbers which are even from i to n.
+those numbers which are even from i to n.
 
 8.2. Write down a program that can take a lower bound i and an upper bound n and then find out the summation of
-     those numbers which are divisible by 3 from i to n.
+those numbers which are divisible by 3 from i to n.
 
 8.3. Write a program to print multiplication table of any number
-
 
 8.4. Write a program that read a positive integer and display its factorial
 8.5. Write a program that read a positive integer and display sum of its digit
@@ -447,7 +429,7 @@ Mini Section - Traversing loop in reverse order
 8.17. Write a program that read two numbers and display LCM(least common multiple)
 8.18. Write a program that read two numbers(x,y) and display x^y (x power y) using loop
 
-8.19. Write a program that read two numbers(n,r) and display nPr(Permutation) 
+8.19. Write a program that read two numbers(n,r) and display nPr(Permutation)
 8.20. Write a program that read two numbers(n,r) and display nCr(Combination)
 
 8.21. Write a program that read any integer and display its digital root (using loop)
@@ -463,11 +445,10 @@ Mini Section - Traversing loop in reverse order
 8.29. Write a program that determine a number fibonacci or not
 
 8.30. Write a program to find out all the palindrome numbers in the range 0 to 10000. Also print the
-      palindrome numbers
+palindrome numbers
 
       Hint: If a positive integer and its reverse are same then the number is called a palindrome.
-            242 is parildrome because 242 = 242 (reversed but still same) 
-
+            242 is parildrome because 242 = 242 (reversed but still same)
 
 8.31. Write a program to find out the perfect numbers in the range 0 to 10000. Also print them
 
@@ -476,28 +457,27 @@ Mini Section - Traversing loop in reverse order
 
 8.32. Write a program to find out the strong numbers in the range 0 to 10000. Also print them
 
-      Hint: 
+      Hint:
             145 is strong number. Since, 1!+4!+5! = 145.
 
 8.33. Write a program to find out the armstrong numbers in the range 0 to 10000. Also print them
 
-      Hint: 
+      Hint:
             371 is armstrong number. Since, 371 three digits, so, 3^3 + 7^3 + 1^3 = 371.
             1634 is armstrong number. Since, 1634 four digits, so, 1^4 + 6^4 + 3^4 + 4^4 = 1634.
 
             all single digit numbers are armstrong number.
 
 8.34. Write a program to check if an integer (entered by the user) can be expressed as the sum of two prime
-      numbers. Also show all of the possible combinations
+numbers. Also show all of the possible combinations
 
       Hint: Enter a positive integer: 34
-		34 = 3 + 31
-		34 = 5 + 29
-		34 = 11 + 23
-		34 = 17 + 17
+    	34 = 3 + 31
+    	34 = 5 + 29
+    	34 = 11 + 23
+    	34 = 17 + 17
 
 8.35. Write a program to print Pascal triangle upto n rows
-
 
 9. break, continue
 
@@ -543,8 +523,6 @@ Mini Section - Traversing loop in reverse order
 
 10.16. Write a program that reads any decimal number and display equivalent binary number
 
-
-
 11. Multi Dimentional Array
 
 11.1. Write a program that read and display read and display a 2D array
@@ -558,15 +536,13 @@ Mini Section - Traversing loop in reverse order
 
 11.7. Write a program that displays Pascal Pyramid
 
-	1
-	2   1
-	3   3   1
-	4   6   4   1
-	5  10  10   5   1
-
+    1
+    2   1
+    3   3   1
+    4   6   4   1
+    5  10  10   5   1
 
 3 spaces between 1 digits number, 2 spaces between 2 digits number
-
 
 12. String
 
@@ -586,10 +562,10 @@ Mini Section - Traversing loop in reverse order
 12.10. Write a program that read any line of text and display every character with ASCII value in separate line
 
 12.11. Write a program that read any line of text and display number of uppercase, lowercase, digits, spaces and
-       other characters
+other characters
 
 12.12. Write a program that read any line of text and display number of vowels, consonants, digits, spaces and
-       other characters
+other characters
 
 12.13. Write a program that read a line of text and displays the frequency of every character
 
@@ -603,7 +579,6 @@ Mini Section - Traversing loop in reverse order
 
 12.19. Write a program that read and display an array of strings with alphabetic order (without case sensitive)
 12.20. Write a program that read and display an array of strings with alphabetic order (with case sensitive)
-
 
 13. Function
 
@@ -651,7 +626,6 @@ Mini Section - Traversing loop in reverse order
 13.9.2. Write a function that reads three integers and returns median
 13.9.3. Write a function that gets three integers and display median
 13.9.4. Write a function that gets three integers and returns median
-
 
 13.10. Write a function that gets length and width of a rectangle and returns area
 13.11. Write a function that gets radius of a circle and returns area
@@ -704,7 +678,6 @@ Mini Section - Traversing loop in reverse order
 
 13.46. Write a function that gets two string and compares them
 13.47. Write a function that gets two string and concatenates (adds) them
- 
 
 14. Recursion
 
@@ -719,50 +692,45 @@ Mini Section - Traversing loop in reverse order
 14.7. Write a recursive function to calculate the series: 1^2 + 2^2 + 3^2 + 4^2 + ... + n^2
 14.8. Write a recursive function to calculate the series: 1^1 + 2^2 + 3^3 + 4^4 + ... + n^n
 
-
 14.9. Write recursive functions to build the following pyramid
 
-		1
-		1 2
-		1 2 3
+    	1
+    	1 2
+    	1 2 3
 
 14.10. Write recursive functions to build the following pyramid
 
-		1
-		2 2
-		3 3 3
+    	1
+    	2 2
+    	3 3 3
 
 14.11. Write recursive functions to build the following pyramid
 
-		1
-		0 0
-		1 1 1
-		0 0 0 0
-		1 1 1 1 1
+    	1
+    	0 0
+    	1 1 1
+    	0 0 0 0
+    	1 1 1 1 1
 
 14.12. Write recursive functions to build the following pyramid
 
-		1
-		1 0
-		1 0 1
-		1 0 1 0
-		1 0 1 0 1
+    	1
+    	1 0
+    	1 0 1
+    	1 0 1 0
+    	1 0 1 0 1
 
 14.13. Write recursive functions to build the following pyramid
 
-		1
-		2 3
-		3 4 5
-		4 5 6 7
-		5 6 7 8 9
-
-
+    	1
+    	2 3
+    	3 4 5
+    	4 5 6 7
+    	5 6 7 8 9
 
 15. Higher Order function
 
-
-
-17. Structure
+16. Structure
 
 17.1. Write a program that read and display any student's name, roll, and total mark using structure
 17.2. Write a program that read and display some student's name, roll, and total mark using structure
@@ -770,18 +738,18 @@ Mini Section - Traversing loop in reverse order
 17.3. Write a program that read and display basic information of a departments students using structure
 
 17.4. Write a program that read and display some student's name, roll, subject wise mark, total mark and
-      average using structure.
+average using structure.
 
 17.5. Write a program that read roll, three subjects mark and display the highest mark in each subjects and
-      highest total with the students roll who obtained this using structure.
+highest total with the students roll who obtained this using structure.
 
-17.6. Write a program that read some players  name, team name and batting average. Display this accroding to
-      team name.
+17.6. Write a program that read some players name, team name and batting average. Display this accroding to
+team name.
 
 17.7. Write a program that read some students name, id, department and display them according to department.
 
 18. Enum
 
-18. File
+19. File
 
-19. Dynamic Memory Allocation
+20. Dynamic Memory Allocation
