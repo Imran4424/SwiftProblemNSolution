@@ -42,7 +42,7 @@
 1.27. Write a program that read any date in the format DD MM YYYY and displays day, month and year separately
 1.28. Write a program that read any date in the format DD,MM,YYYY and displays day, month and year separately
 
-2. Operator
+# 2. Operator
 
 2.1. Write a program that read two integer and display sum
 2.2. Write a program that subtracts two integers
