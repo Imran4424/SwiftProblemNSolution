@@ -74,7 +74,7 @@
 
 2.22. Write a program that reads two numbers and display the maximum without using relational operators
 
-3. Math
+# 3. Math
 
 3.1. Write a program that read any number and display absolute value
 
