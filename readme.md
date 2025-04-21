@@ -133,7 +133,7 @@ ax^2 + bx + c = 0
 4.17. Write a program to input all sides of a triangle and check whether triangle is valid or not
 4.18. Write a program to check whether the triangle is equilateral, isosceles or scalene triangle
 
-5. Switch
+# 5. Switch
 
 5.1. Write a program that read a digit and diplay by spelling
 5.2. Write a program that read any number and display equivalent roman number
