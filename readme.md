@@ -98,7 +98,7 @@
 3.17. Write a program that read any number x and display log(x)
 3.18. Write a program that read any number x and display log10(x)
 
-4. Conditional Logic
+# 4. Conditional Logic
 
 4.1. Write a program that read an integer and prints odd or even
 4.2. Write a program to determine whether a number is divisible by 5 or not
