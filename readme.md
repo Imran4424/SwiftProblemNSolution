@@ -179,7 +179,7 @@ Mini Section - Traversing loop in reverse order
 6.56. Write a program to print all number who is divible by 5 from n to 1.
 6.57. Write a program to print all number who is divible by y from n to 1 (y < n).
 
-7. Pyramid
+# 7. Pyramid
 
 7.1.  
  1
