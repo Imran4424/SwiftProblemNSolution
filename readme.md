@@ -331,7 +331,7 @@ A
 
 7.22.
 
-    		1
+                1
               2 2
             3 3 3
           4 4 4 4
@@ -402,7 +402,7 @@ A
 1 2 1
 1
 
-8.  Loop
+1.  Loop
 
 8.1. Write down a program that can take a lower bound i and an upper bound n and then find out the summation of
 those numbers which are even from i to n.
