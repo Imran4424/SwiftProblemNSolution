@@ -690,49 +690,75 @@ other characters
 13.2.2. Write a function that reads two integers and returns Substraction
 
 13.2.3. Write a function that gets two integers and display Substraction
+
 13.2.4. Write a function that gets two integers and returns Substraction
 
 13.3.1. Write a function that reads two integers and display Multiplication
+
 13.3.2. Write a function that reads two integers and returns Multiplication
+
 13.3.3. Write a function that gets two integers and display Multiplication
+
 13.3.4. Write a function that gets two integers and returns Multiplication
 
 13.4.1. Write a function that reads two integers and display Division
+
 13.4.2. Write a function that reads two integers and returns Division
+
 13.4.3. Write a function that gets two integers and display Division
+
 13.4.4. Write a function that gets two integers and returns Division
 
 13.5.1. Write a function that reads two integers and display maximum
+
 13.5.2. Write a function that reads two integers and returns maximum
+
 13.5.3. Write a function that gets two integers and display maximum
+
 13.5.4. Write a function that gets two integers and returns maximum
 
 13.6.1. Write a function that reads two integers and display minimum
+
 13.6.2. Write a function that reads two integers and returns minimum
+
 13.6.3. Write a function that gets two integers and display minimum
+
 13.6.4. Write a function that gets two integers and returns minimum
 
 14.7.1. Write a function that reads three integers and display maximum
+
 14.7.2. Write a function that reads three integers and returns maximum
+
 14.7.3. Write a function that gets three integers and display maximum
+
 14.7.4. Write a function that gets three integers and returns maximum
 
 13.8.1. Write a function that reads three integers and display minimum
+
 13.8.2. Write a function that reads three integers and returns minimum
+
 13.8.3. Write a function that gets three integers and display minimum
+
 13.8.4. Write a function that gets three integers and returns minimum
 
 13.9.1. Write a function that reads three integers and display median
+
 13.9.2. Write a function that reads three integers and returns median
+
 13.9.3. Write a function that gets three integers and display median
+
 13.9.4. Write a function that gets three integers and returns median
 
 13.10. Write a function that gets length and width of a rectangle and returns area
+
 13.11. Write a function that gets radius of a circle and returns area
 
 13.12. Write a function that gets any positive integer and returns it's factorial
+
 13.13. Write a function that gets any positive integer and returns it's digital sum
+
 13.14. Write a function that gets any positive integer and returns it's digital root
+
 13.15. Write a function that gets any positive integer and returns it's reverse
 
 13.16. Write a function that gets any positive integer and determine it's prime or not
@@ -740,43 +766,63 @@ other characters
 13.17. Write a function that gets two positive integer(a,b) and returns a to the power b
 
 13.18. Write a function that gets two positive integer and returns nPr (Permutation)
+
 13.19. Write a function that gets two positive integer and returns nCr (Combination)
 
 13.20. Write a function that gets two positive integer and returns GCD (greatest common divisor)
+
 13.21. Write a function that gets two positive integer and returns LCM (least common multiple)
 
 13.22. Write a function that gets an array and returns sum
+
 13.23. Write a function that gets an array and returns average
+
 13.24. Write a function that gets an array and returns maximum
+
 13.25. Write a function that gets an array and returns minimum
 
 13.26. Write a function that gets an array and adds 10 to each element
+
 13.27. Write a function that gets an array and subtract 15 from each element
+
 13.28. Write a function that gets an array and product each element by 5
 
 13.29. Write a function that searches any number in an array
+
 13.30. Write a function that sorts an array Ascending
+
 13.31. Write a function that sorts an array Decending
 
 13.32. Write a program to check whether a number is even or odd using functions
+
 13.33. Write a program to check whether a number is prime or not using functions
+
 13.34. Write a program to check whether a number is palindrome or not using functions
+
 13.35. Write a program to check whether a number is perfect or not using functions
+
 13.36. Write a program to check whether a number is strong or not using functions
 
 13.37. Write a program to find all prime numbers between a given interval using functions.
+
 13.38. Write a program to find all palindrome numbers between a given interval using functions.
+
 13.39. Write a program to find all perfect numbers between given a interval using functions.
+
 13.40. Write a program to find all strong numbers between given a interval using functions.
 
 13.41. Write a function that gets a string and returns it's length
+
 13.42. Write a function that gets a string and reverse all characters
 
 13.43. Write a function that gets a string and convert it to uppercase
+
 13.44. Write a function that gets a string and convert it to lowercase
+
 13.45. Write a function that gets a string and copy to another string
 
 13.46. Write a function that gets two string and compares them
+
 13.47. Write a function that gets two string and concatenates (adds) them
 
 # 14. Recursion
