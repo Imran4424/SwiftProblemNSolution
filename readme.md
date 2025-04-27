@@ -620,10 +620,13 @@ numbers. Also show all of the possible combinations
 # 11. Multi Dimentional Array
 
 11.1. Write a program that read and display read and display a 2D array
+
 11.2. Write a program that read and display read and display a matrix
 
 11.3. Write a program that adds two matrices
+
 11.4. Write a program that substract two matrices
+
 11.5. Write a program that multiply two matrices
 
 11.6. Write a program that add and multiply two matrices
