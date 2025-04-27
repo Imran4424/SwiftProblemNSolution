@@ -196,6 +196,7 @@ Mini Section - Traversing loop in reverse order
 5 5 5 5 5
 
 7.3.
+
 1
 0 0
 1 1 1
