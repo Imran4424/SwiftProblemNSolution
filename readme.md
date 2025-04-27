@@ -475,7 +475,7 @@ numbers. Also show all of the possible combinations
 
 9.9. Write a program that reads numbers from the user until the user enters a zero. The program should print the sum of all positive numbers entered and the count of negative numbers entered.
 
-10. One Dimensional Array
+# 10. One Dimensional Array
 
 10.1. Write a program that read and display an array
 
