@@ -648,7 +648,7 @@ other characters
 13.46. Write a function that gets two string and compares them
 13.47. Write a function that gets two string and concatenates (adds) them
 
-14. Recursion
+# 14. Recursion
 
 14.1. Write a recursive function that gets any positive integer and returns it's factorial
 14.2. Write a recursive function that returns nth Fibonacci number.
