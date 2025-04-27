@@ -634,18 +634,23 @@ numbers. Also show all of the possible combinations
 # 12. String
 
 12.1. Write a program that displays a string (single word)
+
 12.2. Write a program that displays a string (a line)
 
 12.3. Write a program that converts a line to uppercase.
+
 12.4. Write a program that converts a line to lowercase.
 
 12.5. Write a program that read a line of text and display it's length
+
 12.6. Write a program that read a line of text and display it in reverse order
 
 12.7. Write a program that read your name and display every character with one space
+
 12.8. Write a program that read your name and display every character with one space in reverse order
 
 12.9. Write a program that read any line of text and display every character in separate line
+
 12.10. Write a program that read any line of text and display every character with ASCII value in separate line
 
 12.11. Write a program that read any line of text and display number of uppercase, lowercase, digits, spaces and
@@ -657,14 +662,17 @@ other characters
 12.13. Write a program that read a line of text and displays the frequency of every character
 
 12.14. Write a program that read two lines of text and copy second line into first line
+
 12.15. Write a program that read two lines of text and add second line with first line
 
 12.16. Write a program that compares two strings
+
 12.17. Write a program that compares two strings without case sensitivity
 
 12.18. Write a program that read and display an array of string
 
 12.19. Write a program that read and display an array of strings with alphabetic order (without case sensitive)
+
 12.20. Write a program that read and display an array of strings with alphabetic order (with case sensitive)
 
 # 13. Function
