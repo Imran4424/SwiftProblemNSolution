@@ -182,6 +182,7 @@ Mini Section - Traversing loop in reverse order
 # 7. Pyramid
 
 7.1.
+
 1
 1 2
 1 2 3
