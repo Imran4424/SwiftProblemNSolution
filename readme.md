@@ -324,11 +324,11 @@ Mini Section - Traversing loop in reverse order
 
 7.9.
 
-A
-B B
-C C C
-D D D D
-E E E E E
+      A
+      B B
+      C C C
+      D D D D
+      E E E E E
 
 7.10.
 
