@@ -380,11 +380,11 @@ Mini Section - Traversing loop in reverse order
 
 7.16.
 
-5 6 7 8 9
-4 5 6 7
-3 4 5
-2 3
-1
+    5 6 7 8 9
+    4 5 6 7
+    3 4 5
+    2 3
+    1
 
 7.17.
 
