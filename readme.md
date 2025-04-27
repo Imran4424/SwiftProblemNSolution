@@ -188,9 +188,11 @@ ax^2 + bx + c = 0
 # 5. Switch
 
 5.1. Write a program that read a digit and diplay by spelling
+
 5.2. Write a program that read any number and display equivalent roman number
 
 5.3. Write a program to print day of week name using switch case
+
 5.4. Write a program print total number of days in a month using switch case
 
 5.5. Write a program to create Simple Calculator using switch case
@@ -198,25 +200,37 @@ ax^2 + bx + c = 0
 # 6. Series
 
 6.1. Write a program to calculate the series: 1 + 2 + 3 + 4 + ... + n
+
 6.2. Write a program to calculate the series: 2 + 4 + 6 + 8 + ... + n
+
 6.3. Write a program to calculate the series: 1 + 3 + 5 + 7 + ... + n
+
 6.4. Write a program to calculate the series: 4 + 12 + 20 + 28 + ... + n
+
 6.5. Write a program to calculate the series: 2 + 5 + 8 + 11 + ... + n
 
 6.6. Write a program to calculate the series: 1.2 + 2.3 + 3.4 + ... + n(n+1)
+
 6.7. Write a program to calculate the series: 2.1 + 5.3 + 8.5 + ... + n(n - nth)
+
 6.8. Write a program to calculate the series: 1.3 + 3.5 + 5.7 + ... + n(n+2)
 
 6.9. Write a program to calculate the series: 1^2 + 2^2 + 3^2 + ... + n^2
+
 6.10. Write a program to calculate the series: 1^2 + 3^2 + 5^2 + ... + n^2
+
 6.11. Write a program to calculate the series: 1^3 + 2^3 + 3^3 + ... + n^3
+
 6.12. Write a program to calculate the series: 1^1 + 2^2 + 3^3 + ... + n^n
 
 6.13. Write a program to calculate the series: 1.1^2 + 2.3^2 + 3.5^2 + ... + n.(n + nth - 1)^2
+
 6.14. Write a program to calculate the series: 1.2^2 + 2.3^2 + 3.4^2 + ... + n.(n+1)^2
 
 6.15. Write a program to calculate the series: 1.2.3 + 2.3.4 + 3.4.5 + ... + n(n+1)(n+2)
+
 6.16. Write a program to calculate the series: 2.5.8 + 5.8.11 + 8.11.14 + ... + n(n+3)(n+6)
+
 6.17. Write a program to calculate the series: 5.6.7 + 6.7.8 + 7.8.9 + ... + n(n+1)(n+2)
 
 6.18. Write a program to calculate the series: 1.3.5.7 + 3.5.7.9 + 5.7.9.11 + ... + n(n+2)(n+4)(n+6)
@@ -224,11 +238,17 @@ ax^2 + bx + c = 0
 Mini Section - Traversing loop in reverse order
 
 6.51. Write a program to print all numbers from 100 to 1.
+
 6.52. Write a program to print all even numbers from 100 to 1.
+
 6.53. Write a program to print all odd numbers from 100 to 1.
+
 6.54. Write a program to print all number from n to 1.
+
 6.55. Write a program to print all number from n to 1.
+
 6.56. Write a program to print all number who is divible by 5 from n to 1.
+
 6.57. Write a program to print all number who is divible by y from n to 1 (y < n).
 
 # 7. Pyramid
