@@ -697,7 +697,7 @@ other characters
     	4 5 6 7
     	5 6 7 8 9
 
-15. Higher Order function
+# 15. Higher Order function
 
 16. Structure
 
