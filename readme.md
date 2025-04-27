@@ -678,12 +678,17 @@ other characters
 # 13. Function
 
 13.1.1. Write a function that reads two integers and display Addition
+
 13.1.2. Write a function that reads two integers and returns Addition
+
 13.1.3. Write a function that gets two integers and display Addition
+
 13.1.4. Write a function that gets two integers and returns Addition
 
 13.2.1. Write a function that reads two integers and display Substraction
+
 13.2.2. Write a function that reads two integers and returns Substraction
+
 13.2.3. Write a function that gets two integers and display Substraction
 13.2.4. Write a function that gets two integers and returns Substraction
 
