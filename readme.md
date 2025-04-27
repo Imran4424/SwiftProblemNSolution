@@ -376,17 +376,6 @@ A
 2 2
 1
 
-7.27.
-1
-2 2
-3 3 3
-4 4 4 4
-5 5 5 5 5
-4 4 4 4
-3 3 3
-2 2
-1
-
 1.  Loop
 
 8.1. Write down a program that can take a lower bound i and an upper bound n and then find out the summation of
