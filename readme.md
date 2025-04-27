@@ -513,17 +513,7 @@ numbers. Also show all of the possible combinations
 
 11.6. Write a program that add and multiply two matrices
 
-11.7. Write a program that displays Pascal Pyramid
-
-    1
-    2   1
-    3   3   1
-    4   6   4   1
-    5  10  10   5   1
-
-3 spaces between 1 digits number, 2 spaces between 2 digits number
-
-12. String
+# 12. String
 
 12.1. Write a program that displays a string (single word)
 12.2. Write a program that displays a string (a line)
