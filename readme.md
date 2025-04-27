@@ -588,24 +588,31 @@ numbers. Also show all of the possible combinations
 10.1. Write a program that read and display an array
 
 10.2. Write a program that read an array and display sum
+
 10.3. Write a program that read an array and display average
+
 10.4. Write a program that read an array and display maximum
+
 10.5. Write a program that read an array and display minimum
 
 10.6. Write a program that inserts any number in an array
+
 10.7. Write a program that deletes any number from an array
 
 10.8. Write a program that searches any number from an array
 
 10.9. write a program that read and sort an array in ascending order
+
 10.10. write a program that read and sort an array in decending order
 
 10.11. Write a program that read and sort an array using bubble sort in ascending order
+
 10.12. Write a program that read and sort an array using bubble sort in decending order
 
 10.13. Write a program that read an array and display median
 
 10.14. Write a program that display first n fibonacci numbers using array
+
 10.15. Write a program that display first n prime numbers using array
 
 10.16. Write a program that reads any decimal number and display equivalent binary number
