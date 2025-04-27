@@ -834,14 +834,19 @@ other characters
 # 14. Recursion
 
 14.1. Write a recursive function that gets any positive integer and returns it's factorial
+
 14.2. Write a recursive function that returns nth Fibonacci number.
 
 14.3. Write a recursive function that prints 50 to 100.
+
 14.4. Write a recursive function that prints the Fibonacci series.
+
 14.5. Write a recursive function that prints 4 12 20 28 series up to 10.
 
 14.6. Write a recursive function to calculate the series: 1 + 3 + 5 + 7 + ... + n
+
 14.7. Write a recursive function to calculate the series: 1^2 + 2^2 + 3^2 + 4^2 + ... + n^2
+
 14.8. Write a recursive function to calculate the series: 1^1 + 2^2 + 3^3 + 4^4 + ... + n^n
 
 14.9. Write recursive functions to build the following pyramid
@@ -877,6 +882,7 @@ other characters
 # 16. Structure
 
 16.1. Write a program that read and display any student's name, roll, and total mark using structure
+
 16.2. Write a program that read and display some student's name, roll, and total mark using structure
 
 16.3. Write a program that read and display basic information of a departments students using structure
