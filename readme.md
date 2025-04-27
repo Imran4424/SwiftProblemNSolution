@@ -172,9 +172,14 @@ be checked
 4.13. Write a program to check whether a character is uppercase or lowercase alphabet
 
 4.14. Write a program to generate a simple arithmetic calculator
-hints:
-enter two numbers: 6 5
-select the menu: 1. Add 2. Subtract 3. Multiply 4. Divide
+
+      hints:
+            enter two numbers: 6 5
+            select the menu:
+                   1. Add
+                   2. Subtract
+                   3. Multiply
+                   4. Divide
 
 4.15. Write a program that read three numbers a,b,c and determine the roots of the quadratic equation:
 ax^2 + bx + c = 0
@@ -255,19 +260,19 @@ Mini Section - Traversing loop in reverse order
 
 7.1.
 
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
+      1
+      1 2
+      1 2 3
+      1 2 3 4
+      1 2 3 4 5
 
 7.2.
 
-1
-2 2
-3 3 3
-4 4 4 4
-5 5 5 5 5
+      1
+      2 2
+      3 3 3
+      4 4 4 4
+      5 5 5 5 5
 
 7.3.
 
