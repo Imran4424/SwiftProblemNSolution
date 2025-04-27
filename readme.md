@@ -203,6 +203,7 @@ Mini Section - Traversing loop in reverse order
 1 1 1 1 1
 
 7.4.
+
 1
 1 0
 1 0 1
