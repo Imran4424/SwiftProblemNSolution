@@ -224,6 +224,7 @@ Mini Section - Traversing loop in reverse order
 5 6 7 8 9
 
 7.7.
+
 0
 1 0
 0 1 0
