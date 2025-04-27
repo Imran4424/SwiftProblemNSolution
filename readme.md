@@ -376,7 +376,7 @@ A
 2 2
 1
 
-1.  Loop
+# 8. Loop
 
 8.1. Write down a program that can take a lower bound i and an upper bound n and then find out the summation of
 those numbers which are even from i to n.
@@ -458,7 +458,7 @@ numbers. Also show all of the possible combinations
 
 8.35. Write a program to print Pascal triangle upto n rows
 
-9. break, continue
+# 9. break, continue
 
 9.1. Write a program that finds the first multiple of 7 between 50 and 100.
 9.2. Write a program that prints all odd numbers between 1 and 20.
