@@ -502,7 +502,7 @@ numbers. Also show all of the possible combinations
 
 10.16. Write a program that reads any decimal number and display equivalent binary number
 
-11. Multi Dimentional Array
+# 11. Multi Dimentional Array
 
 11.1. Write a program that read and display read and display a 2D array
 11.2. Write a program that read and display read and display a matrix
