@@ -701,21 +701,21 @@ other characters
 
 # 16. Structure
 
-17.1. Write a program that read and display any student's name, roll, and total mark using structure
-17.2. Write a program that read and display some student's name, roll, and total mark using structure
+16.1. Write a program that read and display any student's name, roll, and total mark using structure
+16.2. Write a program that read and display some student's name, roll, and total mark using structure
 
-17.3. Write a program that read and display basic information of a departments students using structure
+16.3. Write a program that read and display basic information of a departments students using structure
 
-17.4. Write a program that read and display some student's name, roll, subject wise mark, total mark and
+16.4. Write a program that read and display some student's name, roll, subject wise mark, total mark and
 average using structure.
 
-17.5. Write a program that read roll, three subjects mark and display the highest mark in each subjects and
+16.5. Write a program that read roll, three subjects mark and display the highest mark in each subjects and
 highest total with the students roll who obtained this using structure.
 
-17.6. Write a program that read some players name, team name and batting average. Display this accroding to
+16.6. Write a program that read some players name, team name and batting average. Display this accroding to
 team name.
 
-17.7. Write a program that read some students name, id, department and display them according to department.
+16.7. Write a program that read some students name, id, department and display them according to department.
 
 18. Enum
 
