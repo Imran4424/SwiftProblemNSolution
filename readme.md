@@ -456,8 +456,6 @@ numbers. Also show all of the possible combinations
     	34 = 11 + 23
     	34 = 17 + 17
 
-8.35. Write a program to print Pascal triangle upto n rows
-
 # 9. break, continue
 
 9.1. Write a program that finds the first multiple of 7 between 50 and 100.
@@ -688,14 +686,6 @@ other characters
     	1 0 1
     	1 0 1 0
     	1 0 1 0 1
-
-14.13. Write recursive functions to build the following pyramid
-
-    	1
-    	2 3
-    	3 4 5
-    	4 5 6 7
-    	5 6 7 8 9
 
 # 15. Higher Order function
 
