@@ -699,7 +699,7 @@ other characters
 
 # 15. Higher Order function
 
-16. Structure
+# 16. Structure
 
 17.1. Write a program that read and display any student's name, roll, and total mark using structure
 17.2. Write a program that read and display some student's name, roll, and total mark using structure
