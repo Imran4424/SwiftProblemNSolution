@@ -231,6 +231,7 @@ Mini Section - Traversing loop in reverse order
 0 1 0 1 0
 
 7.8.
+
 1
 0 1
 1 0 1
