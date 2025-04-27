@@ -479,10 +479,13 @@ those numbers which are divisible by 3 from i to n.
 8.3. Write a program to print multiplication table of any number
 
 8.4. Write a program that read a positive integer and display its factorial
+
 8.5. Write a program that read a positive integer and display sum of its digit
 
 8.6. Write a program to find first and last digit of a number
+
 8.7. Write a program to find sum of first and last digit of a number
+
 8.8. Write a program to swap first and last digits of a number
 
 8.9. Write a program that read any positive integer and display reverse
@@ -490,29 +493,41 @@ those numbers which are divisible by 3 from i to n.
 8.10. Write a program that read any positive integer and reverse the positive number
 
 8.11. Write a program to find one's complement of a binary number
+
 8.12. Write a program to find two's complement of a binary number
 
 8.13. Write a program that read any decimal number and display equivalent binary number
+
 8.14. Write a program that read any decimal number and display equivalent octal number
+
 8.15. Write a program that read any decimal number and display equivalent hexadecimal number
 
 8.16. Write a program that read two numbers and display GCD(greatest common divisor)
+
 8.17. Write a program that read two numbers and display LCM(least common multiple)
+
 8.18. Write a program that read two numbers(x,y) and display x^y (x power y) using loop
 
 8.19. Write a program that read two numbers(n,r) and display nPr(Permutation)
+
 8.20. Write a program that read two numbers(n,r) and display nCr(Combination)
 
 8.21. Write a program that read any integer and display its digital root (using loop)
+
 8.22. Write a program that read any integer and test that is prime or not
 
 8.23. Write a program that prints all prime numbers from 1 to n
+
 8.24. Write a program that prints all prime numbers from m to n (m > n)
+
 8.25. Write a program that count total prime numbers from 1 to n
 
 8.26. Write a program that displays first n prime numbers.
+
 8.27. Write a program that displays first n Fibonacci
+
 8.28. Write a program that displays all fibonacci numbers from 1 to n
+
 8.29. Write a program that determine a number fibonacci or not
 
 8.30. Write a program to find out all the palindrome numbers in the range 0 to 10000. Also print the
@@ -551,12 +566,15 @@ numbers. Also show all of the possible combinations
 # 9. break, continue
 
 9.1. Write a program that finds the first multiple of 7 between 50 and 100.
+
 9.2. Write a program that prints all odd numbers between 1 and 20.
+
 9.3. Write a program that sums integers entered by the user until the user enters a negative number.
 
 9.4. Write a program that uses nested loops to find a pair of numbers (i, j) such that i ranges from 1 to 5 and j ranges from 1 to 5, and their product is 12.
 
 9.5. Write a program that prints a multiplication table from 1 to 5, but skips the multiples of 3.
+
 9.6. Write a program that finds the first prime number greater than 50.
 
 9.7. Write a program that calculates the sum of all numbers between 1 and 100 that are not multiples of 5
