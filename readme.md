@@ -549,7 +549,7 @@ other characters
 12.19. Write a program that read and display an array of strings with alphabetic order (without case sensitive)
 12.20. Write a program that read and display an array of strings with alphabetic order (with case sensitive)
 
-13. Function
+# 13. Function
 
 13.1.1. Write a function that reads two integers and display Addition
 13.1.2. Write a function that reads two integers and returns Addition
