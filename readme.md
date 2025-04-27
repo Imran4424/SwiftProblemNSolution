@@ -61,31 +61,45 @@
 # 2. Operator
 
 2.1. Write a program that read two integer and display sum
+
 2.2. Write a program that subtracts two integers
+
 2.3. Write a program that read two integers and display product
+
 2.4. Write a program that read two integers and divide them
+
 2.5. Write a program that read two floating point numbers and divide them
+
 2.6. Write a program that read two integer and display remainder
 
 2.7. Write a program that read radius of a circle and display the area
+
 2.8. Write a program that read temperature in Celsius and display in Farenheit
+
 2.9. Write a program that read temperature in Farenheit and display in Celsius
 
 2.10. Write a program that read two numbers and display bitwise AND
+
 2.11. Write a program that read two numbers and display bitwise OR
+
 2.12. Write a program that read two numbers and display bitwise Exclusive OR
 
 2.13. Write a program that read a number and divide by two using shift operator
+
 2.14. Write a program that read a number and multiply by two using shift operator
+
 2.15. Write a program that read a number and multiply by five using shift operator
 
 2.16. Write a program that read a number and mod by four using bitwise AND
+
 2.17. Write a program that read a number and mod by eight using bitwise AND
 
 2.18. Write a program to swap the values of two variables using temporary variable
+
 2.19. Write a program to swap the values of two variables without using temporary variable
 
 2.20. Write a program that read two numbers and display maximum using ternary operator
+
 2.21. Write a program that read two numbers and display minimum using ternary operator
 
 2.22. Write a program that reads two numbers and display the maximum without using relational operators
@@ -95,39 +109,59 @@
 3.1. Write a program that read any number and display absolute value
 
 3.2. Write a program that read any angle t and display sin(t)
+
 3.3. Write a program that read any angle t and display cos(t)
+
 3.4. Write a program that read any angle t and display tan(t)
+
 3.5. Write a program that read any angle t and display cot(t)
+
 3.6. Write a program that read any angle t and display sec(t)
+
 3.7. Write a program that read any angle t and display cosec(t)
 
 3.8. Write a program that read a value n and display sin inverse(n)
+
 3.9. Write a program that read a value n and display cos inverse(n)
+
 3.10. Write a program that read a value n and display tan inverse(n)
+
 3.11. Write a program that read a value n and display cot inverse(n)
+
 3.12. Write a program that read a value n and display sec inverse(n)
+
 3.13. Write a program that read a value n and display cosec inverse(n)
 
 3.14. Write a program that read two numbers base, power and display the value of base^power
+
 3.15. Write a program that read any number and display it's square root
+
 3.16. Write a program that read any number x and display e^x
+
 3.17. Write a program that read any number x and display log(x)
+
 3.18. Write a program that read any number x and display log10(x)
 
 # 4. Conditional Logic
 
 4.1. Write a program that read an integer and prints odd or even
+
 4.2. Write a program to determine whether a number is divisible by 5 or not
 
 4.3. Write a program that read two numbers and display maximum
+
 4.4. Write a program that read two numbers and display minimum
 
 4.5. Write a program that read three numbers and display maximum
+
 4.6. Write a program that read three numbers and display minimum
+
 4.7. Write a program that read three numbers and display mediam
 
 4.8. Write a program that read mark and display pass or fail
+
 4.9. Write a program that read mark and display result in grade
+
 4.10. Write a program that read any year and display its leap year or not
 
 4.11. Write the code to check whether an input alphabet is a vowel or not. Both lower-case and upper-case should
@@ -146,7 +180,9 @@ select the menu: 1. Add 2. Subtract 3. Multiply 4. Divide
 ax^2 + bx + c = 0
 
 4.16. Write a program to input angles of a triangle and check whether triangle is valid or not
+
 4.17. Write a program to input all sides of a triangle and check whether triangle is valid or not
+
 4.18. Write a program to check whether the triangle is equilateral, isosceles or scalene triangle
 
 # 5. Switch
