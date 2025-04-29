@@ -901,5 +901,3 @@ team name.
 18. Enum
 
 19. File
-
-20. Dynamic Memory Allocatio
