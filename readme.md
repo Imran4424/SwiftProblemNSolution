@@ -737,7 +737,7 @@ other characters
 
 13.7.3. Write a function that gets three integers and display maximum
 
-14.7.4. Write a function that gets three integers and returns maximum
+13.7.4. Write a function that gets three integers and returns maximum
 
 13.8.1. Write a function that reads three integers and display minimum
 
