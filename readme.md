@@ -900,24 +900,24 @@ team name.
 
 16.7. Write a program that read some students name, id, department and display them according to department.
 
-# 17. Enum
+# 18. Enum
 
-# 18. Class & Objects
+# 19. Class & Objects
 
-# 19. Initializers
+# 20. Initializers
 
-# 20. Properties
+# 21. Properties
 
     - Stored properties
     - Computed properties
     - Property Observers (WillSet / DidSet)
     - Lazy Properties
 
-# 21. Inheritance
+# 22. Inheritance
 
-# 22. Polymorphism
+# 23. Polymorphism
 
-# 23. Encapsulation and Access Control
+# 24. Encapsulation and Access Control
 
     - default
     - open
@@ -926,20 +926,20 @@ team name.
     - fileprivate
     - private
 
-# 24. Protocols and Protocol Oriented Programming
+# 25. Protocols and Protocol Oriented Programming
 
     - Declaring and conforming to protocols
     - Protocol extensions and default implementations
     - Protocol inheritance
     - OOP vs. POP: when to use which
 
-# 25. Generics
+# 26. Generics
 
     - Generic classes, structs, and methods
     - Type constraints
     - Associated types in protocols
 
-# 26. Memory Management
+# 27. Memory Management
 
     - Reference counting (ARC)
     - Strong, weak, and unowned references
