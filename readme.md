@@ -902,12 +902,14 @@ team name.
 
 # 18. Class & Objects
 
-# 19. Init
+# 19. Initializers
 
 # 20. Properties
 
     - Stored properties
-    -
+    - Computed properties
+    - Property Observers (WillSet / DidSet)
+    - Lazy Properties
 
 # 20. Data Visibility
 
