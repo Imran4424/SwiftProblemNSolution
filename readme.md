@@ -911,8 +911,8 @@ team name.
     - Property Observers (WillSet / DidSet)
     - Lazy Properties
 
-# 21. Encapsulation and Access Control
-
 # 21. Inheritance
 
 # 22. Polymorphism
+
+# 23. Encapsulation and Access Control
