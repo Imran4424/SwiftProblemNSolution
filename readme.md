@@ -926,6 +926,11 @@ team name.
 
 # 24. Protocols and Protocol Oriented Programming
 
+    - Declaring and conforming to protocols
+    - Protocol extensions and default implementations
+    - Protocol inheritance
+    - OOP vs. POP: when to use which
+
 # 25. Generics
 
 # 26. Memory Management
