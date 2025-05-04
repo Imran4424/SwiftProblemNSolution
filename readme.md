@@ -877,6 +877,8 @@ other characters
     	1 0 1 0
     	1 0 1 0 1
 
+# Closures
+
 # 15. Higher Order function
 
 # 16. Structure
@@ -938,3 +940,7 @@ team name.
     - Associated types in protocols
 
 # 26. Memory Management
+
+    - Reference counting (ARC)
+    - Strong, weak, and unowned references
+    - Avoiding retain cycles
