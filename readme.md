@@ -877,7 +877,7 @@ other characters
     	1 0 1 0
     	1 0 1 0 1
 
-# Closures
+# 15. Closures
 
 # 15. Higher Order function
 
