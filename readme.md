@@ -904,6 +904,11 @@ team name.
 
 # 19. Init
 
+# 20. Properties
+
+    - Stored properties
+    -
+
 # 20. Data Visibility
 
 # 21. Inheritance
