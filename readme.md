@@ -933,4 +933,6 @@ team name.
 
 # 25. Generics
 
+    - Generic classes, structs, and methods
+
 # 26. Memory Management
