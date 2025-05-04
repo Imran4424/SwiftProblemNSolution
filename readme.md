@@ -898,7 +898,7 @@ highest total with the students roll who obtained this using structure.
 16.6. Write a program that read some players name, team name and batting average. Display this accroding to
 team name.
 
-16.7. Write a program that read some students name, id, department and display them according to department.
+17.7. Write a program that read some students name, id, department and display them according to department.
 
 # 18. Enum
 
