@@ -911,7 +911,7 @@ team name.
     - Property Observers (WillSet / DidSet)
     - Lazy Properties
 
-# 20. Data Visibility
+# 21. Encapsulation and Access Control
 
 # 21. Inheritance
 
