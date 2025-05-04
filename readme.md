@@ -916,3 +916,12 @@ team name.
 # 22. Polymorphism
 
 # 23. Encapsulation and Access Control
+
+    - default
+    - open
+    - public
+    - internal
+    - fileprivate
+    - private
+
+# 24. Protocols
