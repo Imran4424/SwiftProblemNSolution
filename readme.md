@@ -906,6 +906,6 @@ team name.
 
 # 20. Data Visibility
 
-# 20. Inheritance
+# 21. Inheritance
 
-# 21. Polymorphism
+# 22. Polymorphism
