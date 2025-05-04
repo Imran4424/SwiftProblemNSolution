@@ -879,7 +879,7 @@ other characters
 
 # 15. Closures
 
-# 15. Higher Order function
+# 16. Higher Order function
 
 # 16. Structure
 
