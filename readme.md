@@ -881,7 +881,7 @@ other characters
 
 # 16. Higher Order function
 
-# 16. Structure
+# 17. Structure
 
 16.1. Write a program that read and display any student's name, roll, and total mark using structure
 
