@@ -934,5 +934,7 @@ team name.
 # 25. Generics
 
     - Generic classes, structs, and methods
+    - Type constraints
+    - Associated types in protocols
 
 # 26. Memory Management
