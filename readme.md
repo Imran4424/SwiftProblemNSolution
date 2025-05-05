@@ -879,7 +879,7 @@ other characters
 
 # 15. Closures
 
-closures are nothing but
+closures are nothing but functions without name which can be passed as function parameter
 
 # 16. Higher Order function
 
