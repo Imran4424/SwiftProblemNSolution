@@ -879,6 +879,8 @@ other characters
 
 # 15. Closures
 
+closures are nothing but
+
 # 16. Higher Order function
 
 # 17. Structure
