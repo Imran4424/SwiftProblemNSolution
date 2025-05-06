@@ -16,9 +16,18 @@ if firstMultiple != -1 {
         print("Not Found")
 }
 
+
+// break only breaks the immediate loop it is running
+// let validate the claim
+
+var count = 1
+
 // in this loop
 // we are running the inner loop for 5 times
-for _ in 1...5 { 
+for _ in 1...5 {
+
+        print("loop running for \(count) times")
+        
         // this loop is identical of the previous loop
         for value in 50...100 {
                 if value % 7 == 0 {
@@ -28,6 +37,8 @@ for _ in 1...5 {
                         break
                 }
         }
+
+        count = count + 1
 }
 
 if firstMultiple != -1 {
