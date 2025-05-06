@@ -9,6 +9,8 @@
 9. [Break and Continue](#9-break-continue)
 10. [1D Array](#10-one-dimensional-array)
 11. [Multi-Dimentional Array](#11-multi-dimentional-array)
+12. [String](#12-string)
+13. [Swift Collections](#13-swift-collections)
 
 # 1. Input Output
 
