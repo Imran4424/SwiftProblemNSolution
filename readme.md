@@ -706,7 +706,7 @@ other characters
     - Dictionary
     - Tuples
 
-# 14. Function
+## 14. Function
 
 13.1.1. Write a function that reads two integers and display Addition
 
@@ -858,7 +858,7 @@ other characters
 
 13.48. function overloading
 
-# 15. Recursion
+## 15. Recursion
 
 14.1. Write a recursive function that gets any positive integer and returns it's factorial
 
@@ -904,13 +904,13 @@ other characters
     	1 0 1 0
     	1 0 1 0 1
 
-# 16. Closures
+## 16. Closures
 
 closures are nothing but functions without name which can be passed as function parameter
 
-# 17. Higher Order function
+## 17. Higher Order function
 
-# 18. Structure
+## 18. Structure
 
 17.1. Write a program that read and display any student's name, roll, and total mark using structure
 
@@ -929,7 +929,7 @@ team name.
 
 17.7. Write a program that read some students name, id, department and display them according to department.
 
-# 19. Enum
+## 19. Enum
 
 # 20. Class & Objects
 
