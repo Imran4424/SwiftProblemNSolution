@@ -931,22 +931,22 @@ team name.
 
 ## 19. Enum
 
-# 20. Class & Objects
+## 20. Class & Objects
 
-# 21. Initializers
+## 21. Initializers
 
-# 22. Properties
+## 22. Properties
 
     - Stored properties
     - Computed properties
     - Property Observers (WillSet / DidSet)
     - Lazy Properties
 
-# 23. Inheritance
+## 23. Inheritance
 
-# 24. Polymorphism
+## 24. Polymorphism
 
-# 25. Encapsulation and Access Control
+## 25. Encapsulation and Access Control
 
     - default
     - open
@@ -955,20 +955,20 @@ team name.
     - fileprivate
     - private
 
-# 26. Protocols and Protocol Oriented Programming
+## 26. Protocols and Protocol Oriented Programming
 
     - Declaring and conforming to protocols
     - Protocol extensions and default implementations
     - Protocol inheritance
     - OOP vs. POP: when to use which
 
-# 27. Generics
+## 27. Generics
 
     - Generic classes, structs, and methods
     - Type constraints
     - Associated types in protocols
 
-# 28. Memory Management
+## 28. Memory Management
 
     - Reference counting (ARC)
     - Strong, weak, and unowned references
