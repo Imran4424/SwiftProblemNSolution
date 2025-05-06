@@ -1,3 +1,14 @@
+1. [Input Output](#1-input-output)
+2. [Operator](#2-operator)
+3. [Math](#3-math)
+4. [Conditional Logic](#4-conditional-logic)
+5. [Switch](#5-switch)
+6. [Series](#6-series)
+7. [Pyramid](#7-pyramid)
+8. [Loop](#8-loop)
+9. [Break and Continue](#9-break-continue)
+10. [1D Array](#10-one-dimensional-array)
+
 # 1. Input Output
 
 1.1. Write a program that prints your name
