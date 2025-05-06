@@ -274,7 +274,7 @@ Mini Section - Traversing loop in reverse order
 
 6.57. Write a program to print all number who is divible by y from n to 1 (y < n).
 
-# 7. Pyramid
+## 7. Pyramid
 
 7.1.
 
@@ -492,7 +492,7 @@ Mini Section - Traversing loop in reverse order
     2 2
     1
 
-# 8. Loop
+## 8. Loop
 
 8.1. Write down a program that can take a lower bound i and an upper bound n and then find out the summation of
 those numbers which are even from i to n.
