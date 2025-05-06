@@ -637,7 +637,9 @@ numbers. Also show all of the possible combinations
 
 11.6. Write a program that add and multiply two matrices
 
-# 12. String
+# 12. Sets, Dictionary, Tuples
+
+# 13. String
 
 12.1. Write a program that displays a string (single word)
 
