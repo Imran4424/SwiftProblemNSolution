@@ -14,6 +14,8 @@
 12. [String](#12-string)
 13. [Swift Collections](#13-swift-collections)
 
+---
+
 # 1. Input Output
 
 1.1. Write a program that prints your name
