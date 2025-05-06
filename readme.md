@@ -637,9 +637,7 @@ numbers. Also show all of the possible combinations
 
 11.6. Write a program that add and multiply two matrices
 
-# 12. Sets, Dictionary, Tuples
-
-# 13. String
+# 12. String
 
 12.1. Write a program that displays a string (single word)
 
@@ -682,6 +680,8 @@ other characters
 12.19. Write a program that read and display an array of strings with alphabetic order (without case sensitive)
 
 12.20. Write a program that read and display an array of strings with alphabetic order (with case sensitive)
+
+# 13. Sets, Dictionary, Tuples
 
 # 14. Function
 
