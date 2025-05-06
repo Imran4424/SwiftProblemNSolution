@@ -10,7 +10,14 @@ for value in 50...100 {
         }
 }
 
-// in this loop 
+if firstMultiple != -1 {
+        print("Found first multiple is: ", firstMultiple)
+} else {
+        print("Not Found")
+}
+
+// in this loop
+// we are running the inner loop for 5 times
 for _ in 1...5 { 
         // this loop is identical of the previous loop
         for value in 50...100 {
