@@ -681,7 +681,12 @@ other characters
 
 12.20. Write a program that read and display an array of strings with alphabetic order (with case sensitive)
 
-# 13. Sets, Dictionary, Tuples
+# 13. Swift Collections
+
+    - Array
+    - Sets
+    - Dictionary
+    - Tuples
 
 # 14. Function
 
