@@ -8,6 +8,7 @@
 8. [Loop](#8-loop)
 9. [Break and Continue](#9-break-continue)
 10. [1D Array](#10-one-dimensional-array)
+11. [Multi-Dimentional Array](#11-multi-dimentional-array)
 
 # 1. Input Output
 
