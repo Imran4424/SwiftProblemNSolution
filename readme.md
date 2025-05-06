@@ -16,7 +16,7 @@
 
 ---
 
-# 1. Input Output
+## 1. Input Output
 
 1.1. Write a program that prints your name
 
@@ -76,7 +76,7 @@
 
 1.28. Write a program that read any date in the format DD,MM,YYYY and displays day, month and year separately
 
-# 2. Operator
+## 2. Operator
 
 2.1. Write a program that read two integer and display sum
 
@@ -122,7 +122,7 @@
 
 2.22. Write a program that reads two numbers and display the maximum without using relational operators
 
-# 3. Math
+## 3. Math
 
 3.1. Write a program that read any number and display absolute value
 
@@ -160,7 +160,7 @@
 
 3.18. Write a program that read any number x and display log10(x)
 
-# 4. Conditional Logic
+## 4. Conditional Logic
 
 4.1. Write a program that read an integer and prints odd or even
 
@@ -208,7 +208,7 @@ ax^2 + bx + c = 0
 
 4.18. Write a program to check whether the triangle is equilateral, isosceles or scalene triangle
 
-# 5. Switch
+## 5. Switch
 
 5.1. Write a program that read a digit and diplay by spelling
 
@@ -220,7 +220,7 @@ ax^2 + bx + c = 0
 
 5.5. Write a program to create Simple Calculator using switch case
 
-# 6. Series
+## 6. Series
 
 6.1. Write a program to calculate the series: 1 + 2 + 3 + 4 + ... + n
 
