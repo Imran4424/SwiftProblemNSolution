@@ -701,10 +701,10 @@ other characters
 
 ## 13. Swift Collections
 
-    - Array
-    - Sets
-    - Dictionary
-    - Tuples
+    1. Array
+    2. Sets
+    3. Dictionary
+    4. Tuples
 
 ## 14. Function
 
