@@ -18,9 +18,9 @@ array.reverse()
 
 print("Array in decending order:", array)
 
-// for re-sorting in ascending order
-array.sort()
-print("Re-sorted Array in ascending order:", array)
+// shuffle the array elements
+array.shuffle()
+print("Shuffled Array:", array)
 
 // sorting the array in decending order using sort function
 array.sort(by: >)
