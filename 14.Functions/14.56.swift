@@ -5,7 +5,7 @@
 
 // variadic parameters means
 // we can pass varying number of parameter in function
-func sum( numbers: Int...) {
+func sum(numbers: Int...) {
         var result = 0
 
         for num in numbers {
