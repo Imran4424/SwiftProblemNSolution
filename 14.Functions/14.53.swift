@@ -19,6 +19,6 @@ print("Please enter the second integer:", terminator: " ")
 // using Nil-Coalescing Operator for both optionals
 let pritha = Int(readLine() ?? "0") ?? 0
 
-let sakib = addition(x: imran, y: pritha)
+let sakib = addition(first: imran, second: pritha)
 
 print("Sum of the entered numbers is", sakib)
