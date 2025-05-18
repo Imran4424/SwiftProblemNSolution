@@ -1,19 +1,34 @@
 # Learn Swift Step by Step
 
-1. [Input Output](#1-input-output)
-2. [Operator](#2-operator)
-3. [Math](#3-math)
-4. [Conditional Logic](#4-conditional-logic)
-5. [Switch](#5-switch)
-6. [Series](#6-series)
-7. [Pyramid](#7-pyramid)
-8. [Loop](#8-loop)
-9. [Break and Continue](#9-break-continue)
-10. [1D Array](#10-one-dimensional-array)
-11. [Multi-Dimentional Array](#11-multi-dimentional-array)
-12. [String](#12-string)
-13. [Swift Collections](#13-swift-collections)
-14. [Functions](#14-function)
+- [Learn Swift Step by Step](#learn-swift-step-by-step)
+  - [1. Input Output](#1-input-output)
+  - [2. Operator](#2-operator)
+  - [3. Math](#3-math)
+  - [4. Conditional Logic](#4-conditional-logic)
+  - [5. Switch](#5-switch)
+  - [6. Series](#6-series)
+  - [7. Pyramid](#7-pyramid)
+  - [8. Loop](#8-loop)
+  - [9. break, continue](#9-break-continue)
+  - [10. One Dimensional Array](#10-one-dimensional-array)
+  - [11. Multi Dimentional Array](#11-multi-dimentional-array)
+  - [12. String](#12-string)
+  - [13. Swift Collections](#13-swift-collections)
+  - [14. Function](#14-function)
+  - [15. Recursion](#15-recursion)
+  - [16. Closures](#16-closures)
+  - [17. Higher Order function](#17-higher-order-function)
+  - [18. Structure](#18-structure)
+  - [19. Enum](#19-enum)
+  - [20. Class \& Objects](#20-class--objects)
+  - [21. Initializers](#21-initializers)
+  - [22. Properties](#22-properties)
+  - [23. Inheritance](#23-inheritance)
+  - [24. Polymorphism](#24-polymorphism)
+  - [25. Encapsulation and Access Control](#25-encapsulation-and-access-control)
+  - [26. Protocols and Protocol Oriented Programming](#26-protocols-and-protocol-oriented-programming)
+  - [27. Generics](#27-generics)
+  - [28. Memory Management](#28-memory-management)
 
 ---
 
@@ -858,6 +873,22 @@ other characters
 14.47. Write a function that gets two string and concatenates (adds) them
 
 14.48. function overloading
+
+14.49. Demonstrate the behaviour of function parameters in swift
+
+14.50. Workaround of the behaviour of function parameters in swift
+
+14.51. Demonstrate the inout behaviour of function parameters in swift
+
+14.52. Demonstrate how to omit the function parameter label
+
+14.53. Demonstrate how to use extra parameter label for hiding actual parameter name
+
+14.54. Demonstrate multiple return type in swift
+
+14.55. Function parameters with default values in Swift
+
+14.56. Function with variadic parameters
 
 ## 15. Recursion
 
