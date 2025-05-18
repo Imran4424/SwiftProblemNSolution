@@ -3,6 +3,9 @@
 // get - has parameters
 // returns - there will be a return type
 
+// here, 
+// x is both parameter name and parameter label
+// y is both parameter name and paramter label
 func addition(x: Int, y: Int) -> Int {
         return x + y
 }
