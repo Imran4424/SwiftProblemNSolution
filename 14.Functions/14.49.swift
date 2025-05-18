@@ -1,9 +1,16 @@
-// 14.1.4. Write a function that gets two integers and returns Addition
-
-// get - has parameters
-// returns - there will be a return type
+// 14.49. Demonstrate the behaviour of function parameters in swift
 
 func addition(x: Int, y: Int) -> Int {
+        // the following line will give compilation error
+        // why?
+        // every parameter in swift considered to be constant, so we can not modify it's value
+        x = 5
+
+        // the following line will give compilation error
+        // why?
+        // every parameter in swift considered to be constant, so we can not modify it's value
+        y = 3
+
         return x + y
 }
 

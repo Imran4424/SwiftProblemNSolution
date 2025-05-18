@@ -1,10 +1,13 @@
-// 14.1.4. Write a function that gets two integers and returns Addition
-
-// get - has parameters
-// returns - there will be a return type
+// 14.49. Workaround of the behaviour of function parameters in swift
 
 func addition(x: Int, y: Int) -> Int {
-        return x + y
+        var imran = x
+        var pritha = y
+
+        imran = 55
+        pritha = 46
+
+        return imran + pritha
 }
 
 // promt for entering first Interger
