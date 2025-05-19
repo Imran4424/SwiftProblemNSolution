@@ -5,8 +5,9 @@
 
 // outer function
 func greetMessage() {
-        
+
         // inner function
+        // nested inside greetMessage() function
         func displayName() {
                 print("Good Morning Abraham!")
         }
