@@ -1,6 +1,14 @@
-// 14.52. Demonstrate how to omit the function parameter label
+// 14.52. Demonstrate how to use extra parameter label for hiding actual parameter name
 
-func addition(_ x: Int, _ y: Int) -> Int {
+// swift functions have function parameter name and function parameter label
+// function parameter label is only used for calling functions
+// but function parameter name is generally use for functional operations
+// but when we don't provide function parameter label at that moment function parameter name works as function label
+
+// here, 
+// x is the parameter name, first is the parameter label
+// y is the parameter name, second is the paramter label
+func addition(first x: Int, second y: Int) -> Int {
         return x + y
 }
 
@@ -16,8 +24,6 @@ print("Please enter the second integer:", terminator: " ")
 // using Nil-Coalescing Operator for both optionals
 let pritha = Int(readLine() ?? "0") ?? 0
 
-// since we put _ before parameter label
-// we don't need to the parameter label when calling the function
-let sakib = addition(imran, pritha)
+let sakib = addition(first: imran, second: pritha)
 
 print("Sum of the entered numbers is", sakib)

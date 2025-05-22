@@ -17,8 +17,8 @@ func changeValue(x: inout Int, y: inout Int) {
 var imran = 0
 var pritha = 0
 
-// the following line will give compilation error
-// cause we are sending value but it wants variable address
+// the following line will not give compilation error
+// cause we are sending variable address now as per requirement
 changeValue(x: &imran, y: &pritha)
 
 print("Sum of the entered numbers is", imran + pritha)

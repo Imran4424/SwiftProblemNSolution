@@ -875,9 +875,9 @@ other characters
 
 14.51. Demonstrate the inout behaviour of function parameters in swift
 
-14.52. Demonstrate how to omit the function parameter label
+14.52. Demonstrate how to use extra parameter label for hiding actual parameter name
 
-14.53. Demonstrate how to use extra parameter label for hiding actual parameter name
+14.53. Demonstrate how to omit the function parameter label
 
 14.54. Demonstrate multiple return type in swift
 

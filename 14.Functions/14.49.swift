@@ -1,5 +1,11 @@
 // 14.49. Demonstrate the behaviour of function parameters in swift
 
+// swift functions have function parameter name and function parameter label
+// function parameter label is only used for calling functions
+// but function parameter name is generally use for functional operations
+// but when we don't provide function parameter label at that moment function parameter name works as function label
+// here we are not providing any explicit function parameter label
+// so, function parameter call will use function parameter name as label
 func addition(x: Int, y: Int) -> Int {
         // the following line will give compilation error
         // why?
