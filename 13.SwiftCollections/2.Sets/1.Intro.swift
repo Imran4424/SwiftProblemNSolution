@@ -7,6 +7,8 @@ var studentID : Set<Int> = [112, 114, 116, 118, 115, 121, 131]
 
 print("Student ID: \(studentID)")
 
+// first index
+
 // now insert an duplicate element in Set but the output will be same
 studentID.insert(116)
 print("Student ID: \(studentID)")
