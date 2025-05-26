@@ -2,10 +2,7 @@
 
 // parameters return type
 
-let add:(Int, Int) -> (Int) =
-{
-    (x, y) in 
-
+let add: (Int, Int) -> (Int) = { (x, y) in 
     return x + y
 }
 
