@@ -1,18 +1,12 @@
 
 // parameters no return type
 
-let add:(Int, Int) -> () =
-{
-    // naming the parameters
-    (x, y) in
+let add: (Int, Int) -> () = { (x, y) in // naming the parameters
     
     print("Additon is:", x + y)
 }
 
-let message:(String) -> () =
-{
-    // naming the parameters
-    text in
+let message: (String) -> () = { text in // naming the parameters
     
     print(text)
 }
