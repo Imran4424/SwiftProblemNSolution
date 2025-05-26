@@ -1,9 +1,7 @@
 
 // Auto closure Implementation
 
-func OperatorFunction(paraClosure : @autoclosure () -> (), text: String)
-
-{
+func OperatorFunction(paraClosure : @autoclosure () -> (), text: String) {
 	print(text)
 
 	paraClosure()
