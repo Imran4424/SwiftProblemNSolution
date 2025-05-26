@@ -9,14 +9,12 @@ let closureOne = { }
 // which contains one simple statement
 // this closure has no parameters and no return type
 
-let closureTwo =
-{
+let closureTwo = {
         print("I am a programmer")
         
 }
 
-let closureThree: () -> () =
-{
+let closureThree: () -> () = {
         print("Closure with no parameters and no return type")
 }
 
