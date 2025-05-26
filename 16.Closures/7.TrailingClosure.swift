@@ -1,8 +1,7 @@
 
 // Trailing Closure
 
-func OperatorFunction(text: String, paraClosure : () -> ())
-{
+func OperatorFunction(text: String, paraClosure : () -> ()) {
 	print(text)
 
 	paraClosure()
@@ -13,8 +12,7 @@ func OperatorFunction(text: String, paraClosure : () -> ())
 // second parameter is closure
 // which is passed like function body
 // it is possible when closure is a last parameter of function
-OperatorFunction(text: "Calling From Function")
-{
+OperatorFunction(text: "Calling From Function") {
 	print("Calling from parameter closure")
 }
 

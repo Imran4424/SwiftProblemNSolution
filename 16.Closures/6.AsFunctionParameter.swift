@@ -4,15 +4,13 @@
 // here using closure as parameter
 // calling the closure inside the function
 
-func OperatorFunction(paraClosure : () -> ())
-{
+func OperatorFunction(paraClosure : () -> ()) {
     print("Calling From Function")
 
     paraClosure()
 }
 
-OperatorFunction(paraClosure:
-{
+OperatorFunction(paraClosure: {
     print("Calling from parameter closure")
 })
 

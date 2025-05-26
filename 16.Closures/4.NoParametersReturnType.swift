@@ -1,8 +1,7 @@
 
 // No parameters return type
 
-let Add:() -> (Int) =
-{   
+let Add: () -> (Int) = {   
     var x = 25
     var y = 37
 

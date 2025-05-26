@@ -6,13 +6,11 @@
 // but not calling the closure inside the function
 // so only function body print will work
 
-func OperatorFunction(paraClosure : () -> ())
-{
+func OperatorFunction(paraClosure : () -> ()) {
     print("Calling From Function")
 }
 
-OperatorFunction(paraClosure:
-{
+OperatorFunction(paraClosure: {
     print("Calling from parameter closure")
 })
 

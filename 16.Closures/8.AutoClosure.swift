@@ -8,7 +8,6 @@ func OperatorFunction(paraClosure : () -> (), text: String)
 	paraClosure()
 }
 
-OperatorFunction(paraClosure: (
-{
+OperatorFunction(paraClosure: {
         print("Calling from Closure")
-}), text: "Calling from function")
+}, text: "Calling from function")
