@@ -7,4 +7,4 @@ func OperatorFunction(paraClosure : @autoclosure () -> (), text: String) {
 	paraClosure()
 }
 
-OperatorFunction(paraClosure: (print("Calling from Closure")), text: "Calling from function")
+OperatorFunction(paraClosure: print("Calling from Closure"), text: "Calling from function")
