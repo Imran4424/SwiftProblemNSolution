@@ -21,7 +21,18 @@ var numbers = [2, 5, 3, 9, 15, 12, 8, 17, 20, 11]
 /// - All elements strictly less than 10 will be removed.
 /// - Elements 10 or greater remain in the array.
 numbers.removeAll { (number) -> Bool in
-    return number < 10
+        // Check if the current `number` is less than 10.
+        // Returning `true` means “remove this number” from the array.
+        return number < 10
 }
 
-print(numbers)
+/// Print the updated `numbers` array after removal of all elements < 10.
+/// - In our example:
+///   - Original array: [2, 5, 3, 9, 15, 12, 8, 17, 20, 11]
+///   - Numbers < 10 are: 2, 5, 3, 9, 8
+///   - Remaining numbers (>= 10) are: [15, 12, 17, 20, 11]
+///
+/// We use `print(_:_:)` with:
+/// 1. A descriptive prompt string.
+/// 2. The mutated `numbers` array.
+print(numbers) // Prints: [15, 12, 17, 20, 11]
