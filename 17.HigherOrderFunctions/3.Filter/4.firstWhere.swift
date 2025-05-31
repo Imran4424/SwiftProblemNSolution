@@ -16,6 +16,8 @@ var array = [1, 2, 3, 4, 5]
 ///
 /// Here, we want to find the first element in `array` that is greater than `3`.
 let result = array.first(where: { element in
+        // Check if the current `element` (e.g., 1, 2, 3, 4, 5) is greater than 3.
+        // If so, this becomes the first match and is returned.
         return element > 3
 })
 
