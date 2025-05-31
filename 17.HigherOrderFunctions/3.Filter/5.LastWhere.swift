@@ -24,5 +24,17 @@ let result = array.last(where: { element in
         return element > 3
 })
 
+
+/// Print the result of `last(where:)`, which is an Optional `Int`.
+///
+/// - If `result` is non-`nil`, it contains the last element in `array` greater than 3.
+///   In this specific array ([1, 2, 3, 4, 5]), elements greater than 3 are [4, 5],
+///   and the “last” of those is 5, so `result` will be `Optional(5)`.
+///
+/// - If `result` is `nil`, no element satisfied the condition.
+///
+/// We pass two arguments to `print(_:_:)`:
+/// 1. A descriptive prompt string.
+/// 2. The `result` Optional, showing either a value (e.g., `5`) or `nil`.
 print("first greater than value from array is:", result)
 
