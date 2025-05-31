@@ -28,4 +28,13 @@ let result = sentence.split(whereSeparator: { letter in
         return letter == " "
 })
 
+/// Print the resulting collection of substrings. Each element of `result` is a `Substring`
+/// corresponding to a word in the original sentence, in order.
+///
+/// - The printed `result` will be of type `Array<Substring>`, for example:
+///   `["I", "love", "being", "an", "Apple", "ECO", "system", "programmer"]`
+///
+/// - We pass two arguments to `print(_:_:)`:
+///   1. A descriptive prompt string.
+///   2. The `result` array of substrings.
 print("returned collection which satisfy the given condition:", result)
