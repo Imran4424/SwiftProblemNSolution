@@ -24,6 +24,7 @@ let sentence = "I love being an Apple ECO system programmer"
 /// - Whenever the character is a space (`" "`), it marks the boundary between words.
 /// - `split(whereSeparator:)` will drop each space and produce substrings containing the individual words.
 let result = sentence.split(whereSeparator: { letter in
+        // Check if the current character is a space. Returning `true` means "split here".
         return letter == " "
 })
 
