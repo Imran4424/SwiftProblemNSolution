@@ -23,6 +23,9 @@ var array = [1, 2, 3, 4, 5]
 /// `drop(while:)` will remove all elements less than 3 from the front of `array`,
 /// stopping once it encounters an element that is 3 or greater.
 let result = array.drop(while: { element in
+        // Check if the current `element` is less than 3.
+        // As long as this returns `true`, `drop(while:)` will skip that element.
+        // For `array = [1, 2, 3, 4, 5]`, it drops 1 and 2, then stops at 3.
         return element < 3
 })
 
