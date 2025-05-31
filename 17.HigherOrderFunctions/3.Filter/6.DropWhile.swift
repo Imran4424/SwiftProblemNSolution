@@ -3,5 +3,7 @@
 var array = [1, 2, 3, 4, 5]
 
 let result = array.drop(while: { element in
-        return element > 3
+        return element < 3
 })
+
+print("returned collection which satisfy the given condition:", result)
