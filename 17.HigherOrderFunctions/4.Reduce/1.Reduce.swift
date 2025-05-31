@@ -12,7 +12,9 @@ let sum = numbers.reduce(0, +)
 print("Sum of the collection", sum)
 
 // here intial value is 0
-// operations is $0 + $1, which indicates adding first and second element and gradually adding third and so on
+// operations is $0 + $1, 
+// $0 - which indicates adding first as the initial and summation value
+// $1 - which indicates all the collection element
 // the following line of code wil do summation of collection elements
 let sumTwo = numbers.reduce(0, { $0 + $1 })
 print("Sum of the collection", sumTwo)
@@ -31,5 +33,10 @@ let multipicationTwo = numbers.reduce(1) { result, element in
 }
 print("Multipication of the collection", multipicationTwo)
 
+// here intial value is ""
+// operations is $0 + $1, 
+// $0 - which indicates adding first as the initial and summation value
+// $1 - which indicates all the collection element
 let stringNumber = numbers.reduce("") { $0 + String($1) }
 print("string concatanation of numbers", stringNumber)
+
