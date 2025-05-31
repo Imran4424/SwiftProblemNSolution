@@ -26,4 +26,17 @@ let result = array.prefix(while: { element in
         return element.count > 4
 })
 
+/// Print the resulting collection, which is of type `ArraySlice<String>`.
+///
+/// - The printed `result` contains only the initial sequence of names whose
+///   lengths are greater than 4, up until we hit a name that fails the check.
+/// - In our concrete example:
+///     - "Imran" has 5 letters → included
+///     - "Linkon" has 6 letters → included
+///     - "Joy" has 3 letters → fails (3 ≤ 4), so iteration stops here
+/// - Thus, `result` will be `["Imran", "Linkon"]`.
+///
+/// We pass two arguments to `print(_:_:)`:
+/// 1. A descriptive prompt string.
+/// 2. The `result` `ArraySlice<String>`.
 print("returned collection which satisfy the given condition:", result)
