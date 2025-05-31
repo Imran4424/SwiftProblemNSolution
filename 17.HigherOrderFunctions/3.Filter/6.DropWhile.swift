@@ -29,4 +29,13 @@ let result = array.drop(while: { element in
         return element < 3
 })
 
+/// Print the resulting “suffix” of the array after dropping elements.
+/// 
+/// - `result` is of type `ArraySlice<Int>`, containing all elements from the point
+///   where the predicate first returned `false` until the end of the array.
+/// - In our example, elements 1 and 2 are dropped, so `result` will be `[3, 4, 5]`.
+/// 
+/// We use `print(_:_:)` with:
+/// 1. A descriptive prompt string.
+/// 2. The `result` collection.
 print("returned collection which satisfy the given condition:", result)
