@@ -1,8 +1,8 @@
 
 let sentence = "I love being an Apple ECO system programmer"
 
-let result = sentence.prefix(while: { element in
-        return element.count > 4
+let result = sentence.split(whereSeparator: { letter in
+        return element == " "
 })
 
 print("returned collection which satisfy the given condition:", result)
