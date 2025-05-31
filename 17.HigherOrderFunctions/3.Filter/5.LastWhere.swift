@@ -36,5 +36,5 @@ let result = array.last(where: { element in
 /// We pass two arguments to `print(_:_:)`:
 /// 1. A descriptive prompt string.
 /// 2. The `result` Optional, showing either a value (e.g., `5`) or `nil`.
-print("first greater than value from array is:", result)
+print("last greater than value from array is:", result)
 
