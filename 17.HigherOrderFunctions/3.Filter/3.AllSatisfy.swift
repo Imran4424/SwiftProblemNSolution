@@ -24,4 +24,13 @@ let result = letters.allSatisfy { letter in
         return letter.uppercased() == "E"
 }
 
+/// Print the final boolean result, indicating whether *all* characters in `letters`
+/// satisfy the condition of being "E" (case-insensitive).
+///
+/// - We pass two arguments to `print(_:_:)`:
+///   1. A human-readable prompt string.
+///   2. The `result` boolean from `allSatisfy(_:)`.
+/// - If `result` is `true`, **every** character in `letters` is "E"/"e".
+/// - If `result` is `false`, at least one character did not match.
+///
 print("Is given conditions satisfy all the letters?", result)
