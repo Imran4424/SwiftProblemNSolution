@@ -18,6 +18,9 @@ let letters = "abcdabcdae"
 ///
 /// Here, we want to check if each `letter`, when converted to uppercase, equals `"E"`.
 let result = letters.allSatisfy { letter in
+        // Convert the `Character` to a `String`, uppercase it, and compare to "E".
+        // If this comparison is true, it means the character is "e" or "E".
+        // Otherwise, it is some other character and the predicate fails.
         return letter.uppercased() == "E"
 }
 
