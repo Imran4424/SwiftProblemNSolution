@@ -21,4 +21,12 @@ let result = array.first(where: { element in
         return element > 3
 })
 
+/// Print the result of `first(where:)`, which is an optional `Int`.
+///
+/// - If `result` is non-`nil`, it will contain the first array element greater than 3.
+/// - If `result` is `nil`, no element in `array` satisfied the condition.
+///
+/// - We pass two arguments to `print(_:_:)`:
+///   1. A human-readable prompt string.
+///   2. The `result` optional, which may show a value like `4` or `nil`.
 print("first greater than value from array is:", result)
