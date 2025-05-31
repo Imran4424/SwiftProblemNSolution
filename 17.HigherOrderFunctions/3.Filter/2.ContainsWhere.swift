@@ -18,4 +18,11 @@ let result = letters.contains(where: { letter in
         return letter.uppercased() == "E"
 })
 
+/// Print the final boolean result, indicating whether "E" (case-insensitive) was found.
+///
+/// - We pass two arguments to `print(_:_)`:
+///   1. A human-readable prompt string.
+///   2. The `result` boolean from `contains(where:)`.
+/// - If `result` is `true`, it means at least one character in `letters` (ignoring case)
+///   matches "E". If `false`, no such character was found.
 print("Is E contains in the letters?", result)
