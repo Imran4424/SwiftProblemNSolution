@@ -19,6 +19,11 @@ print("Sum of the collection", sum)
 let sumTwo = numbers.reduce(0, { $0 + $1 })
 print("Sum of the collection", sumTwo)
 
+let sumThree = numbers.reduce(0) { (result, number) -> Int in
+        result + number
+}
+print("Sum of the collection:", sum)
+
 // here intial value is 1 and symbol is multiply
 // the following line of code wil do multipication of collection elements
 let multipication = numbers.reduce(1, *)
@@ -40,3 +45,8 @@ print("Multipication of the collection", multipicationTwo)
 let stringNumber = numbers.reduce("") { $0 + String($1) }
 print("string concatanation of numbers", stringNumber)
 
+let words = ["Programming", "is", "like", "writing poetry"]
+print("Words", words)
+
+let sentence = words.reduce("", { $0 + " " + $1 })
+print("Sentence:", sentence)
