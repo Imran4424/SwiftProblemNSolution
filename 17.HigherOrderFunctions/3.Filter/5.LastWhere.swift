@@ -18,9 +18,9 @@ var array = [1, 2, 3, 4, 5]
 /// Here, our condition is: “element > 3”. Therefore, `last(where:)` will return
 /// the **last** integer in `array` that is greater than 3.
 let result = array.last(where: { element in
-// Check if the current `element` (e.g., 1, 2, 3, 4, 5) is greater than 3.
-    // Returning `true` indicates a match. The function will continue checking
-    // subsequent elements, but ultimately returns the final matching value.
+        // Check if the current `element` (e.g., 1, 2, 3, 4, 5) is greater than 3.
+        // Returning `true` indicates a match. The function will continue checking
+        // subsequent elements, but ultimately returns the final matching value.
         return element > 3
 })
 
