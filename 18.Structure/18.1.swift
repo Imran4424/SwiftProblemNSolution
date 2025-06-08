@@ -26,4 +26,7 @@ imran.displayInformation()
 
 // the following line will give compilation error
 // imran.name = "Shah Md Imran Hossain"
+// because when we are declaring an struct variable let(constant)
+// all of struct's comoonents will be let(constant) too
+
 imran.displayInformation()
