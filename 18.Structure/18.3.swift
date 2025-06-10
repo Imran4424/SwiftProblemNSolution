@@ -1,25 +1,5 @@
 
-// 18.1. Write a program that read and display any student's name, roll, and total mark using structure
-
-// in c++
-// there are 5 fundamental data types
-// 1. int 
-// 2. float 
-// 3. double
-// 4. character
-// 5. bool
-// besides these, we can also declare user defined data type in c++ using struct and class
-
-// likewise
-// in swift
-// there are 6 fundamental data types
-// 1. Int 
-// 2. Float 
-// 3. Double
-// 4. Character
-// 5. String
-// 6. Bool
-// besides these, we can also declare user defined data type in swift using struct and class
+// 18.3. Write a program that shows the functionality of multiple constructor(init) in swift
 
 // naming convention
 // for struct and class 
@@ -27,19 +7,28 @@
 // Student, StudentAddress, CoupleMarriageInfo
 
 // in this struct 
-// there is no init method
-// so implicit init method is in play
+// there is a init method
+// so implicit init method will not work in this case
+// so we gonna declare the implicit method explicitly when we are declaring custom init
+// we can call this default init (default init is basically duplication of implicit init)
 struct Student {
+        // stored properties
         var name: String
         var roll: Int
         var totalMarks: Double
 
-        // this is the implicit init method (compiler provided init)
-        // init(name: String, roll: Int, totalMarks: Double) {
-        //         self.name = name
-        //         self.roll = roll
-        //         self.totalMarks = totalMarks
-        // }
+        init() {
+            name = ""
+            roll = 0
+            totalMarks = 0.0
+        }
+
+        // default init
+        init(name: String, roll: Int, totalMarks: Double) {
+                self.name = name
+                self.roll = roll
+                self.totalMarks = totalMarks
+        }
 
         func displayInformation() {
                 print("Student Information")
@@ -50,6 +39,8 @@ struct Student {
 }
 
 
+// we declared default init
+// there will be no compilation error
 var pritha: Student = Student(name: "", roll: 0, totalMarks: 0.0)
 pritha.name = "Pritha Saha"
 pritha.roll = 14

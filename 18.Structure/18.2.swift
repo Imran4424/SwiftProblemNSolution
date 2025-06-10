@@ -1,25 +1,5 @@
 
-// 18.1. Write a program that read and display any student's name, roll, and total mark using structure
-
-// in c++
-// there are 5 fundamental data types
-// 1. int 
-// 2. float 
-// 3. double
-// 4. character
-// 5. bool
-// besides these, we can also declare user defined data type in c++ using struct and class
-
-// likewise
-// in swift
-// there are 6 fundamental data types
-// 1. Int 
-// 2. Float 
-// 3. Double
-// 4. Character
-// 5. String
-// 6. Bool
-// besides these, we can also declare user defined data type in swift using struct and class
+// 18.2. Write a program that shows the functionality of implicit init in swift
 
 // naming convention
 // for struct and class 
@@ -27,14 +7,20 @@
 // Student, StudentAddress, CoupleMarriageInfo
 
 // in this struct 
-// there is no init method
-// so implicit init method is in play
+// there is a init method
+// so implicit init method will not work in this case
 struct Student {
         var name: String
         var roll: Int
         var totalMarks: Double
 
-        // this is the implicit init method (compiler provided init)
+        init() {
+            name = ""
+            roll = 0
+            totalMarks = 0.0
+        }
+
+        // the following implicit init method no longer available
         // init(name: String, roll: Int, totalMarks: Double) {
         //         self.name = name
         //         self.roll = roll
@@ -50,6 +36,8 @@ struct Student {
 }
 
 
+// there is no implicit init method anymore
+// this method will give you compilation error
 var pritha: Student = Student(name: "", roll: 0, totalMarks: 0.0)
 pritha.name = "Pritha Saha"
 pritha.roll = 14
