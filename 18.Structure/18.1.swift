@@ -49,7 +49,11 @@ struct Student {
         }
 }
 
+// the following line will give compilation error
+// var pritha: Student = Student()
 
+// here
+// Student is using implicit constructor
 var pritha: Student = Student(name: "", roll: 0, totalMarks: 0.0)
 pritha.name = "Pritha Saha"
 pritha.roll = 14
@@ -57,6 +61,8 @@ pritha.totalMarks = 95.59
 
 pritha.displayInformation()
 
+// here
+// Student is using implicit constructor
 let imran = Student(name: "SHAH MD IMRAN HOSSAIN", roll: 13, totalMarks: 99.99)
 imran.displayInformation()
 
