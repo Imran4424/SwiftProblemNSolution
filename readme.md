@@ -951,10 +951,9 @@ closures are nothing but functions without name which can be passed as function 
 
 18.5. Write a program that shows the functionality of updating a stuct stored properties using method (the workaround)
 
-18.6. Write a program that read some players name, team name and batting average. Display this accroding to
-team name.
+18.6. Write a program that shows init overloading (constructor overloading)
 
-18.7. Write a program that read some students name, id, department and display them according to department.
+18.7. Write a program and explain the difference between encapsulation and Abstraction
 
 ## 19. Enum
 
