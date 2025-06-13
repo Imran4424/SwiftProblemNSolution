@@ -1,5 +1,5 @@
 
-// 18.4. Write a program that shows the functionality of updating a stuct stored properties using method (the workaround)
+// 18.5. Write a program that shows the functionality of updating a stuct stored properties using method (the workaround)
 
 // naming convention
 // for struct and class 

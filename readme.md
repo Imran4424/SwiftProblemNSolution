@@ -943,15 +943,13 @@ closures are nothing but functions without name which can be passed as function 
 
 18.1. Write a program that read and display any student's name, roll, and total mark using structure
 
-18.2. Write a program that read and display some student's name, roll, and total mark using structure
+18.2. Write a program that shows the functionality of implicit init in swift
 
-18.3. Write a program that read and display basic information of a departments students using structure
+18.3. Write a program that shows the functionality of multiple constructor(init) in swift
 
-18.4. Write a program that read and display some student's name, roll, subject wise mark, total mark and
-average using structure.
+18.4. Write a program that shows the functionality of updating a stuct stored properties using method
 
-18.5. Write a program that read roll, three subjects mark and display the highest mark in each subjects and
-highest total with the students roll who obtained this using structure.
+18.5. Write a program that shows the functionality of updating a stuct stored properties using method (the workaround)
 
 18.6. Write a program that read some players name, team name and batting average. Display this accroding to
 team name.
