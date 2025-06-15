@@ -3,4 +3,5 @@
 // while class is reference type, struct and enum is value type
 
 
-// while struct and class provides a composite data type
+// while struct and class provides a composite data type (collection of fundamental or user defined properties)
+// enum focuses on group of related values
