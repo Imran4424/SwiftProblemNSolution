@@ -1,5 +1,6 @@
 
-enum CompassDirection: String {
+
+enum CompassDirection: String, CaseIterable {
         case north = "Compass pointing to the north"
         case south = "Compass pointing to the south"
         case east = "Compass pointing to the east"
