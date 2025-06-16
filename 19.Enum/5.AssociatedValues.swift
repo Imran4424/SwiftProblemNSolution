@@ -14,7 +14,7 @@ func getSponsorshipEligibility(for platform: SocialMedia) {
                 } else {
                         print("Not Eligible for sponsorship")
                 }
-                
+
         case .youtube(let subscribers) where subscribers > 25000:
                 print("Eligible for sponsored youtube")
 
@@ -25,3 +25,7 @@ func getSponsorshipEligibility(for platform: SocialMedia) {
                 print("Not Eligible for sponsorship")
         }
 }
+
+getSponsorshipEligibility(for: .youtube(subscribers: 55155))
+getSponsorshipEligibility(for: .youtube(subscribers: 5))
+getSponsorshipEligibility(for: .linkedIn)
