@@ -19,10 +19,7 @@ enum Weekday {
 // another basic enum syntax is
 
 enum CompassDirection {
-        case north
-        case south
-        case east
-        case west
+        case north, south, east, west
 }
 
 func shareYourStatus(on day: Weekday) {
