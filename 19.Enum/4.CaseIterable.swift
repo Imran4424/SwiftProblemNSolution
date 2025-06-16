@@ -28,3 +28,7 @@ func navigate(to direction: CompassDirection) {
 
 navigate(to: .north)
 navigate(to: .west)
+
+for direction in CompassDirection.allCases {
+        print("\(direction) for \(direction.rawValue)")
+}
