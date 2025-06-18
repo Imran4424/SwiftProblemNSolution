@@ -1,9 +1,9 @@
 
 enum CompassDirection: String {
-        case north = "Compass pointing to the north"
-        case south = "Compass pointing to the south"
-        case east = "Compass pointing to the east"
-        case west = "Compass pointing to the west"
+        case north = "Compass is pointing to the north"
+        case south = "Compass is pointing to the south"
+        case east = "Compass is pointing to the east"
+        case west = "Compass is pointing to the west"
 }
 
 

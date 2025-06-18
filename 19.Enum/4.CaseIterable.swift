@@ -1,4 +1,5 @@
 
+// CaseIterable makes enum behave like an array
 
 enum CompassDirection: String, CaseIterable {
         case north = "Compass pointing to the north"
