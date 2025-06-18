@@ -968,11 +968,7 @@ closures are nothing but functions without name which can be passed as function 
     - Property Observers (WillSet / DidSet)
     - Lazy Properties
 
-## 23. Inheritance
-
-## 24. Polymorphism
-
-## 25. Encapsulation and Access Control
+## 23. Encapsulation and Access Control
 
     - default
     - open
@@ -980,6 +976,10 @@ closures are nothing but functions without name which can be passed as function 
     - internal
     - fileprivate
     - private
+
+## 24. Inheritance
+
+## 25. Polymorphism
 
 ## 26. Protocols and Protocol Oriented Programming
 
