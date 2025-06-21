@@ -27,7 +27,9 @@ class Box
 
         deinit 
         {
-                // statements      
+                // statements
+                // the clean up codes will appear here
+                print("This thing will be called last")   
         }
         
         func Area() -> Int
