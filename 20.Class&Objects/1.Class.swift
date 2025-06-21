@@ -12,17 +12,38 @@
 // struct and enum are value type user defined data type
 // class is the reference type user defined data type
 
+// A class is considered as a blueprint of objects.
+
+// let's consider an example
+// Car model is - Hyundai - Venue2023
+// let's think this car is an object
+
+// The car company Hyundai defined a class called Venue2023
+// and produce lots of cars of same model with the class defination
+// with some properties changes like colors, windshield type, type type etc
+
+// from that we can understand that
+// class is unique and it has only one declaration
+
+// objects of that class can be infinite
+
+// class is the logical definitions of objects (it has no physical existence)
+
+// objects are the physical implementations of class logics
+
 class Box 
 {
         var length: Int
         var width: Int
         var height: Int
 
+        // methods
         func Area() -> Int
         {
                 return length * width
         }
 
+        // methods
         func Volume() -> Int
         {
                 return length * width * height

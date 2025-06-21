@@ -52,13 +52,39 @@ class Box
 
 var redBox: Box = Box()
 
-print("Area: \(redBox.Area()), Volume: \(redBox.Volume())")
+print("Area of red box: \(redBox.Area()), Volume: \(redBox.Volume())")
 
 redBox.length = 5
 redBox.width = 3
 redBox.height = 1
 
-print("Area: \(redBox.Area()), Volume: \(redBox.Volume())")
+print("Area of red box: \(redBox.Area()), Volume: \(redBox.Volume())")
+
+var blueBox = redBox
+blueBox.length = 11
+blueBox.width = 6
+blueBox.height = 4
+
+print("Area of blue box: \(blueBox.Area()), Volume: \(blueBox.Volume())")
+
+// after chaning the blue box properties
+// red box properties is also changed since class is a reference type
+// and blue box is pointing to red box reference
+print("Area of red box: \(redBox.Area()), Volume: \(redBox.Volume())")
+
+// upon creation green box is not depend upon another object
+// so changes on green box properties will not affect other objects
+var greenBox = Box()
+greenBox.length = 7
+greenBox.width = 7
+greenBox.height = 7
+
+print("Area of green box: \(greenBox.Area()), Volume: \(greenBox.Volume())")
+
+print("Area of blue box: \(blueBox.Area()), Volume: \(blueBox.Volume())")
+
+print("Area of red box: \(redBox.Area()), Volume: \(redBox.Volume())")
+
 
 /* 
         swift class needs an initializer, without an initializer the class will generate an error
