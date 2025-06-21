@@ -60,6 +60,7 @@ redBox.height = 1
 
 print("Area of red box: \(redBox.Area()), Volume: \(redBox.Volume())")
 
+// this is a reference type declaration
 var blueBox = redBox
 blueBox.length = 11
 blueBox.width = 6
