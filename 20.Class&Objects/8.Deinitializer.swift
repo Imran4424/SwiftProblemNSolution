@@ -24,13 +24,12 @@ class Box
         }
 
         // deinitializer
-        
+
         deinit 
         {
                 // statements      
         }
         
-
         func Area() -> Int
         {
                 return length * width
