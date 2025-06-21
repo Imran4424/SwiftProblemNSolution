@@ -24,7 +24,6 @@ class Box
         }
 
         // deinitializer
-
         
         deinit 
         {
