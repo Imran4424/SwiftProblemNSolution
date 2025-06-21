@@ -29,7 +29,7 @@ class Box
         }
 }
 
-var redBox: Box = Box()
+var redBox: Box = Box(length: 0, width: 0, height: 0)
 
 print("Area: \(redBox.Area()), Volume: \(redBox.Volume())")
 
@@ -41,4 +41,13 @@ print("Area: \(redBox.Area()), Volume: \(redBox.Volume())")
 
 /* 
         swift class needs an initializer, without an initializer the class will generate an error
+*/
+
+/*
+        in case of struct we saw even if we don't provide a initializer
+
+        compiler uses an implicit initializer
+
+        but this is not the case for class
+        in simple words class don't have an implicit initializer (implicit init)
 */
