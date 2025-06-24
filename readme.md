@@ -959,16 +959,19 @@ closures are nothing but functions without name which can be passed as function 
 
 ## 20. Class & Objects
 
-## 21. Initializers
+    - Class
+    - Object
+    - Initializers
+    - Deinitializers
 
-## 22. Properties
+## 21. Properties
 
     - Stored properties
     - Computed properties
     - Property Observers (WillSet / DidSet)
     - Lazy Properties
 
-## 23. Encapsulation and Access Control
+## 22. Encapsulation and Access Control
 
     - default
     - open
@@ -977,24 +980,24 @@ closures are nothing but functions without name which can be passed as function 
     - fileprivate
     - private
 
-## 24. Inheritance
+## 23. Inheritance
 
-## 25. Polymorphism
+## 24. Polymorphism
 
-## 26. Protocols and Protocol Oriented Programming
+## 25. Protocols and Protocol Oriented Programming
 
     - Declaring and conforming to protocols
     - Protocol extensions and default implementations
     - Protocol inheritance
     - OOP vs. POP: when to use which
 
-## 27. Generics
+## 26. Generics
 
     - Generic classes, structs, and methods
     - Type constraints
     - Associated types in protocols
 
-## 28. Memory Management
+## 27. Memory Management
 
     - Reference counting (ARC)
     - Strong, weak, and unowned references
