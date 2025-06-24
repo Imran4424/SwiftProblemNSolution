@@ -18,14 +18,13 @@
 18. [Structure](#18-structure)
 19. [Enum](#19-enum)
 20. [Class \& Objects](#20-class--objects)
-21. [Initializers](#21-initializers)
-22. [Properties](#22-properties)
-23. [Inheritance](#23-inheritance)
-24. [Polymorphism](#24-polymorphism)
-25. [Encapsulation and Access Control](#25-encapsulation-and-access-control)
-26. [Protocols and Protocol Oriented Programming](#26-protocols-and-protocol-oriented-programming)
-27. [Generics](#27-generics)
-28. [Memory Management](#28-memory-management)
+21. [Properties](#21-properties)
+22. [Inheritance](#23-inheritance)
+23. [Polymorphism](#24-polymorphism)
+24. [Encapsulation and Access Control](#25-encapsulation-and-access-control)
+25. [Protocols and Protocol Oriented Programming](#26-protocols-and-protocol-oriented-programming)
+26. [Generics](#27-generics)
+27. [Memory Management](#28-memory-management)
 
 ## 1. Input Output
 
