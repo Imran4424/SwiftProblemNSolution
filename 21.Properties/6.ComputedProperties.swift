@@ -18,6 +18,7 @@ struct Rect {
         var size = Size()
 
         var center: Point {
+                // getter - returns the computed value
                 get {
                         let centerX = origin.x + (size.width / 2)
                         let centerY = origin.y + (size.height / 2)
@@ -28,6 +29,7 @@ struct Rect {
                 // that means the origin and size will be different too
                 // in this case we kep size unchanged
                 // since center is changed we need to calculate the origin in this case
+                // setter - changes the value
                 set(newCenter) {
                         origin.x = newCenter.x - (size.width / 2)
                         origin.y = newCenter.y - (size.height / 2)
