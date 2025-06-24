@@ -26,7 +26,7 @@ class StepCounter {
                 // default parameter name is newValue
                 // here "newTotalSteps" is the constant parameter name given by willSet
                 willSet(newTotalSteps) {
-                        print("Now the current")
+                        print("Now the current value is:", totalSteps)
                         print("About to set totalSteps to \(newTotalSteps)")
                 }
 
@@ -43,13 +43,20 @@ class StepCounter {
 let stepCounter = StepCounter()
 
 stepCounter.totalSteps = 200
+// Now the current value is: 0
 // About to set totalSteps to 200
 // Added 200 steps
 
+print("")
+
 stepCounter.totalSteps = 360
+// Now the current value is: 200
 // About to set totalSteps to 360
 // Added 160 steps
 
+print("")
+
 stepCounter.totalSteps = 896
+// Now the current value is: 360
 // About to set totalSteps to 896
 // Added 536 steps
