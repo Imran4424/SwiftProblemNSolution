@@ -18,6 +18,10 @@ struct Rect {
                               y: origin.y + (size.height / 2))
                 }
 
+                // when we are setting a new center 
+                // that means the origin and size will be different too
+                // in this case we kep size unchanged
+                // since center is changed we need to calculate the origin in this case
                 set(newCenter) {
                         origin.x = newCenter.x - (size.width / 2)
                         origin.y = newCenter.y - (size.height / 2)
