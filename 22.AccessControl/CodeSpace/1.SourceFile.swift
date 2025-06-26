@@ -6,57 +6,39 @@
 // 
 // a single source file can contain definitions for multiple types, functions, and so on.
 
-struct Point {
-        var x = 0.0, y = 0.0
-}
+class Box 
+{
+        // these things are called stored properies
+        var length: Int
+        var width: Int
+        var height: Int
 
-struct Size {
-        var width = 0.0, height = 0.0
-}
+        // default initializer for class
+        init()
+        {
+                length = 0
+                width = 0
+                height = 0
+        }
 
-struct Rect {
-        var origin = Point()
-        var size = Size()
+        func Area() -> Int
+        {
+                return length * width
+        }
 
-        var center: Point {
-                // getter - returns the computed value
-                get {
-                        let centerX = origin.x + (size.width / 2)
-                        let centerY = origin.y + (size.height / 2)
-                        return Point(x: centerX, y: centerY)
-                }
-
-                // when we are setting a new center 
-                // that means the origin and size will be different too
-                // in this case we kep size unchanged
-                // since center is changed we need to calculate the origin in this case
-                // setter - changes the value
-                set(newCenter) {
-                        origin.x = newCenter.x - (size.width / 2)
-                        origin.y = newCenter.y - (size.height / 2)
-                }
+        func Volume() -> Int
+        {
+                return length * width * height
         }
 }
 
-var square = Rect(origin: Point(x: 0.0, y: 0.0),
-                  size: Size(width: 10.0, height: 10.0))
+var pritha = Box()
 
-// Getting stored property
-print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
+print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
 
-// Getting computed property
-// this will call get block of computed property
-print("square.center is now at  (\(square.center.x), \(square.center.y))")
-let initialSquareCenter = square.center
+pritha.length = 5
+pritha.width = 3
+pritha.height = 1
 
-// Setting computed property
-// this will call the set block of computed property
-square.center = Point(x: 15.0, y: 15.0)
 
-// Prints "square.origin is now at (10.0, 10.0)"
-// Getting stored property
-print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
-
-// Getting computed property
-// this will call get block of computed property
-print("square.center is now at  (\(square.center.x), \(square.center.y))")
+print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
