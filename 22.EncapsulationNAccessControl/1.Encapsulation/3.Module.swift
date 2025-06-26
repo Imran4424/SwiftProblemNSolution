@@ -26,7 +26,7 @@ class A {
 }
 
 // here, class C is inheriting class B
-// we will learn about inheritance
+// we will learn about inheritance in 
 class B: A {
 }
 
