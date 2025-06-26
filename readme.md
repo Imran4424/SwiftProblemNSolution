@@ -972,10 +972,9 @@ closures are nothing but functions without name which can be passed as function 
 
 ## 22. Encapsulation and Access Control
 
-    - default
+    - default or internal
     - open
     - public
-    - internal
     - fileprivate
     - private
 
