@@ -31,4 +31,12 @@ class B: A {
 }
 
 
-// let's assume that class A and class are in module 1
+// let's assume that class A and class are in Module1
+
+// let's say we want to inherit class A to class C for another module
+
+// we need to import module A for accessing class A
+import Module1
+
+class C: A {
+}
