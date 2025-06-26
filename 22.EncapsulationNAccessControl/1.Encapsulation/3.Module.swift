@@ -30,3 +30,7 @@ class A {
 class B: A {
 }
 
+
+// let's assume that class A and class are in Module1
+
+
