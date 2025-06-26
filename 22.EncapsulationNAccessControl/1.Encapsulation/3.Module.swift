@@ -15,6 +15,9 @@
 // will be part of a separate module when it’s imported and used within an app, or when it’s used within another framework.
 // -----------
 
+
+
 // the module is an application or a framework (library)
 
-// If we create a project with classes A and B, they are part of the same module. Any other class in the same project can inherit from those classes
+// If we create a project with classes A and B, they are part of the same module. 
+// Any other class in the same project can inherit from those classes.
