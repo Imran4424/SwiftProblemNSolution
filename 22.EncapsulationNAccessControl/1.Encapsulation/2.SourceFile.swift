@@ -60,3 +60,6 @@ print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 // Getting computed property
 // this will call get block of computed property
 print("square.center is now at  (\(square.center.x), \(square.center.y))")
+
+
+// it is recomended not to write more than 2000 lines of code in a single source file
