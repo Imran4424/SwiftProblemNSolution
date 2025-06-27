@@ -26,4 +26,4 @@
 // a module behaves as encapsulation in terms of Packages
 
 // 3. Package
- 
+// A package is consist of multiple modules 
