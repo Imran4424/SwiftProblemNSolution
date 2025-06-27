@@ -16,6 +16,8 @@
 // struct
 // enum
 // class
+// protocol
+// extension
 
 // and a single source file can contain definitions for multiple types, functions, and so on.
 // which also behaves as encapsulation in terms of modules
