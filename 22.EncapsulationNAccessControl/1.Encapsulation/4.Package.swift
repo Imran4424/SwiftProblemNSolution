@@ -8,6 +8,14 @@
 
 // In swift, what we have learned so far source file, module and packages
 
-// 1. Source file - 
+// 1. Source file - contains multiple statements
+// the enclosed statement is the lowest level encapsulation
+// starting with
+// computed property
+//  function
+//  struct
+// enum
+// class
+
 // 2. Module -
 // 3. Package - 
