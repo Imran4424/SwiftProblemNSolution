@@ -26,4 +26,9 @@
 // a module behaves as encapsulation in terms of Packages
 
 // 3. Package
-// A package is consist of multiple modules 
+// A package is consist of multiple modules
+//
+// in swift we can different language packages like Swift, Objective-C, Objective-C++, C, or C++ codes
+
+// a module behaves as encapsulation in terms of projects
+// a project can contain multiple modules
