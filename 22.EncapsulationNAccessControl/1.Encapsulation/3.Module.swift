@@ -31,3 +31,6 @@ class B: A {
 }
 
 // let's assume that class A and class are in Module1
+
+
+// let's see another example
