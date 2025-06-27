@@ -18,7 +18,9 @@
 // class
 
 // and a single source file can contain definitions for multiple types, functions, and so on.
-//
+// which also behaves as encapsulation in terms of modules
 
-// 2. Module -
+// 2. Module
+// A module is consist of multiple source files
+
 // 3. Package - 
