@@ -12,10 +12,12 @@
 // the enclosed statement is the lowest level encapsulation
 // starting with
 // computed property
-//  function
-//  struct
+// function
+// struct
 // enum
 // class
+
+// and a source file can contain 
 
 // 2. Module -
 // 3. Package - 
