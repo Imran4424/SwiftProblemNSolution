@@ -17,7 +17,8 @@
 // enum
 // class
 
-// and a source file can contain 
+// and a single source file can contain definitions for multiple types, functions, and so on.
+/
 
 // 2. Module -
 // 3. Package - 
