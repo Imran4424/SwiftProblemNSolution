@@ -22,5 +22,7 @@
 
 // 2. Module
 // A module is consist of multiple source files
+//
+// a module behaves as encapsulation in terms of Packages
 
 // 3. Package - 
