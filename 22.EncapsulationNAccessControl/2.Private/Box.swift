@@ -26,6 +26,14 @@ class Box
         func getLength() -> Int {
                 return length
         }
+
+        func setWidth(width: Int) {
+                self.width = width
+        }
+
+        func getWidth() -> Int {
+                return width
+        }
 }
 
 extension Box {
