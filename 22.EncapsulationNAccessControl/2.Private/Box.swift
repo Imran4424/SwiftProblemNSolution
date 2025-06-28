@@ -18,7 +18,9 @@ class Box
                 self.width = width
                 self.height = height
         }
+}
 
+extension Box {
         func Area() -> Int {
                 return length * width
         }
