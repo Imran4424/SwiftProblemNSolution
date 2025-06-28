@@ -1,0 +1,29 @@
+
+class Box 
+{
+        // these things are called stored properies
+        private var length: Int
+        private var width: Int
+        private var height: Int
+
+        // default initializer for class
+        init() {
+                length = 0
+                width = 0
+                height = 0
+        }
+
+        init(length: Int, width: Int, height: Int) {
+                self.length = length
+                self.width = width
+                self.height = height
+        }
+
+        func Area() -> Int {
+                return length * width
+        }
+
+        func Volume() -> Int {
+                return length * width * height
+        }
+}
