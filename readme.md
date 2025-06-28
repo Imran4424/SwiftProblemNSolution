@@ -972,11 +972,11 @@ closures are nothing but functions without name which can be passed as function 
 
 ## 22. Encapsulation and Access Control
 
-    - default or internal
-    - open
-    - public
-    - fileprivate
     - private
+    - fileprivate
+    - default or internal
+    - public
+    - open
 
 ## 23. Inheritance
 
