@@ -1,7 +1,16 @@
 
+// in this module, we are gonna learn about private(set) access level
+// private(set) access level is the less restrictive than private access control is swift
+
+// when we marked a component private(set) it can not be accessed by ouside of code block
+// only write access is restricted but read access is permissible
+
 class Box 
 {
         // these things are called stored properies
+        // these stored properties are private(set)
+        // which means we can only read them from outside code block
+        // but can not set(write) them
         private(set) var length: Int
         private(set) var width: Int
         private(set) var height: Int
@@ -56,6 +65,8 @@ class Box
         // }
 }
 
+// extension in same source file can access private elements
+// this extension is in the same source file as defined type
 extension Box {
         func area() -> Int {
                 return length * width

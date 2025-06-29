@@ -3,10 +3,12 @@
 // private access level is the most restrictive access control is swift
 
 // when we marked a component private it can not be accessed by ouside of code block
+// both read and write access is restricted
 
 class Box 
 {
         // these things are called stored properies
+        // these stored properties are private
         private var length: Int
         private var width: Int
         private var height: Int
@@ -55,6 +57,8 @@ class Box
         }
 }
 
+// extension in same source file can access private elements
+// this extension is in the same source file as defined type
 extension Box {
         func area() -> Int {
                 return length * width
@@ -88,7 +92,7 @@ print("")
 
 
 // the following codes will give compilation error 
-// since all the elements accessed here is private
+// since all the elements accessed here are private
 // pritha.length = 5
 // pritha.width = 3
 // pritha.height = 1
