@@ -61,19 +61,15 @@ extension Box {
 }
 
 func displayInfo(of box: Box) {
-        // the following codes will give compilation error 
-        // since all the elements accessed here is private
-        // print("Box length: ", box.length)
-        // print("Box width: ", box.width)
-        // print("Box height: ", box.height)
-        // print("Box Area:", box.length * box.width)
-        // print("Box Volume", box.length * box.width * box.height)
-
-        print("Box length: ", box.getLength())
-        print("Box width: ", box.getWidth())
-        print("Box height: ", box.getHeight())
-        print("Box Area:", box.area())
-        print("Box Volume", box.volume())
+        // now the following codes will not give compilation error
+        // since all the elements accessed here is fileprivate
+        // means we can access them since they are in same file
+        // both read and write
+        print("Box length: ", box.length)
+        print("Box width: ", box.width)
+        print("Box height: ", box.height)
+        print("Box Area:", box.length * box.width)
+        print("Box Volume", box.length * box.width * box.height)
 }
 
 var pritha = Box()
