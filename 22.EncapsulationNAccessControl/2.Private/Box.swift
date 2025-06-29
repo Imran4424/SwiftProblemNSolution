@@ -1,4 +1,9 @@
 
+// in this module, we are gonna learn about private access level
+// private access level is the most restrictive access control is swift
+
+// when we marked a component private it can not be accessed by ouside of code block
+
 class Box 
 {
         // these things are called stored properies
