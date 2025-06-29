@@ -78,8 +78,10 @@ print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
 
 
-// the following codes will give compilation error 
-// since all the elements accessed here is private
+// now the following codes will not give compilation error
+// since all the elements accessed here is fileprivate
+// means we can access them since they are in same file
+// both read and write
 // pritha.length = 5
 // pritha.width = 3
 // pritha.height = 1
