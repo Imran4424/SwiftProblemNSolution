@@ -25,6 +25,8 @@ class Box
         }
 
         // getters for length
+        // now we can omit these getters
+        // since we can read these from outside
         func getLength() -> Int {
                 return length
         }
@@ -35,6 +37,8 @@ class Box
         }
 
         // getters for width
+        // now we can omit these getters
+        // since we can read these from outside
         func getWidth() -> Int {
                 return width
         }
@@ -45,6 +49,8 @@ class Box
         }
 
         // getters for height
+        // now we can omit these getters
+        // since we can read these from outside
         func getHeight() -> Int {
                 return height
         }
