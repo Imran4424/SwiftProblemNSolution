@@ -2,9 +2,9 @@
 class Box 
 {
         // these things are called stored properies
-        private var length: Int
-        private var width: Int
-        private var height: Int
+        private(set) var length: Int
+        private(set) var width: Int
+        private(set) var height: Int
 
         // default initializer for class
         init() {
@@ -55,22 +55,18 @@ extension Box {
 }
 
 func displayInfo(of box: Box) {
-        // the following codes will give compilation error 
-        // since all the elements accessed here is private
-        // print("Box length: ", box.length)
-        // print("Box width: ", box.width)
-        // print("Box height: ", box.height)
+        print("Box length: ", box.length)
+        print("Box width: ", box.width)
+        print("Box height: ", box.height)
 }
 
 var pritha = Box()
 
 print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
 
-// the following codes will give compilation error 
-// since all the elements accessed here is private
-// pritha.length = 5
-// pritha.width = 3
-// pritha.height = 1
+pritha.length = 5
+pritha.width = 3
+pritha.height = 1
 
 pritha.setLength(length: 5)
 pritha.setWidth(width: 3)
