@@ -1,7 +1,9 @@
 
 extension Box {
         func modifyProperties(length: Int, width: Int, height: Int) {
-                
+                self.length = length
+                self.width = width
+                self.height = height
         }
 
         func displayInfo() {
