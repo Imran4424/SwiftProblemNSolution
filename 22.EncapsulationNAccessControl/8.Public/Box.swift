@@ -8,7 +8,10 @@
 // public class, struct, enum and protocol
 // can not be inherited by another module
 
-// public methods can not
+// public methods can not be overriden from another module or another framework
+// in terms polymorphism
+
+// these two differences set aparts public from open
 
 // explicitly public
 public class Box 
