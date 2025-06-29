@@ -23,8 +23,8 @@ extension Box {
                 // print("Box width: ", width)
                 // print("Box height: ", height)
 
-                print("Box length: ", box.getLength())
-                print("Box width: ", box.getWidth())
-                print("Box height: ", box.getHeight())
+                print("Box length: ", getLength())
+                print("Box width: ", getWidth())
+                print("Box height: ", getHeight())
         }
 }
