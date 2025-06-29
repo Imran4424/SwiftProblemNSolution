@@ -1,5 +1,9 @@
 
+// this extension has no mention of access level which means it has default access level
+// which is implicitly internal
 extension Box {
+        // these methods have no mention of access level which means it have default access level
+        // which is implicitly internal
         func modifyProperties(length: Int, width: Int, height: Int) {
                 // now the following codes will not give compilation error
                 // since all the elements accessed here have default access level
@@ -10,6 +14,8 @@ extension Box {
                 self.height = height
         }
 
+        // these methods have no mention of access level which means it have default access level
+        // which is implicitly internal
         func displayInfo() {
                 /// now the following codes will not give compilation error
                 // since all the elements accessed here have default access level

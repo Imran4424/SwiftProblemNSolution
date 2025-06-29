@@ -1,20 +1,28 @@
 
 // Unless otherwise specified, the default access level is internal
 
+// this class has no mention of access level which means it has default access level
+// which is implicitly internal
 class Box 
 {
         // these things are called stored properies
+        // these properies have no mention of access level which means it have default access level
+        // which is implicitly internal
         var length: Int
         var width: Int
         var height: Int
 
-        // default initializer for class
+        // explicit default initializer for class
+        // these initializers have no mention of access level which means it have default access level
+        // which is implicitly internal
         init() {
                 length = 0
                 width = 0
                 height = 0
         }
 
+        // these initializers have no mention of access level which means it have default access level
+        // which is implicitly internal
         init(length: Int, width: Int, height: Int) {
                 self.length = length
                 self.width = width
@@ -22,11 +30,17 @@ class Box
         }
 }
 
+// this extension has no mention of access level which means it has default access level
+// which is implicitly internal
 extension Box {
+        // these methods have no mention of access level which means it have default access level
+        // which is implicitly internal
         func area() -> Int {
                 return length * width
         }
 
+        // these methods have no mention of access level which means it have default access level
+        // which is implicitly internal
         func volume() -> Int {
                 return length * width * height
         }
