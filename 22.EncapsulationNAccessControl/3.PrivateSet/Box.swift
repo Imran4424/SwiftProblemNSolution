@@ -61,8 +61,8 @@ extension Box {
 }
 
 func displayInfo(of box: Box) {
-        // the following codes will give compilation error 
-        // since all the elements accessed here is private
+        // now the following codes will not give compilation error
+        // since all the elements accessed here is private(set)
         // print("Box length: ", box.length)
         // print("Box width: ", box.width)
         // print("Box height: ", box.height)
