@@ -8,6 +8,10 @@ extension Box {
                 // self.length = length
                 // self.width = width
                 // self.height = height
+
+                setLength(length: length)
+                setWidth(width: width)
+                setHeight(height: height)
         }
 
         func displayInfo() {
@@ -18,5 +22,9 @@ extension Box {
                 // print("Box length: ", length)
                 // print("Box width: ", width)
                 // print("Box height: ", height)
+
+                print("Box length: ", box.getLength())
+                print("Box width: ", box.getWidth())
+                print("Box height: ", box.getHeight())
         }
 }
