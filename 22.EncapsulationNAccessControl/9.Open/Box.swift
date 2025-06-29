@@ -16,7 +16,7 @@
 // these two differences set aparts public from open
 
 // explicitly open
-open public class Box 
+open class Box 
 {
         // these things are called stored properies
         // these are implicitly open
@@ -43,17 +43,17 @@ open public class Box
         }
 }
 
-// explicitly open
-open extension Box {
-        // these are implicitly open
-        // because the outer code block is open
-        func area() -> Int {
+// extension can not be open
+// specify the extension access control as public
+// then make it's properties and methods open if you want to make them open
+public extension Box {
+        // explicitly open
+        open func area() -> Int {
                 return length * width
         }
 
-        // these are implicitly open
-        // because the outer code block is open
-        func volume() -> Int {
+        // explicitly open
+        open func volume() -> Int {
                 return length * width * height
         }
 }
