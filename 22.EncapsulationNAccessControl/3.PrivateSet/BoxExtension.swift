@@ -17,7 +17,7 @@ extension Box {
         func displayInfo() {
                 // now the following codes will not give compilation error 
                 // since all the elements accessed here is private(set)
-                // means we can set them (write them or modify them)
+                // means we can not set them (write them or modify them)
                 // but we can access them
                 print("Box length:", length)
                 print("Box width:", width)
