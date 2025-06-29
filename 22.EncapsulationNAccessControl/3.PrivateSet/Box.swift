@@ -65,17 +65,11 @@ func displayInfo(of box: Box) {
         // since all the elements accessed here is private(set)
         // means we can not set them (write them or modify them)
         // but we can get them (read or access them)
-        // print("Box length: ", box.length)
-        // print("Box width: ", box.width)
-        // print("Box height: ", box.height)
-        // print("Box Area:", box.length * box.width)
-        // print("Box Volume", box.length * box.width * box.height)
-
-        print("Box length: ", box.getLength())
-        print("Box width: ", box.getWidth())
-        print("Box height: ", box.getHeight())
-        print("Box Area:", box.area())
-        print("Box Volume", box.volume())
+        print("Box length: ", box.length)
+        print("Box width: ", box.width)
+        print("Box height: ", box.height)
+        print("Box Area:", box.length * box.width)
+        print("Box Volume", box.length * box.width * box.height)
 }
 
 var pritha = Box()
