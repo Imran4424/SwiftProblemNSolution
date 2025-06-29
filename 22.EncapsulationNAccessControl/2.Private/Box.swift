@@ -76,4 +76,6 @@ pritha.setLength(length: 5)
 pritha.setWidth(width: 3)
 pritha.setHeight(height: 1)
 
+displayInfo(of: pritha)
+
 print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
