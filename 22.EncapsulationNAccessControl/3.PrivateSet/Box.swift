@@ -57,9 +57,9 @@ extension Box {
 func displayInfo(of box: Box) {
         // the following codes will give compilation error 
         // since all the elements accessed here is private
-        // print("Box length: ", box.length)
-        // print("Box width: ", box.width)
-        // print("Box height: ", box.height)
+        print("Box length: ", box.length)
+        print("Box width: ", box.width)
+        print("Box height: ", box.height)
 }
 
 var pritha = Box()
