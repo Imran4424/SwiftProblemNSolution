@@ -60,15 +60,21 @@ func displayInfo(of box: Box) {
         // print("Box length: ", box.length)
         // print("Box width: ", box.width)
         // print("Box height: ", box.height)
+        // print("Box Area:", box.length * box.width)
+        // print("Box Volume", box.length * box.width * box.height)
 
         print("Box length: ", box.getLength())
         print("Box width: ", box.getWidth())
         print("Box height: ", box.getHeight())
+        print("Box Area:", box.area())
+        print("Box Volume", box.volume())
 }
 
 var pritha = Box()
 
 print("Area: \(pritha.area()), Volume: \(pritha.volume())")
+print("")
+
 
 // the following codes will give compilation error 
 // since all the elements accessed here is private
@@ -77,14 +83,14 @@ print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 // pritha.height = 1
 
 print("Area: \(pritha.area()), Volume: \(pritha.volume())")
+print("")
 
 pritha.setLength(length: 5)
 pritha.setWidth(width: 5)
 pritha.setHeight(height: 5)
 
 displayInfo(of: pritha)
-
-print("Area: \(pritha.area()), Volume: \(pritha.volume())")
+print("")
 
 pritha.modifyProperties(length: 25, width: 15, height: 11)
 pritha.displayInfo()
