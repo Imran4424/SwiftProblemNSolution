@@ -22,11 +22,13 @@ extension Box {
                 // print("Box length:", length)
                 // print("Box width:", width)
                 // print("Box height:", height)
-                print("Box Area:", length * width)
-                print("Box Height", length * width * height)
+                // print("Box Area:", length * width)
+                // print("Box Volume", length * width * height)
 
                 print("Box length:", getLength())
                 print("Box width:", getWidth())
                 print("Box height:", getHeight())
+                print("Box Area:", getArea())
+                print("Box Volume", getHeight())
         }
 }
