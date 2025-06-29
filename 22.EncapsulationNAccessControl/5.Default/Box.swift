@@ -21,6 +21,11 @@ class Box
                 self.height = height
         }
 
+        // setters for length
+        func setLength(length: Int) {
+                self.length = length
+        }
+
         // getters for length
         func getLength() -> Int {
                 return length
