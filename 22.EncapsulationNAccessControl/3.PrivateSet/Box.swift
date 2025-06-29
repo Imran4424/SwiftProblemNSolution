@@ -27,9 +27,9 @@ class Box
         // getters for length
         // now we can omit these getters
         // since we can read these from outside
-        func getLength() -> Int {
-                return length
-        }
+        // func getLength() -> Int {
+        //         return length
+        // }
 
         // setters for width
         func setWidth(width: Int) {
@@ -39,9 +39,9 @@ class Box
         // getters for width
         // now we can omit these getters
         // since we can read these from outside
-        func getWidth() -> Int {
-                return width
-        }
+        // func getWidth() -> Int {
+        //         return width
+        // }
 
         // setters for height
         func setHeight(height: Int) {
@@ -51,9 +51,9 @@ class Box
         // getters for height
         // now we can omit these getters
         // since we can read these from outside
-        func getHeight() -> Int {
-                return height
-        }
+        // func getHeight() -> Int {
+        //         return height
+        // }
 }
 
 extension Box {
