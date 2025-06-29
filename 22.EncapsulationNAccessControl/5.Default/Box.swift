@@ -1,10 +1,12 @@
 
+// Unless otherwise specified, the default access level is internal
+
 class Box 
 {
         // these things are called stored properies
-        private var length: Int
-        private var width: Int
-        private var height: Int
+        var length: Int
+        var width: Int
+        var height: Int
 
         // default initializer for class
         init() {
@@ -17,36 +19,6 @@ class Box
                 self.length = length
                 self.width = width
                 self.height = height
-        }
-
-        // setters for length
-        func setLength(length: Int) {
-                self.length = length
-        }
-
-        // getters for length
-        func getLength() -> Int {
-                return length
-        }
-
-        // setters for width
-        func setWidth(width: Int) {
-                self.width = width
-        }
-
-        // getters for width
-        func getWidth() -> Int {
-                return width
-        }
-
-        // setters for height
-        func setHeight(height: Int) {
-                self.height = height
-        }
-
-        // getters for height
-        func getHeight() -> Int {
-                return height
         }
 }
 
@@ -61,19 +33,15 @@ extension Box {
 }
 
 func displayInfo(of box: Box) {
-        // the following codes will give compilation error 
-        // since all the elements accessed here is private
-        // print("Box length: ", box.length)
-        // print("Box width: ", box.width)
-        // print("Box height: ", box.height)
-        // print("Box Area:", box.length * box.width)
-        // print("Box Volume", box.length * box.width * box.height)
-
-        print("Box length: ", box.getLength())
-        print("Box width: ", box.getWidth())
-        print("Box height: ", box.getHeight())
-        print("Box Area:", box.area())
-        print("Box Volume", box.volume())
+        // now the following codes will not give compilation error
+        // since all the elements accessed here have default access level
+        // means we can access them in same module
+        // both read and write
+        print("Box length: ", box.length)
+        print("Box width: ", box.width)
+        print("Box height: ", box.height)
+        print("Box Area:", box.length * box.width)
+        print("Box Volume", box.length * box.width * box.height)
 }
 
 var pritha = Box()
@@ -82,11 +50,13 @@ print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
 
 
-// the following codes will give compilation error 
-// since all the elements accessed here is private
-// pritha.length = 5
-// pritha.width = 3
-// pritha.height = 1
+// now the following codes will not give compilation error
+// since all the elements accessed here have default access level
+// means we can access them in same module
+// both read and write
+pritha.length = 5
+pritha.width = 3
+pritha.height = 1
 
 print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")

@@ -1,34 +1,24 @@
 
 extension Box {
         func modifyProperties(length: Int, width: Int, height: Int) {
-                // the following codes will give compilation error 
-                // since all the elements accessed here is private
-                // although this is the class extension and we should able to access the private values
-                // but this extension is not in the same file as the defined type
-                // self.length = length
-                // self.width = width
-                // self.height = height
-
-                setLength(length: length)
-                setWidth(width: width)
-                setHeight(height: height)
+                // now the following codes will not give compilation error
+                // since all the elements accessed here have default access level
+                // means we can access them in same module
+                // both read and write
+                self.length = length
+                self.width = width
+                self.height = height
         }
 
         func displayInfo() {
-                // the following codes will give compilation error 
-                // since all the elements accessed here is private
-                // although this is the class extension and we should able to access the private values
-                // but this extension is not in the same file as the defined type
-                // print("Box length:", length)
-                // print("Box width:", width)
-                // print("Box height:", height)
-                // print("Box Area:", length * width)
-                // print("Box Volume", length * width * height)
-
-                print("Box length:", getLength())
-                print("Box width:", getWidth())
-                print("Box height:", getHeight())
-                print("Box Area:", area())
-                print("Box Volume", volume())
+                /// now the following codes will not give compilation error
+                // since all the elements accessed here have default access level
+                // means we can access them in same module
+                // both read and write
+                print("Box length:", length)
+                print("Box width:", width)
+                print("Box height:", height)
+                print("Box Area:", length * width)
+                print("Box Volume", length * width * height)
         }
 }
