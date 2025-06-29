@@ -2,9 +2,9 @@
 class Box 
 {
         // these things are called stored properies
-        private var length: Int
-        private var width: Int
-        private var height: Int
+        private(set) var length: Int
+        private(set) var width: Int
+        private(set) var height: Int
 
         // default initializer for class
         init() {

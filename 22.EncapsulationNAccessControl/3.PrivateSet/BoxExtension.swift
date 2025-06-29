@@ -15,20 +15,14 @@ extension Box {
         }
 
         func displayInfo() {
-                // the following codes will give compilation error 
-                // since all the elements accessed here is private
-                // although this is the class extension and we should able to access the private values
-                // but this extension is not in the same file as the defined type
-                // print("Box length:", length)
-                // print("Box width:", width)
-                // print("Box height:", height)
-                // print("Box Area:", length * width)
-                // print("Box Volume", length * width * height)
-
-                print("Box length:", getLength())
-                print("Box width:", getWidth())
-                print("Box height:", getHeight())
-                print("Box Area:", area())
-                print("Box Volume", volume())
+                // now the following codes will not give compilation error 
+                // since all the elements accessed here is private(set)
+                // means we can set them (write them or modify them)
+                // but we can access them
+                print("Box length:", length)
+                print("Box width:", width)
+                print("Box height:", height)
+                print("Box Area:", length * width)
+                print("Box Volume", length * width * height)
         }
 }
