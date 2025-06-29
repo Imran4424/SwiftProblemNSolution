@@ -28,7 +28,7 @@ extension Box {
                 print("Box length:", getLength())
                 print("Box width:", getWidth())
                 print("Box height:", getHeight())
-                print("Box Area:", getArea())
-                print("Box Volume", getHeight())
+                print("Box Area:", area())
+                print("Box Volume", height())
         }
 }
