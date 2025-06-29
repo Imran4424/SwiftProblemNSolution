@@ -49,6 +49,8 @@ extension Box {
         }
 }
 
+// below codes are also implicitly internal
+
 func displayInfo(of box: Box) {
         // now the following codes will not give compilation error
         // since all the elements accessed here have default access level
