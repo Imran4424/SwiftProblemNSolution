@@ -72,6 +72,8 @@ print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
 // pritha.width = 3
 // pritha.height = 1
 
+print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
+
 pritha.setLength(length: 5)
 pritha.setWidth(width: 5)
 pritha.setHeight(height: 5)
