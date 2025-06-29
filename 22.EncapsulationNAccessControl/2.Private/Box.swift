@@ -45,11 +45,11 @@ class Box
 }
 
 extension Box {
-        func Area() -> Int {
+        func area() -> Int {
                 return length * width
         }
 
-        func Volume() -> Int {
+        func volume() -> Int {
                 return length * width * height
         }
 }
@@ -68,7 +68,7 @@ func displayInfo(of box: Box) {
 
 var pritha = Box()
 
-print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
+print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 
 // the following codes will give compilation error 
 // since all the elements accessed here is private
@@ -76,7 +76,7 @@ print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
 // pritha.width = 3
 // pritha.height = 1
 
-print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
+print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 
 pritha.setLength(length: 5)
 pritha.setWidth(width: 5)
@@ -84,9 +84,7 @@ pritha.setHeight(height: 5)
 
 displayInfo(of: pritha)
 
-print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")
+print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 
 pritha.modifyProperties(length: 25, width: 15, height: 11)
 pritha.displayInfo()
-
-print("Area: \(pritha.Area()), Volume: \(pritha.Volume())")

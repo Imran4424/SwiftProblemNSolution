@@ -19,12 +19,14 @@ extension Box {
                 // since all the elements accessed here is private
                 // although this is the class extension and we should able to access the private values
                 // but this extension is not in the same file as the defined type
-                // print("Box length: ", length)
-                // print("Box width: ", width)
-                // print("Box height: ", height)
+                // print("Box length:", length)
+                // print("Box width:", width)
+                // print("Box height:", height)
+                print("Box Area:", length * width)
+                print("Box Height", length * width * height)
 
-                print("Box length: ", getLength())
-                print("Box width: ", getWidth())
-                print("Box height: ", getHeight())
+                print("Box length:", getLength())
+                print("Box width:", getWidth())
+                print("Box height:", getHeight())
         }
 }
