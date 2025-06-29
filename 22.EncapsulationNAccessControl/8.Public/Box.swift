@@ -3,6 +3,13 @@
 // public marked elements are acessible from anywhere
 // even from another module or another framework
 
+// but 
+// for interitance cases
+// public class, struct, enum and protocol
+// can not be inherited by another module
+
+// public methods can not
+
 // explicitly public
 public class Box 
 {
