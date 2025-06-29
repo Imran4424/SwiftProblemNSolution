@@ -1,6 +1,9 @@
 
 // Unless otherwise specified, the default access level is internal
 
+// internal access level means each element is accessible within the current module
+// both read and write
+
 // this class has no mention of access level which means it has default access level
 // which is implicitly internal
 class Box 
