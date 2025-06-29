@@ -1,7 +1,16 @@
 
+// in this module, we are gonna learn about fileprivate access level
+// fileprivate access level is the less restrictive than private access control is swift
+
+// when we marked a component fileprivate it can not be accessed by another source file
+// both read and write access is restricted
+
 class Box 
 {
         // these things are called stored properies
+        // these stored properties are fileprivate
+        // which means we can only read and write them from this source file
+        // but can not read and write them from another source file
         fileprivate var length: Int
         fileprivate var width: Int
         fileprivate var height: Int
@@ -50,6 +59,8 @@ class Box
         }
 }
 
+// extension in same source file can access fileprivate elements
+// this extension is in the same source file as defined type
 extension Box {
         func area() -> Int {
                 return length * width

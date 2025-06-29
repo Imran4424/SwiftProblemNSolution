@@ -7,6 +7,7 @@ extension Box {
                 // since all the elements accessed here is private
                 // although this is the class extension and we should able to access the private values
                 // but this extension is not in the same file as the defined type
+                // we can not access them
                 // self.length = length
                 // self.width = width
                 // self.height = height
@@ -21,6 +22,7 @@ extension Box {
                 // since all the elements accessed here is private
                 // although this is the class extension and we should able to access the private values
                 // but this extension is not in the same file as the defined type
+                // we can not access them
                 // print("Box length:", length)
                 // print("Box width:", width)
                 // print("Box height:", height)
