@@ -60,6 +60,10 @@ func displayInfo(of box: Box) {
         // print("Box length: ", box.length)
         // print("Box width: ", box.width)
         // print("Box height: ", box.height)
+
+        print("Box length: ", box.getLength())
+        print("Box width: ", box.getWidth())
+        print("Box height: ", box.getHeight())
 }
 
 var pritha = Box()
