@@ -20,36 +20,6 @@ class Box
                 self.width = width
                 self.height = height
         }
-
-        // setters for length
-        func setLength(length: Int) {
-                self.length = length
-        }
-
-        // getters for length
-        func getLength() -> Int {
-                return length
-        }
-
-        // setters for width
-        func setWidth(width: Int) {
-                self.width = width
-        }
-
-        // getters for width
-        func getWidth() -> Int {
-                return width
-        }
-
-        // setters for height
-        func setHeight(height: Int) {
-                self.height = height
-        }
-
-        // getters for height
-        func getHeight() -> Int {
-                return height
-        }
 }
 
 extension Box {
@@ -91,9 +61,7 @@ pritha.height = 1
 print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
 
-pritha.setLength(length: 5)
-pritha.setWidth(width: 5)
-pritha.setHeight(height: 5)
+pritha.modifyProperties(length: 5, width: 5, height: 5)
 
 displayInfo(of: pritha)
 print("")
