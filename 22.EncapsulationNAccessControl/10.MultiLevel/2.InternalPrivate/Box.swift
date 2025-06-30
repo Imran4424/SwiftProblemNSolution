@@ -4,8 +4,7 @@
 // when a class is in internal access level 
 //  that means all of its components are also internal implicitly
 
-// this class has no mention of access level which means it has default access level
-// which is implicitly internal
+// explicitly internal
 class Box 
 {
         // explicitly private
