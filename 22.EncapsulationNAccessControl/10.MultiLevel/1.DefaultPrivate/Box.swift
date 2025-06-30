@@ -1,18 +1,22 @@
 
 // in this module, we are gonna learn about private multi level acess control in a single file or module
 
+// when a class is in internal access level 
+//  that means all of its components are also internal implicitly
+
 // this class has no mention of access level which means it has default access level
 // which is implicitly internal
-
 class Box 
 {
-        // these things are called stored properies
-        // these stored properties are private
+        // explicitly private
+        // here 
         private var length: Int
         private var width: Int
         private var height: Int
 
         // default initializer for class
+        // since the class in internal
+        // the following code is also internal implicity
         init() {
                 length = 0
                 width = 0
