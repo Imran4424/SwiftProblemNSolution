@@ -11,6 +11,7 @@ class Box
         // explicitly private
         // since the class is internal so by default the following would have been internal
         // but by using private explicitly, we restrict the access level of properties to private
+        // we can do this type of modification from least restrictive to more restrictive access control
         private var length: Int
         private var width: Int
         private var height: Int
@@ -24,6 +25,8 @@ class Box
                 height = 0
         }
 
+        // since the class in internal
+        // the following code is also internal implicity
         init(length: Int, width: Int, height: Int) {
                 self.length = length
                 self.width = width
@@ -31,31 +34,43 @@ class Box
         }
 
         // setters for length
+        // since the class in internal
+        // the following code is also internal implicity
         func setLength(length: Int) {
                 self.length = length
         }
 
         // getters for length
+        // since the class in internal
+        // the following code is also internal implicity
         func getLength() -> Int {
                 return length
         }
 
         // setters for width
+        // since the class in internal
+        // the following code is also internal implicity
         func setWidth(width: Int) {
                 self.width = width
         }
 
         // getters for width
+        // since the class in internal
+        // the following code is also internal implicity
         func getWidth() -> Int {
                 return width
         }
 
         // setters for height
+        // since the class in internal
+        // the following code is also internal implicity
         func setHeight(height: Int) {
                 self.height = height
         }
 
         // getters for height
+        // since the class in internal
+        // the following code is also internal implicity
         func getHeight() -> Int {
                 return height
         }
@@ -63,6 +78,9 @@ class Box
 
 // extension in same source file can access private elements
 // this extension is in the same source file as defined type
+
+// this class has no mention of access level which means it has default access level
+// which is implicitly internal
 extension Box {
         func area() -> Int {
                 return length * width
