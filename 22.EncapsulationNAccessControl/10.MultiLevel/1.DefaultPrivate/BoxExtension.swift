@@ -1,6 +1,9 @@
 
 // extension not in same source file can not access private elements
 // this extension is not in the same source file as defined type
+
+// this class has no mention of access level which means it has default access level
+// which is implicitly internal
 extension Box {
         func modifyProperties(length: Int, width: Int, height: Int) {
                 // the following codes will give compilation error 
