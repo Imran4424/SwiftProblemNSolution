@@ -89,7 +89,8 @@ extension Box {
                 return length * width
         }
 
-        
+        // since the class in internal
+        // the following code is also internal implicity
         func volume() -> Int {
                 return length * width * height
         }
