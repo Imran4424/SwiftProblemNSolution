@@ -1,9 +1,8 @@
 
-// in this module, we are gonna learn about private access level
-// private access level is the most restrictive access control is swift
+// in this module, we are gonna learn about private multi level acess control in a single file or module
 
-// when we marked a component private it can not be accessed by ouside of code block
-// both read and write access is restricted
+// this class has no mention of access level which means it has default access level
+// which is implicitly internal
 
 class Box 
 {
