@@ -5,7 +5,7 @@
 //  that means all of its components are also internal implicitly
 
 // explicitly internal
-class Box 
+internal class Box 
 {
         // explicitly private
         // since the class is internal so by default the following would have been internal
