@@ -78,9 +78,8 @@ internal class Box
 // extension in same source file can access private elements
 // this extension is in the same source file as defined type
 
-// this class has no mention of access level which means it has default access level
-// which is implicitly internal
-extension Box {
+// explicitly internal
+internal extension Box {
 
         // since the class in internal
         // the following code is also internal implicity
