@@ -9,7 +9,8 @@
 class Box 
 {
         // explicitly private
-        // here 
+        // since the class is internal so by default the following would have been internal
+        // but by using private explicitly, we restrict the access level of properties to private
         private var length: Int
         private var width: Int
         private var height: Int
