@@ -5,6 +5,9 @@
 // this class has no mention of access level which means it has default access level
 // which is implicitly internal
 extension Box {
+
+        // since the class in internal
+        // the following code is also internal implicity
         func modifyProperties(length: Int, width: Int, height: Int) {
                 // the following codes will give compilation error 
                 // since all the elements accessed here is private
@@ -20,6 +23,8 @@ extension Box {
                 setHeight(height: height)
         }
 
+        // since the class in internal
+        // the following code is also internal implicity
         func displayInfo() {
                 // the following codes will give compilation error 
                 // since all the elements accessed here is private
