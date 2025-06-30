@@ -82,10 +82,14 @@ class Box
 // this class has no mention of access level which means it has default access level
 // which is implicitly internal
 extension Box {
+
+        // since the class in internal
+        // the following code is also internal implicity
         func area() -> Int {
                 return length * width
         }
 
+        
         func volume() -> Int {
                 return length * width * height
         }
