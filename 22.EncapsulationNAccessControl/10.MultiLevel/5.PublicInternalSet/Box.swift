@@ -91,11 +91,11 @@ public extension Box {
 func displayInfo(of box: Box) {
         // the following codes will not give compilation error 
         // since all the elements accessed here is internal(set)
-        // print("Box length: ", box.length)
-        // print("Box width: ", box.width)
-        // print("Box height: ", box.height)
-        // print("Box Area:", box.length * box.width)
-        // print("Box Volume", box.length * box.width * box.height)
+        print("Box length: ", box.length)
+        print("Box width: ", box.width)
+        print("Box height: ", box.height)
+        print("Box Area:", box.length * box.width)
+        print("Box Volume", box.length * box.width * box.height)
 }
 
 var pritha = Box()
