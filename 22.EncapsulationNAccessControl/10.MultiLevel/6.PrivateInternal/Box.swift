@@ -1,22 +1,19 @@
 
-// in this module, we are gonna learn about private multi level acess control in a single file or module
+// in this module, we are gonna learn about what happens if we change access level
+// from more restrictive to least restrictive
 
-// public marked elements are acessible from anywhere
-// even from another module or another framework
 
-// when a class is in public access level 
-// that means all of its components are also public implicitly
 
-// explicitly public
-public class Box 
+// explicitly private
+private class Box 
 {
-        // explicitly internal(set)
+        // explicitly internal
         // since the class is public so by default the following would have been public
-        // but by using internal(set) explicitly, we restrict the access level of properties to internal(set)
+        // but by using internal(set) explicitly, we restrict the access level of properties to internal
         // we can do this type of modification from least restrictive to more restrictive access control
-        internal(set) var length: Int
-        internal(set) var width: Int
-        internal(set) var height: Int
+        internal var length: Int
+        internal var width: Int
+        internal var height: Int
 
         // default initializer for class
         // since the class in public
