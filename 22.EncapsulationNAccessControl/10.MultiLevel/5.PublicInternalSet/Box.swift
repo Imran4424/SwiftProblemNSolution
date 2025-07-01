@@ -10,9 +10,9 @@
 // explicitly public
 public class Box 
 {
-        // explicitly private
+        // explicitly internal(set)
         // since the class is public so by default the following would have been public
-        // but by using private explicitly, we restrict the access level of properties to private
+        // but by using internal(set) explicitly, we restrict the access level of properties to internal(set)
         // we can do this type of modification from least restrictive to more restrictive access control
         internal(set) var length: Int
         internal(set) var width: Int
