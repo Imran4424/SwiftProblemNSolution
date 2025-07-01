@@ -104,11 +104,11 @@ print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
 
 
-// the following codes will give compilation error 
-// since all the elements accessed here are private
-// pritha.length = 5
-// pritha.width = 3
-// pritha.height = 1
+// the following codes will not give compilation error 
+// since all the elements accessed here is internal(set)
+pritha.length = 5
+pritha.width = 3
+pritha.height = 1
 
 print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
