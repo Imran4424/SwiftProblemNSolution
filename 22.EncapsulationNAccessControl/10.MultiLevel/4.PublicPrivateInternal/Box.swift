@@ -80,7 +80,7 @@ public class Box
         // the following code is also public implicity
         // but by using internal explicitly we restrict the access level from public to internal
         // we can do this type of modification from least restrictive to more restrictive access control
-        func setHeight(height: Int) {
+        internal func setHeight(height: Int) {
                 self.height = height
         }
 
