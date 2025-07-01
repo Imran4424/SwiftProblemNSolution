@@ -1,6 +1,6 @@
 
 // the following code will give compilation error
-//  extension of private class can not be declared as public
+// extension of private class can not be declared as public
 // explicitly public
 public extension Box {
 
@@ -9,8 +9,6 @@ public extension Box {
         // but by using internal explicitly we restrict the access level from public to internal
         // we can do this type of modification from least restrictive to more restrictive access control
         internal func modifyProperties(length: Int, width: Int, height: Int) {
-                // the following codes will not give compilation error 
-                // since all the elements accessed here is internal(set)
                 self.length = length
                 self.width = width
                 self.height = height
@@ -18,9 +16,9 @@ public extension Box {
 
         // since the class extension in public
         // the following code is also public implicity
-        func displayInfo() {
-                // the following codes will not give compilation error 
-                // since all the elements accessed here is internal(set)
+        // but by using internal explicitly we restrict the access level from public to internal
+        // we can do this type of modification from least restrictive to more restrictive access control
+        internal func displayInfo() {
                 print("Box length:", length)
                 print("Box width:", width)
                 print("Box height:", height)

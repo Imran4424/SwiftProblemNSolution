@@ -38,7 +38,7 @@ private class Box
 }
 
 // the following code will give compilation error
-//  extension of private class can not be declared as public
+// extension of private class can not be declared as public
 // explicitly public
 public extension Box {
 
@@ -55,8 +55,8 @@ public extension Box {
         }
 }
 
-// below codes are also implicitly internal
-
+// the following code will give compilation error 
+// function must be declared private or fileprivate because its parameter uses a private type
 func displayInfo(of box: Box) {
         // the following codes will not give compilation error 
         // since all the elements accessed here is internal(set)
@@ -80,10 +80,6 @@ pritha.height = 1
 
 print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
-
-pritha.setLength(length: 5)
-pritha.setWidth(width: 5)
-pritha.setHeight(height: 5)
 
 displayInfo(of: pritha)
 print("")
