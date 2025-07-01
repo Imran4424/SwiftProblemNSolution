@@ -16,7 +16,7 @@ public extension Box {
                 self.height = height
         }
 
-        // since the class in public
+        // since the class extension in public
         // the following code is also public implicity
         func displayInfo() {
                 // the following codes will not give compilation error 
