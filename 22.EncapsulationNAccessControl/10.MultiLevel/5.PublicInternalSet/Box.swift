@@ -48,8 +48,6 @@ public class Box
                 self.length = length
         }
 
-        
-
         // setters for width
         // since the class in public
         // the following code is also public implicity
