@@ -57,8 +57,6 @@ public class Box
                 self.width = width
         }
 
-        
-
         // setters for height
         // since the class in public
         // the following code is also public implicity
