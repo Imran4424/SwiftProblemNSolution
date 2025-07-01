@@ -94,6 +94,8 @@ internal extension Box {
         }
 }
 
+// below codes are also implicitly internal
+
 func displayInfo(of box: Box) {
         // the following codes will give compilation error 
         // since all the elements accessed here is private
