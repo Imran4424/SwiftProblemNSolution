@@ -14,9 +14,9 @@ public class Box
         // since the class is public so by default the following would have been public
         // but by using private explicitly, we restrict the access level of properties to private
         // we can do this type of modification from least restrictive to more restrictive access control
-        private var length: Int
-        private var width: Int
-        private var height: Int
+        internal(set) var length: Int
+        internal(set) var width: Int
+        internal(set) var height: Int
 
         // default initializer for class
         // since the class in public
