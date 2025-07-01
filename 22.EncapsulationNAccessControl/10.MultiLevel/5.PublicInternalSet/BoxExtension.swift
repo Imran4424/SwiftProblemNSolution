@@ -10,14 +10,11 @@ public extension Box {
         // but by using internal explicitly we restrict the access level from public to internal
         // we can do this type of modification from least restrictive to more restrictive access control
         internal func modifyProperties(length: Int, width: Int, height: Int) {
-                // the following codes will give compilation error 
-                // since all the elements accessed here is private
-                // although this is the class extension and we should able to access the private values
-                // but this extension is not in the same file as the defined type
-                // we can not access them
-                // self.length = length
-                // self.width = width
-                // self.height = height
+                // the following codes will not give compilation error 
+                // since all the elements accessed here is internal(set)
+                self.length = length
+                self.width = width
+                self.height = height
 
                 setLength(length: length)
                 setWidth(width: width)
