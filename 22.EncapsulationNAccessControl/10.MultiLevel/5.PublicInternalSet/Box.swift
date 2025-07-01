@@ -65,15 +65,6 @@ public class Box
         internal func setHeight(height: Int) {
                 self.height = height
         }
-
-        // getters for height
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
-        internal func getHeight() -> Int {
-                return height
-        }
 }
 
 // extension in same source file can access private elements
