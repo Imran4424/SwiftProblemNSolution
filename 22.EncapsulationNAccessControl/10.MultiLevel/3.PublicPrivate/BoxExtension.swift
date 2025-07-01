@@ -22,8 +22,8 @@ public extension Box {
                 setHeight(height: height)
         }
 
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func displayInfo() {
                 // the following codes will give compilation error 
                 // since all the elements accessed here is private
