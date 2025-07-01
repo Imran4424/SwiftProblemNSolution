@@ -7,6 +7,8 @@ public extension Box {
 
         // since the class in public
         // the following code is also public implicity
+        // but by using internal explicitly we restrict the access level from public to internal
+        // we can do this type of modification from least restrictive to more restrictive access control
         func modifyProperties(length: Int, width: Int, height: Int) {
                 // the following codes will give compilation error 
                 // since all the elements accessed here is private
