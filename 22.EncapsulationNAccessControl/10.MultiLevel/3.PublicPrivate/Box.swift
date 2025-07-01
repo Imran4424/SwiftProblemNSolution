@@ -1,14 +1,17 @@
 
 // in this module, we are gonna learn about private multi level acess control in a single file or module
 
-// when a class is in internal access level 
-// that means all of its components are also internal implicitly
+// public marked elements are acessible from anywhere
+// even from another module or another framework
+
+// when a class is in public access level 
+// that means all of its components are also public implicitly
 
 // explicitly public
 public class Box 
 {
         // explicitly private
-        // since the class is internal so by default the following would have been internal
+        // since the class is public so by default the following would have been public
         // but by using private explicitly, we restrict the access level of properties to private
         // we can do this type of modification from least restrictive to more restrictive access control
         private var length: Int
@@ -16,16 +19,16 @@ public class Box
         private var height: Int
 
         // default initializer for class
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         init() {
                 length = 0
                 width = 0
                 height = 0
         }
 
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         init(length: Int, width: Int, height: Int) {
                 self.length = length
                 self.width = width
@@ -33,43 +36,43 @@ public class Box
         }
 
         // setters for length
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func setLength(length: Int) {
                 self.length = length
         }
 
         // getters for length
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func getLength() -> Int {
                 return length
         }
 
         // setters for width
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func setWidth(width: Int) {
                 self.width = width
         }
 
         // getters for width
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func getWidth() -> Int {
                 return width
         }
 
         // setters for height
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func setHeight(height: Int) {
                 self.height = height
         }
 
         // getters for height
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func getHeight() -> Int {
                 return height
         }
@@ -81,14 +84,14 @@ public class Box
 // explicitly public
 public extension Box {
 
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func area() -> Int {
                 return length * width
         }
 
-        // since the class in internal
-        // the following code is also internal implicity
+        // since the class in public
+        // the following code is also public implicity
         func volume() -> Int {
                 return length * width * height
         }
