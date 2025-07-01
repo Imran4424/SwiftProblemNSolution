@@ -22,16 +22,10 @@ public extension Box {
         func displayInfo() {
                 // the following codes will not give compilation error 
                 // since all the elements accessed here is internal(set)
-                // print("Box length:", length)
-                // print("Box width:", width)
-                // print("Box height:", height)
-                // print("Box Area:", length * width)
-                // print("Box Volume", length * width * height)
-
-                print("Box length:", getLength())
-                print("Box width:", getWidth())
-                print("Box height:", getHeight())
-                print("Box Area:", area())
-                print("Box Volume", volume())
+                print("Box length:", length)
+                print("Box width:", width)
+                print("Box height:", height)
+                print("Box Area:", length * width)
+                print("Box Volume", length * width * height)
         }
 }
