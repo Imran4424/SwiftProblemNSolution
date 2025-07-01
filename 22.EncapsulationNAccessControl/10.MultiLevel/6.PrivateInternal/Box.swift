@@ -7,76 +7,48 @@
 // explicitly private
 private class Box 
 {
-        // explicitly internal
-        // since the class is public so by default the following would have been public
-        // but by using internal(set) explicitly, we restrict the access level of properties to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
+        // since the class is private so by default the all the statements inside this code also will be private
+        // but by using internal explicitly, we are trying to lower the access level of properties restriction to internal
+        // we can not do this type of modification 
+        // from more restrictive to least restrictive access control
+        // this will give compilation error
         internal var length: Int
         internal var width: Int
         internal var height: Int
 
-        // default initializer for class
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
+        // but by using internal explicitly, we are trying to lower the access level restriction to internal
+        // we can not do this type of modification 
+        // from more restrictive to least restrictive access control
+        // this will give compilation error
         internal init() {
                 length = 0
                 width = 0
                 height = 0
         }
 
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
+        // but by using internal explicitly, we are trying to lower the access level restriction to internal
+        // we can not do this type of modification 
+        // from more restrictive to least restrictive access control
+        // this will give compilation error
         internal init(length: Int, width: Int, height: Int) {
                 self.length = length
                 self.width = width
                 self.height = height
         }
-
-        // setters for length
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
-        internal func setLength(length: Int) {
-                self.length = length
-        }
-
-        // setters for width
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
-        internal func setWidth(width: Int) {
-                self.width = width
-        }
-
-        // setters for height
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
-        internal func setHeight(height: Int) {
-                self.height = height
-        }
 }
 
-// extension in same source file can access private elements
-// this extension is in the same source file as defined type
-
+// the following code will give compilation error
+//  extension of private class can not be declared as public
 // explicitly public
 public extension Box {
 
-        // since the class in public
+        // since the class extension in public
         // the following code is also public implicity
         func area() -> Int {
                 return length * width
         }
 
-        // since the class in public
+        // since the class extension in public
         // the following code is also public implicity
         func volume() -> Int {
                 return length * width * height
@@ -101,8 +73,7 @@ print("Area: \(pritha.area()), Volume: \(pritha.volume())")
 print("")
 
 
-// the following codes will not give compilation error 
-// since all the elements accessed here is internal(set)
+// the following codes will give compilation error 
 pritha.length = 5
 pritha.width = 3
 pritha.height = 1
