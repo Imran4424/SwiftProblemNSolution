@@ -15,20 +15,13 @@ public extension Box {
                 self.length = length
                 self.width = width
                 self.height = height
-
-                setLength(length: length)
-                setWidth(width: width)
-                setHeight(height: height)
         }
 
         // since the class in public
         // the following code is also public implicity
         func displayInfo() {
-                // the following codes will give compilation error 
-                // since all the elements accessed here is private
-                // although this is the class extension and we should able to access the private values
-                // but this extension is not in the same file as the defined type
-                // we can not access them
+                // the following codes will not give compilation error 
+                // since all the elements accessed here is internal(set)
                 // print("Box length:", length)
                 // print("Box width:", width)
                 // print("Box height:", height)
