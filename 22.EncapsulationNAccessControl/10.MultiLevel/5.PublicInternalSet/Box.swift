@@ -48,14 +48,7 @@ public class Box
                 self.length = length
         }
 
-        // getters for length
-        // since the class in public
-        // the following code is also public implicity
-        // but by using internal explicitly we restrict the access level from public to internal
-        // we can do this type of modification from least restrictive to more restrictive access control
-        internal func getLength() -> Int {
-                return length
-        }
+        
 
         // setters for width
         // since the class in public
