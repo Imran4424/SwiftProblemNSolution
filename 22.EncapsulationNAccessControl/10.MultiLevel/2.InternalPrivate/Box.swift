@@ -2,7 +2,7 @@
 // in this module, we are gonna learn about private multi level acess control in a single file or module
 
 // when a class is in internal access level 
-//  that means all of its components are also internal implicitly
+// that means all of its components are also internal implicitly
 
 // explicitly internal
 internal class Box 
