@@ -8,7 +8,7 @@
 // public class, struct, enum and protocol
 // can not be inherited by another module or another framework
 
-// public methods can not be overriden by another module or another framework
+// public methods can not be overridden by another module or another framework
 // in terms polymorphism
 
 // these two differences set aparts public from open

@@ -9,7 +9,7 @@
 // open class, struct, enum and protocol
 // can be inherited by another module or another framework
 
-// open methods can be overriden by another module or another framework
+// open methods can be overridden by another module or another framework
 // in terms polymorphism
 
 // these plus two conditions are not applicable for publi access control
