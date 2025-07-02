@@ -47,11 +47,15 @@ open class Box
 // specify the extension access control as public
 // then make it's properties and methods open if you want to make them open
 public extension Box {
+        // if we don't make it explicitly open
+        // it will behave like public like since the extension is public
         // explicitly open
         open func area() -> Int {
                 return length * width
         }
 
+        // if we don't make it explicitly open
+        // it will behave like public like since the extension is public
         // explicitly open
         open func volume() -> Int {
                 return length * width * height
