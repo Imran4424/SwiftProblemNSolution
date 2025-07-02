@@ -8,10 +8,10 @@
 // which is implicitly internal
 class Box 
 {
-        // explicitly private
         // since the class is internal so by default the following would have been internal
         // but by using private explicitly, we restrict the access level of properties to private
         // we can do this type of modification from least restrictive to more restrictive access control
+        // explicitly private
         private var length: Int
         private var width: Int
         private var height: Int
