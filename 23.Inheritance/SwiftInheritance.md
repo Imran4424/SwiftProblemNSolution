@@ -16,3 +16,5 @@ A class can inherit methods, properties, and other characteristics from another 
 The class whose members are inherited to create another class is known as a base class. Base class is also known as parent class or super class.
 
 ### Derived class
+
+The new class which is
