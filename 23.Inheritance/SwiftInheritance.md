@@ -22,3 +22,4 @@ The new class which is created through inheritance from another class is known a
 But the terms you will hear frequently together (as a pair) is:
 
 - Base Class - Derived Class
+- Parent Class - Child Class
