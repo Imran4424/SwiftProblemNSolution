@@ -1,3 +1,3 @@
-# Swift Inheritance
+Swift is a multi-paradigm programming language which supports Object Oriented Programming paradigm
 
-Swift is a multi-purpose language which supports
+# Swift Inheritance
