@@ -35,3 +35,5 @@ Depending on the inheritance mechanism, at the core inheritance is two types:
 - Multiple Inheritance
 
 ### Single Inheritance
+
+### Multiple Inheritance
