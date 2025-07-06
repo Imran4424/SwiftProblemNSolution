@@ -25,4 +25,4 @@ The terms you will hear frequently together (as a pair) is:
 - Parent Class - Child Class
 - Super Class - Sub Class
 
-But there are some exceptions like in swift, the commonly used pair term is: **Base Class - Sub Class**. Which is no big deal since basically means the same thing
+But there are some exceptions like in swift, the commonly used pair term is: **Base Class - Sub Class**. Which is no big deal since basically means the same thing.
