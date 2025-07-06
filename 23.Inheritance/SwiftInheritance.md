@@ -23,3 +23,4 @@ But the terms you will hear frequently together (as a pair) is:
 
 - Base Class - Derived Class
 - Parent Class - Child Class
+- Super Class - Sub Class
