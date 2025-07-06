@@ -19,8 +19,10 @@ The class whose members are inherited to create another class is known as a base
 
 The new class which is created through inheritance from another class is known as Derived class. Derived class is also known as child class or sub class.
 
-But the terms you will hear frequently together (as a pair) is:
+The terms you will hear frequently together (as a pair) is:
 
 - Base Class - Derived Class
 - Parent Class - Child Class
 - Super Class - Sub Class
+
+But
