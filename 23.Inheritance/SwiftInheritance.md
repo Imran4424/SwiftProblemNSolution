@@ -17,4 +17,4 @@ The class whose members are inherited to create another class is known as a base
 
 ### Derived class
 
-The new class which is created through inheritance
+The new class which is created through inheritance from
