@@ -28,3 +28,7 @@ The terms you will hear frequently together (as a pair) is:
 But there are some exceptions like in swift, the commonly used pair term is: **Base Class - Sub Class**. Which is no big deal since basically means the same thing.
 
 ## Types of Inheritance
+
+Depending on the inheritance mechanism, at the core inheritance is two types:
+
+-
