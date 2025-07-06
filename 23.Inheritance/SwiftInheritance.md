@@ -31,4 +31,5 @@ But there are some exceptions like in swift, the commonly used pair term is: **B
 
 Depending on the inheritance mechanism, at the core inheritance is two types:
 
--
+- Single Inheritance
+- Multiple Inheritance
