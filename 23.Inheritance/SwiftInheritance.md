@@ -43,3 +43,5 @@ In simple words, when a dervied class have single base class it is called single
 ### Multiple Inheritance
 
 In multiple inheritance a class (derived or child class) inherits properties and behaviors from multiple (more than one) other class (the base or parent class).
+
+In simple words, when a dervied class have multiple base class it is called single inheritance.
