@@ -36,7 +36,7 @@ Depending on the inheritance mechanism, at the core inheritance is two types:
 
 ### Single Inheritance
 
-In single inheritance a class (derived or child class) inherits properties and behaviors from only one other class (the base or parent class).
+In single inheritance a class (derived or child class) inherits properties and behaviors from only one other class (the base or parent class). In simple words
 
 ### Multiple Inheritance
 
