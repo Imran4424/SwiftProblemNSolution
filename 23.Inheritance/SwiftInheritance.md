@@ -40,4 +40,4 @@ In single inheritance a class (derived or child class) inherits properties and b
 
 ### Multiple Inheritance
 
-In multiple inheritance a class (derived or child class) inherits properties and behaviors from
+In multiple inheritance a class (derived or child class) inherits properties and behaviors from multiple other class (the base or parent class).
