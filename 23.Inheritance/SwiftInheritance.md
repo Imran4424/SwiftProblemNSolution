@@ -42,9 +42,9 @@ In simple words, when a dervied class have single base class it is called single
 
 ### Multiple Inheritance
 
-In multiple inheritance a class (derived or child class) inherits properties and behaviors from multiple (more than one) other class (the base or parent class).
+In multiple inheritance a class (derived or child class) inherits properties and behaviors from multiple (more than one) other classes (the base or parent class).
 
-In simple words, when a dervied class have multiple base class it is called single inheritance.
+In simple words, when a dervied class have multiple base classes it is called Multiple inheritance.
 
 C++ supports both single and multiple inheritance, based on that C++ supports following inheritance
 
@@ -62,7 +62,7 @@ When a derived class in only allowed to have only one base class then it is call
 
 ### Multiple Inheritance
 
-When a derived class in only allowed to has more than one base class then it is called multiple inheritance.
+When a derived class in only allowed to have more than one base class then it is called multiple inheritance.
 
 ![Multiple Inheritance](MultipleInheritance.png)
 
