@@ -130,3 +130,5 @@ Now you can ask a question why swift does not support class level multiple inher
 
 For answer that question, let's look at hybrid inheritance of C++.
 ![Hybrid Inheritance](HybridInheritance_3.png)
+
+Here, S
