@@ -88,7 +88,7 @@ There is no specific requirement for Hybrid Inheritance. Any two or more type of
 ![Hybrid Inheritance](HybridInheritance_2.png)
 ![Hybrid Inheritance](HybridInheritance_3.png)
 
-#### But Unlike C++, Swift only supports single inheritance, based on that Swift supports following inheritance
+### But Unlike C++, Swift only supports single inheritance, based on that Swift supports following inheritance
 
 - Single Inheritance
 - Multilevel Inheritance
