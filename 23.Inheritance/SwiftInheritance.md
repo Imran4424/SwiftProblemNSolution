@@ -83,3 +83,7 @@ When multiple derived classes are created from single base class then it is call
 When more than one type of inheritance involved in a inheritance relation then it is called Hybrid Inheritance.
 
 There is no specific requirement for Hybrid Inheritance. Any two or more type of inheritance create Hybrid Inheritance.
+
+![Hybrid Inheritance](HybridInheritance.png)
+![Hybrid Inheritance](HybridInheritance_2.png)
+![Hybrid Inheritance](HybridInheritance_3.png)
