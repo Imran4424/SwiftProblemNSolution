@@ -46,7 +46,7 @@ In multiple inheritance a class (derived or child class) inherits properties and
 
 In simple words, when a dervied class have multiple base classes it is called Multiple inheritance.
 
-C++ supports both single and multiple inheritance, based on that C++ supports following inheritance
+**C++** supports both single and multiple inheritance, based on that C++ supports following inheritance
 
 - Single Inheritance
 - Multiple Inheritance
@@ -88,7 +88,7 @@ There is no specific requirement for Hybrid Inheritance. Any two or more type of
 ![Hybrid Inheritance](HybridInheritance_2.png)
 ![Hybrid Inheritance](HybridInheritance_3.png)
 
-But Unlike C++, Swift only supports single inheritance, based on that Swift supports following inheritance
+#### But Unlike C++, Swift only supports single inheritance, based on that Swift supports following inheritance
 
 - Single Inheritance
 - Multilevel Inheritance
