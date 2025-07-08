@@ -112,3 +112,7 @@ When a derived class is created from another derived class then it is called mul
 When multiple derived classes are created from single base class then it is called Hierarchical Inheritance.
 
 ![Hierarchical Inheritance](HierarchicalInheritance.png)
+
+## Hybrid Inheritance (which does not include multiple inheritance)
+
+When more than one type of inheritance involved in a inheritance relation then it is called Hybrid Inheritance. But in case of swift Hybrid Inheritance does not contain multiple inheritance since it does not support multiple inheritance by default.
