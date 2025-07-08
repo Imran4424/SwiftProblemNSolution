@@ -94,3 +94,15 @@ But Unlike C++, Swift only supports single inheritance, based on that Swift supp
 - Multilevel Inheritance
 - Hierarchical Inheritance
 - Hybrid Inheritance (which does not include multiple inheritance)
+
+## Single Inheritance
+
+When a derived class in only allowed to have only one base class then it is called single inheritance.
+
+![Single Inheritance](SingleInheritance.png)
+
+## Multilevel Inheritance
+
+When a derived class is created from another derived class then it is called multi-level inheritance.
+
+![Multi-Level Inheritance](MultiLevelInheritance.png)
