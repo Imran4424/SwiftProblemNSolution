@@ -57,3 +57,9 @@ C++ supports both single and multiple inheritance, based on that C++ supports fo
 ### Single Inheritance
 
 When a derived class in only allowed to have only one base class then it is called single inheritance.
+
+![Single Inheritance](SingleInheritance.png)
+
+### Multiple Inheritance
+
+When a derived class in only allowed to has more than one base class then it is called multiple inheritance.
