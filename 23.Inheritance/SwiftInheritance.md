@@ -64,4 +64,8 @@ When a derived class in only allowed to have only one base class then it is call
 
 When a derived class in only allowed to has more than one base class then it is called multiple inheritance.
 
+![Multiple Inheritance](MultipleInheritance.png)
+
 ### Multilevel Inheritance
+
+When a derived class is created from another
