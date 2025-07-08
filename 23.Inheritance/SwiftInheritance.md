@@ -73,3 +73,5 @@ When a derived class is created from another derived class then it is called mul
 ![Multi-Level Inheritance](MultiLevelInheritance.png)
 
 ### Hierarchical Inheritance
+
+When multiple derived classes are created from single base class then it is called Hierarchical Inheritance.
