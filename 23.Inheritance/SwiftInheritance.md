@@ -49,4 +49,5 @@ In simple words, when a dervied class have multiple base class it is called sing
 C++ supports both single and multiple inheritance, based on that C++ supports following inheritance
 
 - Single Inheritance
-- Multilevel inheritance
+- Multilevel Inheritance
+-
