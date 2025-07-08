@@ -51,4 +51,5 @@ C++ supports both single and multiple inheritance, based on that C++ supports fo
 - Single Inheritance
 - Multilevel Inheritance
 - Multiple Inheritance
+- Hierarchical Inheritance
 -
