@@ -68,4 +68,4 @@ When a derived class in only allowed to has more than one base class then it is 
 
 ### Multilevel Inheritance
 
-When a derived class is created from another
+When a derived class is created from another derived class then it is called multi-level inheritance.
