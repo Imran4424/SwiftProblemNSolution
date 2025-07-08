@@ -75,3 +75,9 @@ When a derived class is created from another derived class then it is called mul
 ### Hierarchical Inheritance
 
 When multiple derived classes are created from single base class then it is called Hierarchical Inheritance.
+
+![Hierarchical Inheritance](HierarchicalInheritance.png)
+
+### Hybrid Inheritance
+
+When more than one type of inheritance involved in a inheritance relation then it is called Hybrid Inheritance
