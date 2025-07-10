@@ -151,3 +151,5 @@ Diamond problem only occurs when in multiple inheritance, derived classes works 
 ![Hybrid Inheritance](HybridInheritance_3.png)
 
 Here, Second and Third both are derived classes but acting as base classes for Seventh
+
+Which is not possible in protocol scenario.
