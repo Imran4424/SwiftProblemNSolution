@@ -126,9 +126,15 @@ When more than one type of inheritance involved in a inheritance relation then i
 -
 -
 
-Now you can ask a question why swift does not support class level multiple inheritance?
+Now you can ask a question, Why swift does not support class level multiple inheritance?
 
 For answer that question, let's look at hybrid inheritance of C++.
 ![Hybrid Inheritance](HybridInheritance_3.png)
 
-Here, S
+Here,
+
+- Second is inheriting First
+- Third is inheriting First
+- And Seven is inheriting both Second and Third
+
+But, if you look closely you can see, both Second and Third contains all properties of First. In seventh case it will be inheriting twice of First's properties. Seventh will face property duplication issue. This problem is also known as diamond problem. C++ has it's virtual keyword to deal with it. But swift did not wanted to face this trouble at all.
