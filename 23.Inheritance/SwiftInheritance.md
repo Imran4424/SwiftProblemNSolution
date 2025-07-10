@@ -126,7 +126,7 @@ When more than one type of inheritance involved in a inheritance relation then i
 -
 -
 
-Now a question can arise, Why swift does not support class level multiple inheritance?
+Now, a question can arise, Why swift does not support class level multiple inheritance?
 
 For answer that question, let's look at hybrid inheritance of C++.
 ![Hybrid Inheritance](HybridInheritance_3.png)
@@ -141,4 +141,13 @@ But, if you look closely you can see, both Second and Third contains all propert
 
 Since, Swift supports Multiple Inheritance through protocols.
 
-Now Another qy
+Now, another question can arise, Is supporting multiple inheritance through protocols can result into base class property duplication or diamond problem?
+
+The short answer is No.
+
+Now, Why is that?
+Diamond problem only occurs when in multiple inheritance, derived classes works as base classes. for reference let's look at the picture again.
+
+![Hybrid Inheritance](HybridInheritance_3.png)
+
+Here, Second and Third both are derived classes but acting as base classes for Seventh
