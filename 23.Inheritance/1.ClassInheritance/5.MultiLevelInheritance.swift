@@ -73,6 +73,6 @@ var sazim = SchoolStudent(
 sazim.displayInfo()
 
 /* 
-        This is
+        This is multi-level inheritance
 
 */
