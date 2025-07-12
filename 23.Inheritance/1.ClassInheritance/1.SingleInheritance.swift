@@ -40,3 +40,11 @@ class Student: Person {
 
 var pritha = Student(name: "Pritha Saha", age: 20, studentID: 1917, institution: "Mac Masters")
 pritha.displayInfo()
+
+
+/*
+	single inheritance is really simple 
+
+
+	in single inheritance pattern there will be one Super class and One Sub Class class
+*/
