@@ -93,5 +93,5 @@ sazim.displayInfo()
 
         Funny right
         Since, multi-level inheritance can go further, this relation term can also further.
-        for example: great great grandparent 
+        for example: great great grandparent to great great grandparent 
 */
