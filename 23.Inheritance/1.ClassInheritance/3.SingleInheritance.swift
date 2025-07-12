@@ -23,9 +23,9 @@ class Student: Person {
         var studentID: Int
         var institution: String
 
-        // this code will not compile
-        // cause we are initializing super properties without making call to the super init
-        // before assigning values from sub class init, we must call super init first
+        // this code will not compile also 
+        // because we are calling super init before initializing the sub class properties
+        // before calling super init from sub class init, we must initilize sub class property first
         init(name: String, age: Int, studentID: Int, institution: String) {
                 // self keyword is for indicating object address
                 // self.name indicates the object property
