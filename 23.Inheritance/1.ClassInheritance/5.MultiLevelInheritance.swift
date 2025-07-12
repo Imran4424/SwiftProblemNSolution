@@ -83,6 +83,6 @@ sazim.displayInfo()
 
         Person is the super class
 
-        Student is the sub class of Person, but super 
+        Student is the sub class of Person, but super class 
 
 */
