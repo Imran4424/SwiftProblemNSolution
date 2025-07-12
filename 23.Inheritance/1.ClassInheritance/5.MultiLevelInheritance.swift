@@ -71,3 +71,8 @@ var sazim = SchoolStudent(
 )
 
 sazim.displayInfo()
+
+/* 
+
+
+*/
