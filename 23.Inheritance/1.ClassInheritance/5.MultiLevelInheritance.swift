@@ -39,4 +39,21 @@ class Student: Person {
 
 class SchoolStudent: Student {
         var currentLevelGrade: String
+
+        init(name: String, age: Int, studentID: Int, institution: String, currentLevelGrade: String) {
+                self.currentLevelGrade = currentLevelGrade
+                super.init(name: name, age: age, studentID: studentID, institution: institution)
+        }
+
+        // this is called function overriding
+        // this is part of polymorphism
+        // which is a fundamental OOP concept
+        // we will learn about it in detail later
+        func displayInfo() {
+                print("------Student------")
+                print("Name:", name)
+                print("Age:", age)
+                print("Student ID:", studentID)
+                print("Institution:", institution)
+        }
 }
