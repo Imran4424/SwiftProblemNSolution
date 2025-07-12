@@ -18,6 +18,8 @@ class Person {
         }
 }
 
+// here
+// Student is working as sub class for Person
 class Student: Person {
         var studentID: Int
         var institution: String
@@ -37,6 +39,8 @@ class Student: Person {
         }
 }
 
+// here
+// Student is working as super class for SchoolStudent
 class SchoolStudent: Student {
         var currentLevelGrade: String
 
@@ -74,5 +78,11 @@ sazim.displayInfo()
 
 /* 
         This is multi-level inheritance
+
+        Here,
+
+        Person is the super class
+
+        Student is the deri
 
 */
