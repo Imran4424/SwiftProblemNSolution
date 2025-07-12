@@ -30,7 +30,6 @@ class Student: Person {
                 // same goes for age
                 self.studentID = studentID
                 self.institution = institution
-                super.init(name: "", age: 0)
                 self.name = name
                 self.age = age
         }
