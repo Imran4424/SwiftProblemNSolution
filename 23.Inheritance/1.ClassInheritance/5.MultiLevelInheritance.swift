@@ -90,4 +90,6 @@ sazim.displayInfo()
         Person is Parent of Student, Grandparent of SchoolStudent
         Student is Child of Person, Parent of SchoolStudent
         SchoolStudent is child of Student, Grandchild of Person
+
+        Funny right
 */
