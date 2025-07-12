@@ -24,9 +24,14 @@ class Student: Person {
         var institution: String
 
         init(name: String, age: Int, studentID: Int, institution: String) {
+                // self keyword is for indicating object address
+                // self.name indicates the object property
+                // name indicates the passed parameter of init
+                // same goes for age
+                self.name = name
+                self.age = age
                 self.studentID = studentID
                 self.institution = institution
-                super.init(name: name, age: age)
         }
 
         func displayInfo() {
