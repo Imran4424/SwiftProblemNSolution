@@ -80,7 +80,7 @@ sazim.displayInfo()
         This is multi-level inheritance
 
         Here,
-        Person is the super class
+        Person is the super class for Student
         Student is the sub class of the Person, but super class for SchoolStudent
         SchoolStudent is the sub class of the Student
 
