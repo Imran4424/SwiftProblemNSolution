@@ -89,5 +89,5 @@ sazim.displayInfo()
         Here, in this case
         Person is Parent of Student, Grandparent of SchoolStudent
         Student is Child of Person, Parent of SchoolStudent
-        SchoolStudent is child of Student, 
+        SchoolStudent is child of Student, Grandchild of Person
 */
