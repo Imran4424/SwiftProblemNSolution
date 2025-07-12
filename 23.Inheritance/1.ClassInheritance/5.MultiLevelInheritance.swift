@@ -101,6 +101,7 @@ sazim.displayInfo()
 
         in class level inheritance, even the parent class can have independent object
 
-        Here, pritha
+        Here, 
+        pritha
 
 */
