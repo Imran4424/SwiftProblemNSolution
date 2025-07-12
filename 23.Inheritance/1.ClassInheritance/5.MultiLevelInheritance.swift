@@ -84,5 +84,7 @@ sazim.displayInfo()
         Student is the sub class of the Person, but super class for SchoolStudent
         SchoolStudent is the sub class of the Student
 
-        There is another common term of relationship for multi-level inheritance, Grandparent, parent, child
+        There is an another common term of relationship for multi-level inheritance, Grandparent, parent, child
+
+        Here
 */
