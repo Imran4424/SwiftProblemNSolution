@@ -23,18 +23,16 @@ class Student: Person {
         var studentID: Int
         var institution: String
 
-        // this code will not compile
-        // cause we are initializing super properties without making call to the super init
-        // before assigning values from sub class init, we must call super init first
         init(name: String, age: Int, studentID: Int, institution: String) {
                 // self keyword is for indicating object address
                 // self.name indicates the object property
                 // name indicates the passed parameter of init
                 // same goes for age
-                self.name = name
-                self.age = age
                 self.studentID = studentID
                 self.institution = institution
+                super.init(name: "", age: 0)
+                self.name = name
+                self.age = age
         }
 
         func displayInfo() {
