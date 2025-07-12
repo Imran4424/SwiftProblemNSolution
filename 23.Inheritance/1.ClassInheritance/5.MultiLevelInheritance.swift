@@ -102,6 +102,6 @@ sazim.displayInfo()
         in class level inheritance, even the parent class can have independent object
 
         Here, 
-        pritha is the object 
+        pritha is the object of Student class which act as parent of ScholStudent
 
 */
