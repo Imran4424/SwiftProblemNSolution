@@ -49,11 +49,25 @@ class SchoolStudent: Student {
         // this is part of polymorphism
         // which is a fundamental OOP concept
         // we will learn about it in detail later
-        func displayInfo() {
+        override func displayInfo() {
                 print("------Student------")
                 print("Name:", name)
                 print("Age:", age)
                 print("Student ID:", studentID)
                 print("Institution:", institution)
+                print("Current Grade Level:", currentLevelGrade)
         }
 }
+
+var pritha = Student(name: "Pritha Saha", age: 20, studentID: 1917, institution: "Mac Masters")
+pritha.displayInfo()
+
+var sazim = SchoolStudent(
+        name: "Khondokar Sazim Mahmud", 
+        age: 15, 
+        studentID: 33, 
+        institution: "Cantonment Public School and College, Rangpur", 
+        currentLevelGrade: "Tenth Grade"
+)
+
+sazim.displayInfo()
