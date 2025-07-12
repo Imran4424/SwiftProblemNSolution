@@ -1,5 +1,4 @@
 
-
 // In case of intheritance
 // If you want the properties or methods to be inherited
 // don't make them private
