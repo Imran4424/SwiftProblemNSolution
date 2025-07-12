@@ -86,5 +86,5 @@ sazim.displayInfo()
 
         There is an another common term of relationship for multi-level inheritance, Grandparent, parent, child
 
-        Here
+        Here, in this case
 */
