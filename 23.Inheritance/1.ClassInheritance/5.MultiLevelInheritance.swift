@@ -92,5 +92,5 @@ sazim.displayInfo()
         SchoolStudent is child of Student, Grandchild of Person
 
         Funny right
-        Since, multi-level inheritance can go further  
+        Since, multi-level inheritance can go further, this relation term can also further like great great grandparent 
 */
