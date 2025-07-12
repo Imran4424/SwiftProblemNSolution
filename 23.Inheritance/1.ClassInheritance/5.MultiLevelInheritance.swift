@@ -97,6 +97,8 @@ sazim.displayInfo()
 */
 
 /* 
-        
+        As you can see,
+
+        in class level inheritance, even the parent class can have independent object
 
 */
