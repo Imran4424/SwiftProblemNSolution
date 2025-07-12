@@ -73,6 +73,6 @@ var sazim = SchoolStudent(
 sazim.displayInfo()
 
 /* 
-
+        T
 
 */
