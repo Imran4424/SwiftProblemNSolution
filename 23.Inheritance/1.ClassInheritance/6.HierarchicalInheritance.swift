@@ -58,6 +58,7 @@ class Engineer: Person {
         }
 }
 
+// sub class 3
 class Doctor: Person {
         var speciality: String
 
