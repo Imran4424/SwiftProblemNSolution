@@ -88,8 +88,8 @@ soudha.displayInfo()
 /*
 	This is Hierachical Inheritance
 
-        In
+        In Hierachical Inheritance
+        There will be one super class and multiple sub classes
 
-
-	in single inheritance pattern there will be one Super class and One Sub Class class
+        
 */
