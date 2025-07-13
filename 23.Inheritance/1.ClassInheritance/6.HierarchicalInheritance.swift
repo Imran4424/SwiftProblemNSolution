@@ -38,3 +38,22 @@ class Student: Person {
                 print("Institution:", institution)
         }
 }
+
+// sub class 2
+class Engineer: Person {
+        var department: String
+
+        init(name: String, age: Int, studentID: Int, department: String) {
+                self.department = department
+                super.init(name: name, age: age)
+        }
+}
+
+class Doctor: Person {
+        var speciality: String
+
+        init(name: String, age: Int, studentID: Int, speciality: String) {
+                self.speciality = speciality
+                super.init(name: name, age: age)
+        }
+}
