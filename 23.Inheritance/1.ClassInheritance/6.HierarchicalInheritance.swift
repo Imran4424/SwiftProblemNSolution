@@ -90,6 +90,4 @@ soudha.displayInfo()
 
         In Hierachical Inheritance
         There will be one super class and multiple sub classes
-
-        
 */
