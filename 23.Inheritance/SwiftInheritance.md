@@ -93,7 +93,7 @@ There is no specific requirement for Hybrid Inheritance. Any two or more type of
 - Single Inheritance
 - Multilevel Inheritance
 - Hierarchical Inheritance
-- Hybrid Inheritance (which does not include multiple inheritance)
+- Hybrid Inheritance (which does not include class level multiple inheritance)
 
 ## Single Inheritance
 

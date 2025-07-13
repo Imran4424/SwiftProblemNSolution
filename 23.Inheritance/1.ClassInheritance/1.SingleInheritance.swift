@@ -19,6 +19,7 @@ class Person {
         }
 }
 
+// sub class
 class Student: Person {
         var studentID: Int
         var institution: String
@@ -26,6 +27,8 @@ class Student: Person {
         init(name: String, age: Int, studentID: Int, institution: String) {
                 self.studentID = studentID
                 self.institution = institution
+                // super keyword is useful
+                // when we call init or methods of super class from sub class
                 super.init(name: name, age: age)
         }
 
