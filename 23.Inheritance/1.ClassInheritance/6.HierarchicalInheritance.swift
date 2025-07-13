@@ -82,3 +82,4 @@ var imran = Engineer(name: "Shah Md. Imran Hossain", age: 27, department: "Compu
 imran.displayInfo()
 
 var soudha = Doctor(name: "Shira Jahan Soudha", age: 27, speciality: "Endocrinology & Metabolism")
+soudha.displayInfo()
