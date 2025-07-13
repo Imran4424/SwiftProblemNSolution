@@ -46,15 +46,16 @@ class SchoolStudent: Student {
 
         init(name: String, age: Int, studentID: Int, institution: String, currentLevelGrade: String) {
                 self.currentLevelGrade = currentLevelGrade
+                // super always call the immediate super class properties and methods
                 super.init(name: name, age: age, studentID: studentID, institution: institution)
         }
 
-        // this is called function overriding
+        // this is called method overriding
         // this is part of polymorphism
         // which is a fundamental OOP concept
         // we will learn about it in detail later
         override func displayInfo() {
-                print("------Student------")
+                print("------School Student------")
                 print("Name:", name)
                 print("Age:", age)
                 print("Student ID:", studentID)
@@ -106,4 +107,22 @@ sazim.displayInfo()
         sazim is the object of SchoolStudent, which had no child class of Multi-level inheritance
 
         Even, Person class which had no parent can create objects too
+*/
+
+/* 
+        init execution order in multi-level inheritance
+
+        to understand this better, let's think about School Student Object
+
+        For creating SchoolStudent object
+
+        1. First call SchoolStudent init() ----->
+        2. Initialize SchoolStudent properties
+        3. Then call super.init() which is Student init ----->
+        4. Initialize Student properties
+        5. Then call super.init() which is person init ----->
+        6. Initialize Person properties
+        7. Return the call to caller which is Student.init() <-----
+        8. Return the call to caller which is SchoolStudent.init() <-----
+        9. Return the created object to the caller which is SchoolStudent object <-----
 */
