@@ -36,6 +36,7 @@ class Student: Person {
                 print("Age:", age)
                 print("Student ID:", studentID)
                 print("Institution:", institution)
+                print()
         }
 }
 
@@ -43,17 +44,41 @@ class Student: Person {
 class Engineer: Person {
         var department: String
 
-        init(name: String, age: Int, studentID: Int, department: String) {
+        init(name: String, age: Int, department: String) {
                 self.department = department
                 super.init(name: name, age: age)
+        }
+
+        func displayInfo() {
+                print("------Engineer------")
+                print("Name:", name)
+                print("Age:", age)
+                print("Department:", department)
+                print()
         }
 }
 
 class Doctor: Person {
         var speciality: String
 
-        init(name: String, age: Int, studentID: Int, speciality: String) {
+        init(name: String, age: Int, speciality: String) {
                 self.speciality = speciality
                 super.init(name: name, age: age)
         }
+
+        func displayInfo() {
+                print("------Doctor------")
+                print("Name:", name)
+                print("Age:", age)
+                print("Speciality:", speciality)
+                print()
+        }
 }
+
+var pritha = Student(name: "Pritha Saha", age: 20, studentID: 1917, institution: "Mac Masters")
+pritha.displayInfo()
+
+var imran = Engineer(name: "Shah Md. Imran Hossain", age: 27, department: "Computer Science")
+imran.displayInfo()
+
+var soudha = Doctor(name: "Shira Jahan Soudha", age: 27, speciality: "Endocrinology & Metabolism")
