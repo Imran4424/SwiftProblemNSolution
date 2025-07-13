@@ -84,3 +84,12 @@ imran.displayInfo()
 
 var soudha = Doctor(name: "Shira Jahan Soudha", age: 27, speciality: "Endocrinology & Metabolism")
 soudha.displayInfo()
+
+/*
+	This is Hierachical Inheritance
+
+        In
+
+
+	in single inheritance pattern there will be one Super class and One Sub Class class
+*/
