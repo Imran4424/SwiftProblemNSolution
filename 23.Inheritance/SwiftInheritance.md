@@ -133,7 +133,7 @@ Here,
 - Third is inheriting First
 - And Seven is inheriting both Second and Third
 
-But, if you look closely you can see, both Second and Third contains all properties of First. In seventh case it will be inheriting twice of First's properties. Seventh will face property duplication issue. This problem is also known as diamond problem. C++ has it's virtual keyword to deal with it. But swift did not wanted to face this trouble at all.
+But, if you look closely you can see, both Second and Third contains all properties of First. In seventh case it will be inheriting twice of First's properties. Seventh will face property duplication issue. This problem is also known as diamond problem. C++ has it's own virtual keyword to deal with it. But swift did not wanted to face this trouble at all.
 
 Since, Swift supports Multiple Inheritance through protocols.
 
