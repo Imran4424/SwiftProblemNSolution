@@ -105,5 +105,5 @@ sazim.displayInfo()
         pritha is the object of Student class which act as parent of ScholStudent
         sazim is the object of SchoolStudent, which had no child class of Multi-level inheritance
 
-        Even, Person class which had no parent can create objects
+        Even, Person class which had no parent can create objects too
 */
