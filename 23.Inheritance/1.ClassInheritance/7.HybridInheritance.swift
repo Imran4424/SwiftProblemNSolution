@@ -129,4 +129,5 @@ sazim.displayInfo()
 /*  
         In this Hybrid Inheritance
         
+        We have Hierachical Inheritance and Multi-Level Inheritance
 */
