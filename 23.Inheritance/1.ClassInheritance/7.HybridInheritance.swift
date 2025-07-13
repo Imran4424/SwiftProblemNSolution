@@ -127,12 +127,6 @@ sazim.displayInfo()
 */
 
 /*  
-        In this Hierachical Inheritance
-        There is one super class and three sub classes
-
-        Person - super class
-
-        Student - sub class one
-        Engineer - sub class two
-        Doctor - sub class three
+        In this Hybrid Inheritance
+        
 */
