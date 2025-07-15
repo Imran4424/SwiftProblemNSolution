@@ -123,6 +123,8 @@ When more than one type of inheritance involved in a inheritance relation then i
 
 As we know, swift does not support class level multiple inheritance.
 
+Since, multiple inheritance is a very important feature of inheritance, swift do support multiple inheritance through **protocols**.
+
 # Important Question about Swift Inheritance
 
 Now, a question can arise, Why swift does not support class level multiple inheritance?
