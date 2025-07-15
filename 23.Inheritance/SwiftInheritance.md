@@ -137,10 +137,8 @@ Example code of swift protocol
 
 ```swift
 protocol Greet {
-
         // blueprint of a property
         var name: String { get }
-
 
         // blueprint of a method
         func message()
@@ -148,13 +146,42 @@ protocol Greet {
 
 // conform class to Greet protocol
 class Employee: Greet {
-
         // implementation of property
         var name = "Perry"
 
         // implementation of method
         func message() {
                 print("Good Morning", name)
+        }
+}
+```
+
+protocol based multiple inheritance
+
+```swift
+// create Sum protocol
+protocol Sum {
+        func addition()
+}
+
+// create Multiplication protocol
+protocol Multiplication {
+        func product()
+}
+
+// conform class to two protocols
+class Calculate: Sum, Multiplication {
+        var num1 = 0
+        var num2 = 0
+
+        func addition () {
+                let result1 = num1 + num2
+                print("Sum:", result1)
+        }
+
+        func product () {
+                let result2 = num1 * num2
+                print("Product:", result2)
         }
 }
 ```
