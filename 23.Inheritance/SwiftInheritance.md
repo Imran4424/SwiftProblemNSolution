@@ -129,7 +129,35 @@ Since, multiple inheritance is a very important feature of inheritance, swift do
 
 A protocol is a special type which defines the blueprint of properties, methods and other requirements that suit a particular task or piece of functionality.
 
-The protocol can then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements. Any type that satisfies the requirements of a protocol is said to conform to that protocol.
+The **protocol** can then be adopted by a **class**, **structure**, or **enumeration** to provide an actual implementation of those requirements. Any type that satisfies the requirements of a protocol is said to conform to that protocol.
+
+In a protocol, mostly we gonna see the defination of properties and methods. Properties will only have the type definition not any particular values and Methods will only have the deifinition (blueprint) not the body.
+
+Example code of swift protocol
+
+```swift
+protocol Greet {
+
+        // blueprint of a property
+        var name: String { get }
+
+
+        // blueprint of a method
+        func message()
+}
+
+// conform class to Greet protocol
+class Employee: Greet {
+
+        // implementation of property
+        var name = "Perry"
+
+        // implementation of method
+        func message() {
+                print("Good Morning", name)
+        }
+}
+```
 
 # Important Question about Swift Inheritance
 
