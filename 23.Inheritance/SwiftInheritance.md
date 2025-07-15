@@ -127,6 +127,10 @@ Since, multiple inheritance is a very important feature of inheritance, swift do
 
 ### What is protocol?
 
+A protocol is a special type which defines the blueprint of properties, methods and other requirements that suit a particular task or piece of functionality.
+
+The protocol can then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements. Any type that satisfies the requirements of a protocol is said to conform to that protocol.
+
 # Important Question about Swift Inheritance
 
 Now, a question can arise, Why swift does not support class level multiple inheritance?
