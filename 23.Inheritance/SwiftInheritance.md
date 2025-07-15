@@ -119,6 +119,8 @@ When more than one type of inheritance involved in a inheritance relation then i
 
 ![Hybrid Inheritance without Multiple](Swift_HybridInheritance.png)
 
+# Multiple Inheritance in Swift Through Protocol
+
 # Important Question about Swift Inheritance
 
 Now, a question can arise, Why swift does not support class level multiple inheritance?
