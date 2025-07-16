@@ -10,11 +10,14 @@ protocol Person {
         var age: Int { get set }
 }
 
+// Employee protocol
 protocol Employee {
         var wage: Int { get set }
         func displayInfo()
 }
 
+// Multiple Inheritance through protcols
+// Conforming multiple protocols
 class Teacher: Person, Employee {
         var name: String
         var age: Int
