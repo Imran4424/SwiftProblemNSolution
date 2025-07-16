@@ -145,7 +145,7 @@ protocol Greet {
 }
 
 // conform class to Greet protocol
-class Employee: Greet {
+class Person: Greet {
         // implementation of property
         var name = "Perry"
 
