@@ -63,4 +63,6 @@ pritha.displayInfo()
 /* 
         In case of struct inheritance
         struct does not support other type of inheritance other than protocol based inheritance
+
+        
 */
