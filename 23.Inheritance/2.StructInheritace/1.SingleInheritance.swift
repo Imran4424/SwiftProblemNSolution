@@ -10,6 +10,9 @@
 // Class, Struct (structure), Enum (enumeration ) all can use protocol based inheritance
 
 
+// Following OOP principles
+// we are trying to implement Single Inheritance in struct (similar to class manner)
+
 // Super struct
 struct Person {
         var name: String
@@ -26,6 +29,10 @@ struct Person {
 }
 
 // sub struct
+// but the following code will give compilation error
+// because struct only supports protocol based inheritance
+// so, inheritance from other than protocol (such as struct or class(which is super unlikely since they are not same type)) 
+// will result in compilation error
 // error message: inheritance from non-protocol type 'Person'
 struct Student: Person {
         var studentID: Int
