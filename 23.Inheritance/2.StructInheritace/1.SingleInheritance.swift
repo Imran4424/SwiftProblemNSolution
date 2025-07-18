@@ -65,4 +65,6 @@ pritha.displayInfo()
         struct does not support other type of inheritance other than protocol based inheritance
 
         In struct single inheritance
+
+        There will be one base protocol, 
 */
