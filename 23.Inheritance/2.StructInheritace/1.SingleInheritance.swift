@@ -66,5 +66,5 @@ pritha.displayInfo()
 
         In struct single inheritance
 
-        There will be one base protocol, and 
+        There will be one base protocol, and one struct 
 */
