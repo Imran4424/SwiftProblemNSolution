@@ -5,7 +5,7 @@
 
 // Swift is the first language to bring Protocol Oriented Paradigm
 // and
-// one of the best features of protocol is 
+// one of the best features of Protocol Oriented Programming(POP) is 
 
 
 // Super struct
