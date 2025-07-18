@@ -58,3 +58,9 @@ struct Student: Person {
 
 var pritha = Student(name: "Pritha Saha", age: 20, studentID: 1917, institution: "Mac Masters")
 pritha.displayInfo()
+
+
+/* 
+        In case 
+
+*/
