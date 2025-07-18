@@ -61,6 +61,6 @@ pritha.displayInfo()
 
 
 /* 
-        In case 
+        In case of struct 
 
 */
