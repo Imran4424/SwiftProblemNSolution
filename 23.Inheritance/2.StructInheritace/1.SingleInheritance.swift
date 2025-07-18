@@ -33,6 +33,7 @@ struct Person {
 // because struct only supports protocol based inheritance
 // so, inheritance from other than protocol (such as struct or class(which is super unlikely since they are not same type)) 
 // will result in compilation error
+//
 // error message: inheritance from non-protocol type 'Person'
 struct Student: Person {
         var studentID: Int
