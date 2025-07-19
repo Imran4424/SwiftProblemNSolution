@@ -12,27 +12,20 @@
 
 // Person Protocol
 protocol Person {
-        var name: String
-        var age: Int
+        var name: String {get set}
+        var age: Int {get set}
 }
 
-// sub struct
-// but the following code will give compilation error
-// because struct only supports protocol based inheritance
-// so, inheritance from other than protocol (such as struct or class(which is super unlikely since they are not same type)) 
-// will result in compilation error
-//
-// error message: inheritance from non-protocol type 'Person'
+// struct that confroms Person protocol
 struct Student: Person {
         var studentID: Int
         var institution: String
 
         init(name: String, age: Int, studentID: Int, institution: String) {
+                self.name = name
+                self.age = age
                 self.studentID = studentID
                 self.institution = institution
-                // super is related to class inheritance
-                // so it will also give compilation error
-                super.init(name: name, age: age)
         }
 
         func displayInfo() {
