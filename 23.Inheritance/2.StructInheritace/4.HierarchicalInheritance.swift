@@ -93,7 +93,7 @@ soudha.displayInfo()
 
         Person - protocol
 
-        Student - sub class one
-        Engineer - sub class two
-        Doctor - sub class three
+        Student - struct one
+        Engineer - struct two
+        Doctor - struct three
 */
