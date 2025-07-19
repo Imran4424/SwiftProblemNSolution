@@ -36,8 +36,9 @@ class Engineer: Person {
         var department: String
 
         init(name: String, age: Int, department: String) {
+                self.name = name
+                self.age = age
                 self.department = department
-                super.init(name: name, age: age)
         }
 
         func displayInfo() {
