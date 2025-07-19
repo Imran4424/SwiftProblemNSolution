@@ -51,6 +51,8 @@ class Engineer: Person {
 
 // sub class 3
 class Doctor: Person {
+        var name: String
+        var age: Int
         var speciality: String
 
         init(name: String, age: Int, speciality: String) {
