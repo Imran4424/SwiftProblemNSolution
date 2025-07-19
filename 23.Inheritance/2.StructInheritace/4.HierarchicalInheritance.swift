@@ -81,7 +81,7 @@ var soudha = Doctor(name: "Shira Jahan Soudha", age: 27, speciality: "Endocrinol
 soudha.displayInfo()
 
 /*
-	This is Hierachical Inheritance
+	This is Hierachical Inheritance for struct
 
         In Hierachical Inheritance
         There will be one super class and multiple sub classes
