@@ -10,7 +10,7 @@
 // Class, Struct (structure), Enum (enumeration ) all can use protocol based inheritance
 
 
-// Super struct
+// Person Protocol
 protocol Person {
         var name: String
         var age: Int
