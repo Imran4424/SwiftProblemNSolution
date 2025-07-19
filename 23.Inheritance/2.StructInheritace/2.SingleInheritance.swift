@@ -53,8 +53,10 @@ pritha.displayInfo()
 */
 
 /*
-        struct only supports 
+        struct supports these following inheritance type
 
         - single inheritance
         - multiple inheritance
+        - hierarchical inheritance
+        - hybrid inheritance (when multiple and hierarchical happens together)
 */
