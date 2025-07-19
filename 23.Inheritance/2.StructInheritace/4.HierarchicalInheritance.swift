@@ -57,8 +57,9 @@ class Doctor: Person {
         var speciality: String
 
         init(name: String, age: Int, speciality: String) {
+                self.name = name
+                self.age = age
                 self.speciality = speciality
-                super.init(name: name, age: age)
         }
 
         func displayInfo() {
