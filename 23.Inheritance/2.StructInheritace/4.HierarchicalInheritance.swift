@@ -31,6 +31,8 @@ class Student: Person {
 
 // sub class 2
 class Engineer: Person {
+        var name: String
+        var age: Int
         var department: String
 
         init(name: String, age: Int, department: String) {
