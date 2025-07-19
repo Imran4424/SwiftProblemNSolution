@@ -18,6 +18,8 @@ protocol Person {
 
 // struct that confroms Person protocol
 struct Student: Person {
+        var name: String
+        var age: Int
         var studentID: Int
         var institution: String
 
@@ -48,4 +50,11 @@ pritha.displayInfo()
         In struct single inheritance
 
         There will be one base protocol and one struct which confrom the protcol
+*/
+
+/*
+        struct only supports 
+
+        - single inheritance
+        - multiple inheritance
 */
