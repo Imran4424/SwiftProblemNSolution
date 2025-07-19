@@ -50,7 +50,7 @@ struct Engineer: Person {
         }
 }
 
-// struct 3
+// struct three
 struct Doctor: Person {
         var name: String
         var age: Int
