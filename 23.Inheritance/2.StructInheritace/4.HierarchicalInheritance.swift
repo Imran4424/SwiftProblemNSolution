@@ -84,7 +84,7 @@ soudha.displayInfo()
 	This is Hierachical Inheritance for struct
 
         In Hierachical Inheritance
-        There will be one protocol and multiple sub classes
+        There will be one protocol and multiple structs
 */
 
 /*  
