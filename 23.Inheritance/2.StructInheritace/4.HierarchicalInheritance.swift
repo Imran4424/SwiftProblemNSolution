@@ -7,6 +7,8 @@ protocol Person {
 
 // sub class 1
 class Student: Person {
+        var name: String
+        var age: Int
         var studentID: Int
         var institution: String
 
