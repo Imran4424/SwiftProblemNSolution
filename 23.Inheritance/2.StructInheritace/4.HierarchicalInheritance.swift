@@ -5,8 +5,8 @@ protocol Person {
         var age: Int { get set }
 }
 
-// sub class 1
-class Student: Person {
+// struct 1
+struct Student: Person {
         var name: String
         var age: Int
         var studentID: Int
@@ -29,8 +29,8 @@ class Student: Person {
         }
 }
 
-// sub class 2
-class Engineer: Person {
+// struct 2
+struct Engineer: Person {
         var name: String
         var age: Int
         var department: String
@@ -50,8 +50,8 @@ class Engineer: Person {
         }
 }
 
-// sub class 3
-class Doctor: Person {
+// struct 3
+struct Doctor: Person {
         var name: String
         var age: Int
         var speciality: String
