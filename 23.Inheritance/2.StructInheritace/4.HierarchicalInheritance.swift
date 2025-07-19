@@ -29,7 +29,7 @@ struct Student: Person {
         }
 }
 
-// struct 2
+// struct two
 struct Engineer: Person {
         var name: String
         var age: Int
