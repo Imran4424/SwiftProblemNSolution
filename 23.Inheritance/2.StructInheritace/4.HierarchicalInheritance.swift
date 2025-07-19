@@ -91,7 +91,7 @@ soudha.displayInfo()
         In this Hierachical Inheritance
         There is one protocol and three structs
 
-        Person - super class
+        Person - protocol
 
         Student - sub class one
         Engineer - sub class two
