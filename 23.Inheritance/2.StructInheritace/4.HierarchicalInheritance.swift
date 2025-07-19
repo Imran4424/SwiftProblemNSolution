@@ -5,7 +5,7 @@ protocol Person {
         var age: Int { get set }
 }
 
-// struct 1
+// struct one
 struct Student: Person {
         var name: String
         var age: Int
