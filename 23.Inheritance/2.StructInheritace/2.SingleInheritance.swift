@@ -49,7 +49,7 @@ pritha.displayInfo()
 
         In struct single inheritance
 
-        There will be one protocol and one struct which confrom the protcol
+        There will be one protocol and one struct which confroms the protcol
 */
 
 /*
