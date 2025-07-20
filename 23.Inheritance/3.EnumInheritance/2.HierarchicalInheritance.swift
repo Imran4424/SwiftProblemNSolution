@@ -28,3 +28,7 @@ enum Vegetable: String, Describable {
 let snack: Describable = Fruit.cherry
 
 print(snack.description)        // Fruit: 🍒
+
+let snackTwo: Describable = Vegetable.carrot
+
+print(snackTwo.description)        // Veggie: 🥕
