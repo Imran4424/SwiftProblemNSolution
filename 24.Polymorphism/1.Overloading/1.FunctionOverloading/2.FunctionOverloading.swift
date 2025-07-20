@@ -21,4 +21,8 @@ func add(x: Double, y: Double, z: Double) -> Double {
 
 print("Sum of two values:", add(x: 5, y: 7))
 
+print("Sum of two values:", add(x: 5.7, y: 7.5))
+
 print("Sum of three values:", add(x: 12, y: 13, z: 15))
+
+print("Sum of three values:", add(x: 12.13, y: 13.15, z: 15.12))
