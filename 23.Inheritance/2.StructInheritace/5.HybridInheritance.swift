@@ -123,3 +123,10 @@ soudha.displayInfo()
 
 var imran = Teacher(name: "SHAH MD. IMRAN HOSSAIN", age: 27, wage: 20000, institution: "Kennesaw State University")
 imran.displayInfo()
+
+/*
+	This is Hybrid Inheritance for struct
+
+        In Hybrid Inheritance for struct
+        There will be more than one inheritance relation involved (Multiple and Hierachical)
+*/
