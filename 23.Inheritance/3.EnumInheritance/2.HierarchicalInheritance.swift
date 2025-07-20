@@ -20,9 +20,9 @@ enum Vegetable: String, Describable {
         case pepper = "🌶"
         case broccoli = "🥦"
   
-  var description: String {
-    return "Veggie: \(self.rawValue)"
-  }
+        var description: String {
+                return "Veggie: \(self.rawValue)"
+        }
 }
 
 let snack: Describable = Fruit.cherry
