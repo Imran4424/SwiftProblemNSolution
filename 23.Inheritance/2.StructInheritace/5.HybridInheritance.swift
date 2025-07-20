@@ -135,4 +135,6 @@ imran.displayInfo()
         In this Hybrid Inheritance
         
         We have Hierachical Inheritance and Multiple Inheritance
+
+        And this is the only possibility for struct Hybrid Inheritance combination
 */
