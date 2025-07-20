@@ -15,6 +15,16 @@ enum Fruit: String, Describable {
         }
 }
 
+enum Vegetable: String, Describable {
+  case carrot = "🥕"
+  case pepper = "🌶"
+  case broccoli = "🥦"
+  
+  var description: String {
+    return "Veggie: \(self.rawValue)"
+  }
+}
+
 let snack: Describable = Fruit.cherry
 
 print(snack.description)        // Fruit: 🍒
