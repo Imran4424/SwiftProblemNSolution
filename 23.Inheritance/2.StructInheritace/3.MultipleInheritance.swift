@@ -51,6 +51,6 @@ imran.displayInfo()
 /*
 	This is Multiple Inheritance for struct
 
-        In Multiple Inheritance
+        In Multiple Inheritance for struct
         There will be multiple protocols and one structs which confroms all the protcol
 */
