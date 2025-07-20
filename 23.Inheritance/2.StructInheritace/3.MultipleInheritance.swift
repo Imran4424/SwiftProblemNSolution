@@ -54,3 +54,14 @@ imran.displayInfo()
         In Multiple Inheritance for struct
         There will be multiple protocols and one structs which confroms all the protcol
 */
+
+/*  
+        In this Multiple Inheritance
+        There is two protocols and one struct
+
+        Person - protocol
+
+        Student - struct one
+        Engineer - struct two
+        Doctor - struct three
+*/
