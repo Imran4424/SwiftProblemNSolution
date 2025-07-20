@@ -140,6 +140,16 @@ imran.displayInfo()
 */
 
 /*  
+        In this Multiple Inheritance
+        There is two protocols and one struct
+
+        Person - protocol
+        Employee - protocol
+
+        Teacher - struct
+*/
+
+/*  
         In this Hierachical Inheritance
         There is one protocol and three structs
 
