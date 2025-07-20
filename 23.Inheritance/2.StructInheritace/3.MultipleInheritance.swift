@@ -47,3 +47,10 @@ struct Teacher: Person, Employee {
 
 var imran = Teacher(name: "SHAH MD. IMRAN HOSSAIN", age: 27, wage: 20000, institution: "Kennesaw State University")
 imran.displayInfo()
+
+/*
+	This is Hierachical Inheritance for struct
+
+        In Hierachical Inheritance
+        There will be one protocol and multiple structs which confrom the protcol
+*/
