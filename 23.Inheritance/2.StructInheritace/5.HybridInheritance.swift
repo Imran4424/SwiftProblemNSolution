@@ -139,3 +139,13 @@ imran.displayInfo()
         And this is the only possibility for struct Hybrid Inheritance combination
 */
 
+/*  
+        In this Hierachical Inheritance
+        There is one protocol and three structs
+
+        Person - protocol
+
+        Student - struct one
+        Engineer - struct two
+        Doctor - struct three
+*/
