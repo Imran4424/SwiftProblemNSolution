@@ -142,3 +142,23 @@ sazim.displayInfo()
         Engineer - sub class two
         Doctor - sub class three
 */
+
+/* 
+        This is multi-level inheritance
+
+        Here,
+        Person is the super class for Student
+        Student is the sub class of the Person, but super class for SchoolStudent
+        SchoolStudent is the sub class of the Student
+
+        There is an another common term of relationship for multi-level inheritance, Grandparent, parent, child
+
+        Here, in this case
+        Person is Parent of Student, Grandparent of SchoolStudent
+        Student is Child of Person, Parent of SchoolStudent
+        SchoolStudent is child of Student, Grandchild of Person
+
+        Funny right
+        Since, multi-level inheritance can go further, this relation term can also further.
+        for example: great great grandparent to great great grandchild 
+*/
