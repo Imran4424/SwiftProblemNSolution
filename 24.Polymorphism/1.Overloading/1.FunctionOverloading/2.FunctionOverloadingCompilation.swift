@@ -25,6 +25,8 @@ print("Sum of two values:", add(x: 5, y: 7))
 
 // because
 // in the following statement
+// the code is calling add function with double type parameters
+// but there is no add function declared with double type parameters
 print("Sum of two values:", add(x: 5.7, y: 7.5))
 
 print("Sum of three values:", add(x: 12, y: 13, z: 15))
