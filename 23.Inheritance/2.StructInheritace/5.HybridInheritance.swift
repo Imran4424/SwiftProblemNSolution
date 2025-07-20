@@ -130,3 +130,9 @@ imran.displayInfo()
         In Hybrid Inheritance for struct
         There will be more than one inheritance relation involved (Multiple and Hierachical)
 */
+
+/*  
+        In this Hybrid Inheritance
+        
+        We have Hierachical Inheritance and Multiple Inheritance
+*/
