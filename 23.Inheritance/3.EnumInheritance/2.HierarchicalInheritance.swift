@@ -1,4 +1,6 @@
 
+
+
 protocol Describable {
         /// A human-friendly description
         var description: String { get }
@@ -14,7 +16,3 @@ enum Fruit: String, Describable {
                 return "Fruit: \(self.rawValue)"
         }
 }
-
-let snack: Describable = Fruit.cherry
-
-print(snack.description)        // Fruit: 🍒
