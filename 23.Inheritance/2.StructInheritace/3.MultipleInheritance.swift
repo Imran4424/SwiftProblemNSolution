@@ -60,8 +60,7 @@ imran.displayInfo()
         There is two protocols and one struct
 
         Person - protocol
+        Employee - protocol
 
-        Student - struct one
-        Engineer - struct two
-        Doctor - struct three
+        Teacher - struct
 */
