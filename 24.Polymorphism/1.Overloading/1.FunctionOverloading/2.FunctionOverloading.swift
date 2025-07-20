@@ -7,6 +7,11 @@ func add(x: Int, y: Int) -> Int {
         return x + y
 }
 
+func add(x: Double, y: Double) -> Double {
+        return x + y
+}
+
+
 func add(x: Int, y: Int, z: Int) -> Int {
         return x + y + z
 }
