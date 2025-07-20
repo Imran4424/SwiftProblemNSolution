@@ -174,3 +174,21 @@ sazim.displayInfo()
 
         Even, Person class which had no parent can create objects too
 */
+
+/* 
+        init execution order in multi-level inheritance
+
+        to understand this better, let's think about School Student Object
+
+        For creating SchoolStudent object
+
+        1. First call SchoolStudent init() ----->
+        2. Initialize SchoolStudent properties
+        3. Then call super.init() which is Student init ----->
+        4. Initialize Student properties
+        5. Then call super.init() which is person init ----->
+        6. Initialize Person properties
+        7. Return the call to caller which is Student.init() <-----
+        8. Return the call to caller which is SchoolStudent.init() <-----
+        9. Return the created object to the caller which is SchoolStudent object <-----
+*/
