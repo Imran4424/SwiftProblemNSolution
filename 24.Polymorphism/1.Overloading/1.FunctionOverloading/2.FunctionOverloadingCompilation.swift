@@ -7,6 +7,8 @@ func add(x: Int, y: Int) -> Int {
         return x + y
 }
 
+// for commenting this following code
+// this will give compilation error
 // func add(x: Double, y: Double) -> Double {
 //         return x + y
 // }
@@ -21,6 +23,8 @@ func add(x: Double, y: Double, z: Double) -> Double {
 
 print("Sum of two values:", add(x: 5, y: 7))
 
+// because
+// in the following statement
 print("Sum of two values:", add(x: 5.7, y: 7.5))
 
 print("Sum of three values:", add(x: 12, y: 13, z: 15))
