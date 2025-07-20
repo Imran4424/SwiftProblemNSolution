@@ -162,3 +162,15 @@ sazim.displayInfo()
         Since, multi-level inheritance can go further, this relation term can also further.
         for example: great great grandparent to great great grandchild 
 */
+
+/* 
+        As you can see,
+
+        in class level inheritance, even the parent class can have independent object
+
+        Here, 
+        pritha is the object of Student class which act as parent of ScholStudent
+        sazim is the object of SchoolStudent, which had no child class of Multi-level inheritance
+
+        Even, Person class which had no parent can create objects too
+*/
