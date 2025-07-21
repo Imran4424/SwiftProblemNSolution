@@ -1,6 +1,4 @@
 
-
-
 // polymorphism
 // based on parameter count
 // based on generics
