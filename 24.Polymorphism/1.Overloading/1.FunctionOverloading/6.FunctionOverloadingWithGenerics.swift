@@ -5,11 +5,7 @@
 // based on generics
 // and based on default values
 
-func add<T: AdditiveArithmetic>(x: T, y: T) -> T {
-        return x + y
-}
-
-func add<T: AdditiveArithmetic>(x: T, y: T, z: T) -> T {
+func add<T: AdditiveArithmetic>(x: T = .zero, y: T = .zero, z: T = .zero) -> T {
         return x + y + z
 }
 
