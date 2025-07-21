@@ -4,7 +4,7 @@
 // based on generics
 // and based on default values
 
-func add<T: AdditiveArithmetic>(x: T = .zero, y: T = .zero, z: T = .zero) -> T {
+func add<T: AdditiveArithmetic>(x: T = 0, y: T = 0, z: T = 0) -> T {
         return x + y + z
 }
 
