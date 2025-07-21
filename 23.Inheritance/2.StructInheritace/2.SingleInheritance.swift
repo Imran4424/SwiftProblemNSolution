@@ -60,3 +60,11 @@ pritha.displayInfo()
         - hierarchical inheritance
         - hybrid inheritance (when multiple and hierarchical happens together)
 */
+
+/*
+        since struct inheritance is based on protocol paradigm
+
+        it does not support multi-level inheritance
+
+        and there is no concept of super struct and sub struct in swift (not even in OOP)
+*/
