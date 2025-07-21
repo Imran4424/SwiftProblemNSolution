@@ -3,7 +3,7 @@
 // based on parameter count
 // based on generics
 
-func add<T: AdditiveArithmetic>(x: T, y: T) -> Int {
+func add<T: AdditiveArithmetic>(x: T, y: T) -> T {
         return x + y
 }
 
