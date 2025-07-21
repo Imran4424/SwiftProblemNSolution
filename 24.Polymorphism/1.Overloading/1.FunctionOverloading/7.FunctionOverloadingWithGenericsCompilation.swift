@@ -4,6 +4,9 @@
 // based on generics
 // and based on default values
 
+// following code will give compilation error
+// .zero and 0 is not same
+// 0 - is Int value
 func add<T: AdditiveArithmetic>(x: T = 0, y: T = 0, z: T = 0) -> T {
         return x + y + z
 }
