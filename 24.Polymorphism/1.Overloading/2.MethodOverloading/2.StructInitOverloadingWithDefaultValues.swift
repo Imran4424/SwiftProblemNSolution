@@ -29,6 +29,7 @@ struct Student {
         var totalMarks: Double
 
         // init overloading with default values
+        // default values works for parameter count alternative
         init(name: String = "", roll: Int = 0, totalMarks: Double = 0.0) {
                 self.name = name
                 self.roll = roll
