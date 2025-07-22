@@ -17,6 +17,12 @@
         How to introduce new custom operators
 */
 
+// 1) Define your type
+struct Vector2D {
+    var x: Double
+    var y: Double
+}
+
 /*
         both - https://www.hackingwithswift.com/example-code/language/how-to-use-operator-overloading
 
