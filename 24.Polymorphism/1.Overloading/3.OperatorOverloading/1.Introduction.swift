@@ -47,6 +47,13 @@ extension Vector2D {
         }
 }
 
+// 5) Overload the compound-assignment '+=' operator
+extension Vector2D {
+    static func += (lhs: inout Vector2D, rhs: Vector2D) {
+        lhs = lhs + rhs
+    }
+}
+
 
 /*
         both - https://www.hackingwithswift.com/example-code/language/how-to-use-operator-overloading
