@@ -23,6 +23,14 @@ struct Vector2D {
         var y: Double
 }
 
+// 2) Overload the built-in '+' operator
+extension Vector2D {
+        static func + (lhs: Vector2D, rhs: Vector2D) -> Vector2D {
+                return Vector2D(x: lhs.x + rhs.x,
+                                y: lhs.y + rhs.y)
+        }
+}
+
 /*
         both - https://www.hackingwithswift.com/example-code/language/how-to-use-operator-overloading
 
