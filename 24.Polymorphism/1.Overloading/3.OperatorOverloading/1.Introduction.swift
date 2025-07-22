@@ -19,8 +19,8 @@
 
 // 1) Define your type
 struct Vector2D {
-    var x: Double
-    var y: Double
+        var x: Double
+        var y: Double
 }
 
 /*
