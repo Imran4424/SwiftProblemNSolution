@@ -33,4 +33,6 @@ print("Sum of three values:", cal.add(x: 12.13, y: 13.15, z: 15.12))
         Function - independent function which is not bind to any other types(Struct or class)
 
         Methods - dependent functions which are bound to other types like struct or class are called Methods.
+
+        in that sense, init is also special type of method
 */
