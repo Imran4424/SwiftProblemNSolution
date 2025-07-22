@@ -58,7 +58,7 @@ let v1 = Vector2D(x: 2, y: 3)
 let v2 = Vector2D(x: 4, y: -1)
 
 
-let sum     = v1 + v2            // Vector2D(x:6, y:2)
+let sum = v1 + v2            // Vector2D(x:6, y:2)
 
 
 /*
