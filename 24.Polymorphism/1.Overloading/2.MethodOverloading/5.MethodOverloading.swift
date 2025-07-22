@@ -25,3 +25,11 @@ print("Sum of two values:", cal.add(x: 5.7, y: 7.5))
 print("Sum of three values:", cal.add(x: 12, y: 13, z: 15))
 
 print("Sum of three values:", cal.add(x: 12.13, y: 13.15, z: 15.12))
+
+/*  
+        difference between function and method
+
+        Function - independent function which is not bind to any other types(Struct or class)
+
+        Methods - dependent functions which are bound to other types like struct or class are called Methods.
+*/
