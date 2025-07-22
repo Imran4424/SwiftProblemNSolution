@@ -1,3 +1,7 @@
+// polymorphism
+// based on parameter count
+// based on parameter type
+// and based on default values
 
 // since this class has no properties
 // there's no need to provide any initializers
