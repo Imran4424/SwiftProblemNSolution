@@ -16,11 +16,6 @@
 // And Polymorphism is one of the basic principles of Object Oriented Programming (OOP)
 
 
-// naming convention
-// for struct and class 
-// always use camel case naming style
-// Student, StudentAddress, CoupleMarriageInfo
-
 // in this struct 
 // there is a init method
 // so implicit init method will not work in this case
