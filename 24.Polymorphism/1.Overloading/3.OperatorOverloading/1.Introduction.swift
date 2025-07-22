@@ -39,6 +39,14 @@ extension Vector2D {
         }
 }
 
+// 4) Overload '*' to scale by a scalar
+extension Vector2D {
+        static func * (vector: Vector2D, scalar: Double) -> Vector2D {
+                return Vector2D(x: vector.x * scalar,
+                                y: vector.y * scalar)
+        }
+}
+
 
 /*
         both - https://www.hackingwithswift.com/example-code/language/how-to-use-operator-overloading
