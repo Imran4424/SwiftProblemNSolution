@@ -50,7 +50,6 @@ class SchoolStudent: Student {
         // this is called method overriding
         // this is part of polymorphism
         // which is a fundamental OOP concept
-        // we will learn about it in detail later
         override func displayInfo() {
                 print("------School Student------")
                 print("Name:", name)
@@ -74,3 +73,9 @@ var sazim = SchoolStudent(
 
 sazim.displayInfo()
 
+/*  
+        Method Overiding is pretty simple
+
+        When you inherit super class method but super class method implementation don't fulfill
+
+*/
