@@ -90,4 +90,5 @@ sazim.displayInfo()
 
         func displayInfo() is the method of Student which is the Super class for SchoolStudent class
 
+        sub class SchoolStudent override func displayInfo() because original displayInfo() unable to fulfill it's requirement
 */
