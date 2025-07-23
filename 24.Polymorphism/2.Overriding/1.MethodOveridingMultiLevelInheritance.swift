@@ -76,6 +76,6 @@ sazim.displayInfo()
 /*  
         Method Overiding is pretty simple
 
-        When you inherit super class method but super class method implementation don't fulfill
+        When you inherit super class method but super class method implementation don't fulfill your 
 
 */
