@@ -59,6 +59,14 @@ let v2 = Vector2D(x: 4, y: -1)
 
 
 let sum = v1 + v2            // Vector2D(x:6, y:2)
+print("sum: \(sum)")
+
+var running = Vector2D(x:1, y:1)
+running    += v1                 // running = (3,4)
+print("running: \(running)")
+
+let scaled  = v2 * 2.5           // Vector2D(x:10, y:-2.5)
+print("scaled: \(scaled)")
 
 
 /*
