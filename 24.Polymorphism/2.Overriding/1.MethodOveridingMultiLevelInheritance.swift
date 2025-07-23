@@ -92,3 +92,7 @@ sazim.displayInfo()
 
         sub class SchoolStudent override func displayInfo() because original displayInfo() unable to fulfill it's requirement
 */
+
+/* 
+        method overriding is very simple
+*/
