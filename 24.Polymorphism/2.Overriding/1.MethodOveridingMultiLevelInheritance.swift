@@ -81,5 +81,6 @@ sazim.displayInfo()
         You can always provide your own implementation for the inherited method in the sub class, 
         this operation is called as overriding super class method
 
-        When overriding a super class method, don't 
+        When overriding a super class method, don't forget to put "override" keyword before the sub class implementation
+        otherwise it will give you compilation error
 */
