@@ -84,3 +84,10 @@ sazim.displayInfo()
         When overriding a super class method, don't forget to put "override" keyword before the sub class implementation
         otherwise it will give you compilation error
 */
+
+/*  
+        In this code,
+
+        func displayInfo() is the method of Student which is the Super class for SchoolStudent class
+
+*/
