@@ -78,5 +78,8 @@ sazim.displayInfo()
 
         When you inherit super class method but super class method implementation don't fulfill your requirement
 
-        You can always provide your own implementation for the inherited method, this operation is called as overriding super class method
+        You can always provide your own implementation for the inherited method in the sub class, 
+        this operation is called as overriding super class method
+
+        When overriding a super class method, don't 
 */
