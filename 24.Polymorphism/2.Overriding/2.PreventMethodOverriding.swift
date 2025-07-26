@@ -124,3 +124,10 @@ sazim.displayInfo()
 
         But it can applied to properties or methods of other types
 */
+
+/* 
+        Benefits of using final
+
+        * functional integrity
+
+*/
