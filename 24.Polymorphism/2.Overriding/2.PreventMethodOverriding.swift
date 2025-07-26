@@ -108,5 +108,5 @@ sazim.displayInfo()
 /* 
         final keyword
 
-        
+        final keyword can do lot more than preventing method overriding
 */
