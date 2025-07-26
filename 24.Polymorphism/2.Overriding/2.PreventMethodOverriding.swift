@@ -128,6 +128,6 @@ sazim.displayInfo()
 /* 
         Benefits of using final
 
-        * functional integrity
-
+        * functional integrity (Clarity and Intent)
+        * Improves Code Safety and Predictability
 */
