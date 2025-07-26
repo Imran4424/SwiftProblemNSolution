@@ -114,3 +114,9 @@ sazim.displayInfo()
 
         final keyword can prevent a property to be overriden
 */
+
+/*  
+        Things to know about final keyword
+
+        final marked classes or struct can have extensions
+*/
