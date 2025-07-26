@@ -22,6 +22,10 @@ class Student: Person {
         var studentID: Int
         var institution: String
 
+        var identity: String {
+                return "Student"
+        }
+
         init(name: String, age: Int, studentID: Int, institution: String) {
                 self.studentID = studentID
                 self.institution = institution
@@ -29,7 +33,7 @@ class Student: Person {
         }
 
         func displayInfo() {
-                print("------Student------")
+                print("------\(identity)------")
                 print("Name:", name)
                 print("Age:", age)
                 print("Student ID:", studentID)
@@ -42,6 +46,10 @@ class Student: Person {
 class SchoolStudent: Student {
         var currentLevelGrade: String
 
+        override var identity: String {
+                return " School Student"
+        }
+
         init(name: String, age: Int, studentID: Int, institution: String, currentLevelGrade: String) {
                 self.currentLevelGrade = currentLevelGrade
                 // super always call the immediate super class properties and methods
@@ -52,7 +60,7 @@ class SchoolStudent: Student {
         // this is part of polymorphism
         // which is a fundamental OOP concept
         override func displayInfo() {
-                print("------School Student------")
+                print("------\(identity) ------")
                 print("Name:", name)
                 print("Age:", age)
                 print("Student ID:", studentID)
@@ -87,7 +95,7 @@ sazim.displayInfo()
 */
 
 /* 
-
+        by using override keyword we can also overide the property
 */
 
 /*  
