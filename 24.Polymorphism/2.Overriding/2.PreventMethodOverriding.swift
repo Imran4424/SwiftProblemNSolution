@@ -109,4 +109,6 @@ sazim.displayInfo()
         final keyword
 
         final keyword can do lot more than preventing method overriding
+
+        final keyword can prevent a class from inherited by other classes
 */
