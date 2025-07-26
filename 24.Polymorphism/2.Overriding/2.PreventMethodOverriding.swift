@@ -121,4 +121,6 @@ sazim.displayInfo()
         final marked classes can have extensions
 
         final keyword is not applicable other class types (struct or enum)
+
+        But it can applied to properties or methods of other types
 */
