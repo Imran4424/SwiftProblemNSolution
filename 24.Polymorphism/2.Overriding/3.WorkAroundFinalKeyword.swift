@@ -49,11 +49,7 @@ class SchoolStudent: Student {
                 super.init(name: name, age: age, studentID: studentID, institution: institution)
         }
 
-        // this is called method overriding
-        // this is part of polymorphism
-        // which is a fundamental OOP concept
-        // since the super class method displayInfo marked final, it can not be overriden
-        // it will show compilation error
+        
         override func displayInfo() {
                 print("------School Student------")
                 print("Name:", name)
