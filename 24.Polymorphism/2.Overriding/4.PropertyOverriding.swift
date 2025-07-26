@@ -47,7 +47,7 @@ class SchoolStudent: Student {
         var currentLevelGrade: String
 
         override var identity: String {
-                return " School Student"
+                return "School Student"
         }
 
         init(name: String, age: Int, studentID: Int, institution: String, currentLevelGrade: String) {
@@ -60,7 +60,7 @@ class SchoolStudent: Student {
         // this is part of polymorphism
         // which is a fundamental OOP concept
         override func displayInfo() {
-                print("------\(identity) ------")
+                print("------\(identity)------")
                 print("Name:", name)
                 print("Age:", age)
                 print("Student ID:", studentID)
