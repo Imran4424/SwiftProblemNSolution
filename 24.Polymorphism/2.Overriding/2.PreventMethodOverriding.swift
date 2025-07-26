@@ -112,5 +112,5 @@ sazim.displayInfo()
 
         final keyword can prevent a class from inherited by other classes
 
-        
+        final keyword can prevent a property to be overriden
 */
