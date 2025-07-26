@@ -49,8 +49,9 @@ class SchoolStudent: Student {
                 super.init(name: name, age: age, studentID: studentID, institution: institution)
         }
 
-        
-        override func displayInfo() {
+        // use a own method to fulfill your requirement
+        // don't use super class method
+        func displaySchoolStudentInfo() {
                 print("------School Student------")
                 print("Name:", name)
                 print("Age:", age)
@@ -71,7 +72,7 @@ var sazim = SchoolStudent(
         currentLevelGrade: "Tenth Grade"
 )
 
-sazim.displayInfo()
+sazim.displaySchoolStudentInfo()
 
 /*  
         Method Overiding is pretty simple
