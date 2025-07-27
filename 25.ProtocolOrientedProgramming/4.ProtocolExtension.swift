@@ -18,3 +18,16 @@ extension Describable {
     }
 }
 
+/// A struct representing a book, conforming to `Describable`.
+struct Book: Describable {
+    var title: String
+    var author: String
+    
+    /// Returns a description of the book.
+    var description: String {
+        return "'\(title)' by \(author)"
+    }
+}
+
+let book = Book(title: "1984", author: "George Orwell")
+book.printDescription() // Uses the default implementation from the protocol extension
