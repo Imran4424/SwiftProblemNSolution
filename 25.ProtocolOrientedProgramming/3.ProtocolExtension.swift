@@ -13,6 +13,8 @@ extension Identifiable {
     }
 }
 
+// not giving error while struct not providing implementation
+// because protocol extension provides default implementation of identify() method
 struct User: Identifiable {
     var id: String
 }
