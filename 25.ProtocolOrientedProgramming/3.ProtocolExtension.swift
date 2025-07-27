@@ -1,4 +1,6 @@
 
+/// A protocol that requires a textual id.
+/// And implementation of identify method
 protocol Identifiable {
     var id: String { get set }
     func identify()
