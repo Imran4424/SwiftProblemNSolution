@@ -7,6 +7,7 @@ protocol Identifiable {
 }
 
 /// providing default implementation of identify method
+/// protocol extensions only for default implementation
 extension Identifiable {
     func identify() {
         print("My ID is \(id).")
