@@ -16,6 +16,8 @@ extension Identifiable {
 
 // not giving error while struct not providing implementation
 // because protocol extension provides default implementation of identify() method
+// but we can always provide our custom implementation like previous ways
+// when custom implementation is available it will not call the default implementation
 struct User: Identifiable {
     var id: String
 
