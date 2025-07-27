@@ -28,4 +28,4 @@ struct User: Identifiable {
 }
 
 let pritha = User(id: "prithaSaha")
-pritha.identify() // Uses the default implementation from the protocol extension
+pritha.identify() // Uses the custom implementation from the protocol extension
