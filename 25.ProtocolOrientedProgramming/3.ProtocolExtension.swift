@@ -15,4 +15,4 @@ struct User: Identifiable {
 }
 
 let pritha = User(id: "prithaSaha")
-pritha.identify()
+pritha.identify() // Uses the default implementation from the protocol extension
