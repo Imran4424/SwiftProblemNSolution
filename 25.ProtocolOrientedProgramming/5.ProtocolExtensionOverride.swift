@@ -18,6 +18,11 @@ extension Identifiable {
 // because protocol extension provides default implementation of identify() method
 struct User: Identifiable {
     var id: String
+
+    func identify() {
+        print("Custom Method implementation from Struct") 
+        print("My ID is \(id).")
+    }
 }
 
 let pritha = User(id: "prithaSaha")
