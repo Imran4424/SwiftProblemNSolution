@@ -1,7 +1,7 @@
 
 // polymorphism
 // based on parameter count
-// based on generics
+// based on generics (parameter type)
 
 func add<T: AdditiveArithmetic>(x: T, y: T) -> T {
         return x + y
