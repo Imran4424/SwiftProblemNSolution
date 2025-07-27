@@ -2,6 +2,7 @@
 
 // polymorphism
 // based on parameter type
+// based on parameter count
 
 func add(x: Int, y: Int) -> Int {
         return x + y
