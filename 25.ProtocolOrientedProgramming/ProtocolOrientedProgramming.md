@@ -188,3 +188,15 @@ assert(entity1 == entity2, "Entities shall be equal")
 ```
 
 This design is not only more flexible than squeezing all the required functionality into a monolithic base class, but also works for value types.
+
+### Where to go from here
+
+In above contents we learned the basic principles and components of Protocol Oriented Programming.
+
+To learn about this **paradigm** we need to deep dive on App programming in Swift
+
+There's an easy way to do that.
+
+#### NB
+
+I made the above note from this [post](https://www.pluralsight.com/resources/blog/guides/protocol-oriented-programming-in-swift) about Protocol Oriented Programming.
