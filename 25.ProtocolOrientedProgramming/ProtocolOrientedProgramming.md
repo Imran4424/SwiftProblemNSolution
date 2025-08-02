@@ -64,4 +64,6 @@ Say good-bye to monolithic superclasses! The only caveat is that protocols defin
 
 # The Pillars of Protocol-Oriented Programming(POP)
 
--
+- Protocol Extensions
+- Protocol Inheritance
+- Protocol Composition
