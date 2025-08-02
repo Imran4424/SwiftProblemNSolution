@@ -186,3 +186,5 @@ print(entity1)
 let entity2 = MyEntity(name: "42")
 assert(entity1 == entity2, "Entities shall be equal")
 ```
+
+This design is not only more flexible than squeezing all the required functionality into a monolithic base class, but also works for value types.
