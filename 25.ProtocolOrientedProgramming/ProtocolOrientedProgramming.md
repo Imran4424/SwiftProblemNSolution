@@ -34,3 +34,5 @@ However, Apple tells us:
                 “Don’t start with a class, start with a protocol.”
 
 ## But Why?
+
+Because protocols serve as better abstractions than classes.
