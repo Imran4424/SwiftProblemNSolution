@@ -143,7 +143,15 @@ struct PersistableEntity: Persistable {
                 // try to load from the filesystem based on id
         }
 }
+```
 
+Whereas types that do not need to be persisted shall only implement the Entity protocol:
+
+```swift
+struct Order: Entity {
+        var name: String
+        let uid: String = Order.uid()
+}
 ```
 
 ## Protocol Composition
