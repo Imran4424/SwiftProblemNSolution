@@ -51,3 +51,5 @@ protocol Entity {
         static func uid() -> String
 }
 ```
+
+What it tells us is that adopters of this protocol will be able to create an entity, assign it a name, and generate its unique identifier by implementing the type method uid().
