@@ -40,3 +40,5 @@ Because protocols serve as better abstractions than classes.
 ![Class Type Inheritance](Protocol-1.png)
 
 If you model an abstraction using classes, you’ll need to rely on inheritance. The superclass defines the core functionality and exposes it to subclasses. A subclass can completely override that behavior, add specific behavior, or get all the work done by the superclass. This works nicely until you realize that you need more functionality from a different class. Swift, just like many other programming languages, does not support multiple inheritance. Following the class-first approach, you’d have to keep adding new functionality to your superclass or otherwise create new intermediary classes, thereby complicating the issue.
+
+Protocols, on the other hand, serve as blueprints rather than parents. A protocol models abstraction by describing what the implementation types shall implement.
