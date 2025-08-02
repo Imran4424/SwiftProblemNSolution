@@ -74,6 +74,10 @@ Protocols serve as blueprints: they tell us what adopters shall implement, but y
 
 **What if we need to define default behavior for conforming types?**
 
+We need to implement it in a base class, right?
+
+Wrong! Having to rely on a base class for default implementation would eclipse the benefits of protocols. Besides, that would not work for value types.
+
 ## Protocol Inheritance
 
 ## Protocol Composition
