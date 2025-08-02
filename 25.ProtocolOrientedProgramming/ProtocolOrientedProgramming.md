@@ -21,3 +21,5 @@ So, inheritance, which is a fundamental concept of Object-Oriented Programming, 
 Therefore, value types are now the preferred type of Protocol-Oriented Programming.
 
 ## Start with a Protocol
+
+When designing a software system, we try to identify the elements needed to satisfy the requirements of a given system. We then model the relationships between these elements.
