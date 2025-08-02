@@ -17,3 +17,5 @@ We rely on new concepts:
 In Swift, value types are preferred over reference types (which are classes). However, Object-Oriented concepts don’t work well with structs and enums. Because a struct can not inherit from another struct, and an enum can not inherit from another enum.
 
 So, inheritance, which is a fundamental concept of Object-Oriented Programming, can not be applied to value types. But we learned earlier that value types can inherit from protocols.
+
+Therefore, value types are now the preferred type of Protocol-Oriented Programming.
