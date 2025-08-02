@@ -197,6 +197,17 @@ To learn about this **paradigm** we need to deep dive on App programming in Swif
 
 There's an easy way to do that.
 
+As we know, we can do App programming in iOS with swift in below following ways
+
+- UIKit
+- SwiftUI
+
+## UIKit
+
+UIKit is primarily an Object-Oriented Programming (OOP) framework. But it also can take help Protocol Oriented Programming paradigm in code logic. But Most UI logics in UIKit developed around OOP concepts.
+
+## SwiftUI
+
 #### NB
 
 I made the above note from this [post](https://www.pluralsight.com/resources/blog/guides/protocol-oriented-programming-in-swift) about Protocol Oriented Programming.
