@@ -70,6 +70,8 @@ Say good-bye to monolithic superclasses! The only caveat is that protocols defin
 
 ## Protocol Extensions
 
+Protocols serve as blueprints: they tell us what adopters shall implement, but you can’t provide implementation within a protocol.
+
 ## Protocol Inheritance
 
 ## Protocol Composition
