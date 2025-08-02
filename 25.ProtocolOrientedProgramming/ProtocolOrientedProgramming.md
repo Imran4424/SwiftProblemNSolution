@@ -13,3 +13,5 @@ We rely on new concepts:
 - Protocol Extension
 - Protocol Inheritance
 - Protocol Compositions
+
+In Swift, value types are preferred over reference types (which are classes). However, Object-Oriented concepts don’t work well with structs and enums. Because a struct can not inherit from another struct, and an enum can not inherit from another enum.
