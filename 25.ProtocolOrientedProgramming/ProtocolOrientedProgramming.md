@@ -78,6 +78,10 @@ We need to implement it in a base class, right?
 
 Wrong! Having to rely on a base class for default implementation would eclipse the benefits of protocols. Besides, that would not work for value types.
 
+Luckily, there is another way: protocol extensions are the way to go!
+
+In Swift, you can extend a protocol and provide default implementation for methods, computed properties, subscripts and convenience initializers.
+
 ## Protocol Inheritance
 
 ## Protocol Composition
