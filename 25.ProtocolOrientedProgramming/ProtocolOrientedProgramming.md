@@ -47,7 +47,7 @@ For example, the following protocol:
 
 ```swift
 protocol Entity {
-    var name: String {get set}
-    static func uid() -> String
+        var name: String {get set}
+        static func uid() -> String
 }
 ```
