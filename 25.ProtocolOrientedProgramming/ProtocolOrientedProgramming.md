@@ -106,4 +106,10 @@ print(order.uid)
 
 ## Protocol Inheritance
 
+A protocol can inherit from other protocols and then add further requirements on top of the requirements it inherits.
+
+```swift
+
+```
+
 ## Protocol Composition
