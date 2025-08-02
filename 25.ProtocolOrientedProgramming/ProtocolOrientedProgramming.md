@@ -154,4 +154,6 @@ struct Order: Entity {
 }
 ```
 
+Protocol inheritance is a powerful feature that allows for more granular and flexible designs.
+
 ## Protocol Composition
