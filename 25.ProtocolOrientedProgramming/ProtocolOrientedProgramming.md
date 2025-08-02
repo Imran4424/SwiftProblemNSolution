@@ -219,7 +219,8 @@ Unlike UIKit, SwiftUI is cross-platform and we can design apps for all Apple pla
 $$
 \textcolor{green}{
   \begin{aligned}
-    \text{Since SwiftUI is a Protocol Oriented Programming paradigm–based framework}\\
+    \text{Since SwiftUI is a Protocol Oriented Programming paradigm–based framework}
+    \\
     \text{We can build apps in SwiftUI to experience the POP architectural paradigm first hand.}
   \end{aligned}
 }
