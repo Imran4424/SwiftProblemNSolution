@@ -127,4 +127,6 @@ protocol Persistable: Entity {
 }
 ```
 
+The types that adopt the Persistable protocol must satisfy the requirements defined in both the Entity and the Persistable protocol.
+
 ## Protocol Composition
