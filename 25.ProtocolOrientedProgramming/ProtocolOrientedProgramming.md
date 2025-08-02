@@ -109,7 +109,22 @@ print(order.uid)
 A protocol can inherit from other protocols and then add further requirements on top of the requirements it inherits.
 
 ```swift
+protocol Entity {
+        var name: String {get set}
+        static func uid() -> String
+}
 
+extension Entity {
+        static func uid() -> String {
+                return UUID().uuidString
+        }
+}
+
+// protocol Persistable inheriting from Entity
+protocol Persistable: Entity {
+        func write(instance: Entity, to filePath: String)
+        init?(by uid: String)
+}
 ```
 
 ## Protocol Composition
