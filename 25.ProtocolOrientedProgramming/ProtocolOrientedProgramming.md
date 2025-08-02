@@ -58,4 +58,6 @@ What it tells us is that adopters of this protocol will be able to create an ent
 
 One type can model multiple abstractions, since any type - including value types - can implement multiple protocols.
 
-This is a huge benefit over class inheritance. You can separate the concerns by creating as many protocols and protocol extensions as needed. Say good-bye to monolithic superclasses! The only caveat is that protocols define a template abstractly -- with no implementation. Here’s where protocol extensions come to the rescue.
+This is a huge benefit over class inheritance. You can separate the concerns by creating as many protocols and protocol extensions as needed.
+
+Say good-bye to monolithic superclasses! The only caveat is that protocols define a template abstractly -- with no implementation. Here’s where protocol extensions come to the rescue.
