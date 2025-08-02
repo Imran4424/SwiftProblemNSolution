@@ -28,3 +28,5 @@ There is two ways to do that.
 
 - Start with a superclass and model its relationships through inheritance
 - Start with a protocol and model the relationship as a protocol implementation.
+
+However, Apple tells us:
