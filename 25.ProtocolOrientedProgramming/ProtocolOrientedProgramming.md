@@ -72,6 +72,8 @@ Say good-bye to monolithic superclasses! The only caveat is that protocols defin
 
 Protocols serve as blueprints: they tell us what adopters shall implement, but you can’t provide implementation within a protocol.
 
+**What if we need to define default behavior for conforming types?**
+
 ## Protocol Inheritance
 
 ## Protocol Composition
