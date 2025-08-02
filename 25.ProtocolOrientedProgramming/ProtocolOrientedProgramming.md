@@ -30,3 +30,5 @@ There is two ways to do that.
 - Start with a protocol and model the relationship as a protocol implementation.
 
 However, Apple tells us:
+
+        “Don’t start with a class, start with a protocol.”
