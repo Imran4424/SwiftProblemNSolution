@@ -129,4 +129,21 @@ protocol Persistable: Entity {
 
 The types that adopt the Persistable protocol must satisfy the requirements defined in both the Entity and the Persistable protocol.
 
+If your type requires persistence capabilities, it should implement the Persistable protocol.
+
+```swift
+struct PersistableEntity: Persistable {
+        var name: String
+
+        func write(instance: Entity, to filePath: String) { // ...
+
+        }
+
+        init?(by uid: String) {
+                // try to load from the filesystem based on id
+        }
+}
+
+```
+
 ## Protocol Composition
