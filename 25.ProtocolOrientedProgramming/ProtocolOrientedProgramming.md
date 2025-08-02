@@ -36,3 +36,5 @@ However, Apple tells us:
 ## But Why?
 
 Because protocols serve as better abstractions than classes.
+
+![Class Type Inheritance](Protocol-1.png)
