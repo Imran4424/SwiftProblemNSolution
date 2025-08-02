@@ -204,9 +204,24 @@ As we know, we can do App programming in iOS with swift in below following ways
 
 ## UIKit
 
-UIKit is primarily an Object-Oriented Programming (OOP) framework. But it also can take help Protocol Oriented Programming paradigm in code logic. But Most UI logics in UIKit developed around OOP concepts.
+UIKit is primarily an Object-Oriented Programming (OOP) framework. But it also can take help Protocol Oriented Programming paradigm in code logic. But Most UI logics in UIKit developed around OOP. which is the underlying architectural paradigm that heavily influences how you build applications with UIKit.
+
+UIKit is not cross-platform, we need to use different code base different Apple platforms.
 
 ## SwiftUI
+
+SwiftUI is fundamentally designed with Protocol-Oriented Programming (POP) principles at its core. And yes, it can also take help from OOP concepts for building app logics (reverse case compared to UIKit).
+
+So, in SwiftUI, POP is the underlying architectural paradigm that heavily influences how you build applications with SwiftUI.
+
+Unlike UIKit, SwiftUI is cross-platform and we can design apps for all Apple platforms SwiftUI.
+
+<p>
+Since SwiftUI is Protocol Oriented Programming paradigm based framework
+
+We can build apps in SwiftUI to experience the POP architectural paradigm first hand.
+
+</p>
 
 #### NB
 
