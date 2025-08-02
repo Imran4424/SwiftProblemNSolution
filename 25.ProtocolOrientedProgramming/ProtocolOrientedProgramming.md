@@ -82,6 +82,28 @@ Luckily, there is another way: protocol extensions are the way to go!
 
 In Swift, you can extend a protocol and provide default implementation for methods, computed properties, subscripts and convenience initializers.
 
+```swift
+protocol Entity {
+    var name: String {get set}
+    static func uid() -> String
+}
+
+extension Entity {
+    static func uid() -> String {
+        return UUID().uuidString
+    }
+}
+
+struct Order: Entity {
+    var name: String
+    let uid: String = Order.uid()
+}
+
+let order = Order(name: "My Order")
+print(order.uid)
+// 4812B485-3965-443B-A76D-72986B0A4FF4
+```
+
 ## Protocol Inheritance
 
 ## Protocol Composition
