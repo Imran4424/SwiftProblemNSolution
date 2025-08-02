@@ -19,3 +19,5 @@ In Swift, value types are preferred over reference types (which are classes). Ho
 So, inheritance, which is a fundamental concept of Object-Oriented Programming, can not be applied to value types. But we learned earlier that value types can inherit from protocols.
 
 Therefore, value types are now the preferred type of Protocol-Oriented Programming.
+
+## Start with a Protocol
