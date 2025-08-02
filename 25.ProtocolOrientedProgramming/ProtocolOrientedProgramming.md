@@ -217,7 +217,7 @@ So, in SwiftUI, POP is the underlying architectural paradigm that heavily influe
 Unlike UIKit, SwiftUI is cross-platform and we can design apps for all Apple platforms SwiftUI.
 
 $$
-\textcolor{blue}{\text{Since SwiftUI is Protocol Oriented Programming paradigm based framework}}
+\textcolor{red}{\text{Since SwiftUI is Protocol Oriented Programming paradigm based framework}}
 $$
 
 $$
