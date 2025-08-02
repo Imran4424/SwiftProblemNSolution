@@ -157,3 +157,32 @@ struct Order: Entity {
 Protocol inheritance is a powerful feature that allows for more granular and flexible designs.
 
 ## Protocol Composition
+
+Swift does not allow multiple inheritance for classes. However, Swift types can adopt multiple protocols.
+
+We have three protocols that define the mentioned requirements:
+
+- Entity
+- Equatable
+- CustomStringConvertible
+
+```swift
+struct MyEntity: Entity, Equatable, CustomStringConvertible {
+        var name: String
+
+        // Equatable
+        public static func ==(lhs: MyEntity, rhs: MyEntity) -> Bool {
+                return lhs.name == rhs.name
+        }
+
+        // CustomStringConvertible
+        public var description: String {
+                return "MyEntity: \(name)"
+        }
+}
+
+let entity1 = MyEntity(name: "42")
+print(entity1)
+let entity2 = MyEntity(name: "42")
+assert(entity1 == entity2, "Entities shall be equal")
+```
