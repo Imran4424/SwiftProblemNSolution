@@ -27,3 +27,4 @@ When designing a software system, we try to identify the elements needed to sati
 There is two ways to do that.
 
 - Start with a superclass and model its relationships through inheritance
+- Start with a protocol and model the relationship as a protocol implementation.
