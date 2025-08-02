@@ -53,3 +53,5 @@ protocol Entity {
 ```
 
 What it tells us is that adopters of this protocol will be able to create an entity, assign it a name, and generate its unique identifier by implementing the type method uid().
+
+![Protocol Type Inheritance](Protocol-2.png)
