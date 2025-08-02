@@ -84,19 +84,19 @@ In Swift, you can extend a protocol and provide default implementation for metho
 
 ```swift
 protocol Entity {
-    var name: String {get set}
-    static func uid() -> String
+        var name: String {get set}
+        static func uid() -> String
 }
 
 extension Entity {
-    static func uid() -> String {
-        return UUID().uuidString
-    }
+        static func uid() -> String {
+                return UUID().uuidString
+        }
 }
 
 struct Order: Entity {
-    var name: String
-    let uid: String = Order.uid()
+        var name: String
+        let uid: String = Order.uid()
 }
 
 let order = Order(name: "My Order")
