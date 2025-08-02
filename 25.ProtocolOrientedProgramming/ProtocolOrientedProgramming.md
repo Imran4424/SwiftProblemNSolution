@@ -44,3 +44,7 @@ If you model an abstraction using classes, you’ll need to rely on inheritance.
 Protocols, on the other hand, serve as blueprints rather than parents. A protocol models abstraction by describing what the implementation types shall implement.
 
 For example, the following protocol:
+
+```swift
+
+```
