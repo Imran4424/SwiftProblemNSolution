@@ -23,3 +23,7 @@ Therefore, value types are now the preferred type of Protocol-Oriented Programmi
 ## Start with a Protocol
 
 When designing a software system, we try to identify the elements needed to satisfy the requirements of a given system. We then model the relationships between these elements.
+
+There is two ways to do that.
+
+- Start with a superclass and model its relationships through inheritance
