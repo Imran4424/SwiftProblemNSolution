@@ -31,4 +31,4 @@ There is two ways to do that.
 
 However, Apple tells us:
 
-        “Don’t start with a class, start with a protocol.”
+                “Don’t start with a class, start with a protocol.”
